@@ -8,7 +8,7 @@ export default function PromotionList({
   promotionType: keyof typeof promotionData;
 }) {
   return (
-    <div className="bg-white pb-16 pt-8 relative mt-[121px]">
+    <div className="bg-white pb-16 pt-16 relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
@@ -24,17 +24,15 @@ export default function PromotionList({
                     className="flex flex-col sm:flex-row gap-6 py-8"
                   >
                     <div className="flex flex-col gap-x-9 w-full sm:flex-row">
-
                       <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         <div>
                           <p className="text-lg font-semibold text-gray-900">
                             {promotion.name}
                           </p>
 
-                            <p className="mt-1 text-sm text-gray-500 leading-relaxed break-words">
-                              You will save ${promotion.saving} with this deal!
-                            </p>
-
+                          <p className="mt-1 text-sm text-gray-500 leading-relaxed break-words">
+                            You will save ${promotion.saving} with this deal!
+                          </p>
                         </div>
 
                         <div className="flex justify-between items-end mt-4">
@@ -42,7 +40,6 @@ export default function PromotionList({
                             <p className="text-lg font-semibold text-gray-900">
                               ${promotion.price}
                             </p>
-
                           </div>
 
                           <Link href={linkData.booking_link}>

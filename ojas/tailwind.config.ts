@@ -3,12 +3,10 @@ import forms from '@tailwindcss/forms';
 
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-    // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/app/**/*.{ts,tsx}', 
+    './src/components/**/*.{ts,tsx}', 
+    './src/layout.tsx', 
+    './src/pages/**/*.{ts,tsx}', 
   ],
   theme: {
     extend: {},

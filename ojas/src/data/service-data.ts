@@ -264,7 +264,7 @@ export const serviceData: ServiceData = {
         description:
           "Indulge in the ultimate skincare treatment with our Carbon Laser Peel. This innovative procedure deeply cleanses, exfoliates, and revitalizes your skin, leaving it radiant and rejuvenated. By utilizing the power of carbon particles and laser technology, this treatment effectively targets imperfections, reduces pore size, and promotes collagen production for a smoother, more youthful complexion. Say goodbye to dull, tired skin and hello to a luminous glow with our Carbon Laser Peel.",
         img_url: "/placeholder.png",
-        price_range: "22 0- 260",
+        price_range: "220 - 260",
         benefits: [
           "Acne",
           "Acne pigmentation",

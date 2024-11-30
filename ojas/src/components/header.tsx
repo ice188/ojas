@@ -12,6 +12,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { linkData } from "@/data/link-data";
 import { serviceData } from "@/data/service-data";
+import { promotionData } from "@/data/promotion-data";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -99,12 +100,35 @@ export default function Header() {
                 >
                   Purchase Gift Card
                 </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-gray-900 hover:bg-gray-50"
-                >
-                  Promotions
-                </a>
+                <Disclosure as="div" className="-mx-3">
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-gray-900 hover:bg-gray-50">
+                    Promotion
+                    <ChevronDownIcon
+                      aria-hidden="true"
+                      className="ml-2 size-5 flex-none group-data-[open]:rotate-180"
+                    />
+                  </DisclosureButton>
+                  <DisclosurePanel className="mt-2 space-y-2">
+                    {Object.keys(promotionData).map((promotionType) => (
+                      <DisclosureButton
+                        key={promotionType}
+                        as="a"
+                        href={
+                          promotionType
+                            ? `${rootPath}/promotion/${promotionType}`
+                            : "#"
+                        }
+                        className="block rounded-lg text-gray-500 font-normal py-2 pl-6 pr-3 hover:bg-gray-50"
+                      >
+                        {
+                          promotionData[
+                            promotionType as keyof typeof promotionData
+                          ].name
+                        }
+                      </DisclosureButton>
+                    ))}
+                  </DisclosurePanel>
+                </Disclosure>
               </div>
             </div>
           </div>

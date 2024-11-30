@@ -41,7 +41,7 @@ export default function PromotionList({
                       <div className="flex flex-col justify-between h-full">
                         <div className="mt-auto flex justify-start sm:justify-end">
                           <Link href={linkData.booking_link}>
-                            <button className="text-sm text-white font-semibold rounded-md w-[120px] border bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+                            <button className="text-sm text-white font-semibold rounded-md w-[120px] border border-gray-200 bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                               Book Now
                             </button>
                           </Link>

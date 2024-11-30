@@ -31,13 +31,13 @@ export default function Footer() {
             <p className="mb-6 font-bold md:text-lg text-gray-900">
               Contact Us
             </p>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <ul className="text-gray-500 font-medium">
               <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
                 <Link
                   href={contactData.map_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-700"
+                  className="hover:text-gray-200"
                 >
                   {contactData.address}
                 </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
                   href={contactData.phone_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-700"
+                  className="hover:text-gray-200"
                 >
                   {contactData.phone}
                 </Link>
@@ -57,7 +57,7 @@ export default function Footer() {
                   href={contactData.email_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-700"
+                  className="hover:text-gray-200"
                 >
                   {contactData.email}
                 </Link>
@@ -77,7 +77,7 @@ export default function Footer() {
             </div> */}
           </div>
 
-          <div className="flex flex-col items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
+          <div className="flex flex-col mb-4 sm:mb-0 items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
             <p className="text-center mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-lg text-gray-900">
               Subscribe to Receive Promotion Offers
             </p>
@@ -109,7 +109,7 @@ export default function Footer() {
             © 2024 by Ojas
           </span>
           <Link
-            className="text-sm text-gray-500 font-normal"
+            className="text-sm text-gray-500 font-normal hover:text-gray-200"
             target="_blank"
             rel="noopener noreferrer"
             href="/legal/privacy"
@@ -120,7 +120,7 @@ export default function Footer() {
             {/* Facebook */}
             <Link
               href="#"
-              className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-200 "
             >
               <span className="[&>svg]:h-4 [&>svg]:w-4">
                 <svg
@@ -135,7 +135,7 @@ export default function Footer() {
             {/* Instagram */}
             <Link
               href="#"
-              className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-200 "
             >
               <span className="[&>svg]:h-5 [&>svg]:w-5">
                 <svg

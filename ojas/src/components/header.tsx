@@ -23,10 +23,10 @@ export default function Header() {
     <header className="fixed top-0 left-0 w-full bg-white z-50 mt-[41px]">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl border-b items-center justify-between p-2 px-8"
+        className="mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="font-bold text-xl -m-1.5 p-3">
+          <Link href="/" className="font-bold text-xl -m-1.5 p-3 text-gray-900">
             Ojas
           </Link>
         </div>
@@ -56,7 +56,7 @@ export default function Header() {
           <div className="mt-6 flow-root text-center">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3">
+                <Disclosure as="div" className="-mx-3 bg-white">
                   <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-gray-900 hover:bg-gray-50">
                     Services
                     <ChevronDownIcon

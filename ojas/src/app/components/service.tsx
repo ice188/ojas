@@ -11,7 +11,7 @@ export default function Service() {
   };
 
   return (
-    <div className="pb-8 sm:pb-16 pt-8 relative">
+    <div className="bg-white pb-8 sm:pb-16 pt-8 relative">
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">

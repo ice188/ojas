@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="py-16 relative mt-[121px]">
+    <div className="bg-white py-16 relative mt-[121px]">
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">

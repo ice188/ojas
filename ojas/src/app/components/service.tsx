@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { serviceData } from "@/data/service-data";
+import Link from "next/link";
 
 export default function Service() {
   const [activeTab, setActiveTab] = useState(Object.keys(serviceData)[0]);
@@ -68,12 +69,12 @@ export default function Service() {
                           serviceData[activeTab as keyof typeof serviceData]
                             .description
                         }{" "}<br/><br/>
-                        <a
+                        <Link
                           href={`/service/${activeTab}`}
                           className="mt-4 text-blue-600 hover:text-blue-500"
                         >
                           See Details
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>

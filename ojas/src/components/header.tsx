@@ -13,6 +13,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { linkData } from "@/data/link-data";
 import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
+import Link from "next/link";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,9 +26,9 @@ export default function Header() {
         className="mx-auto flex max-w-7xl border-b items-center justify-between p-2 px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="font-bold text-xl -m-1.5 p-3">
+          <Link href="/" className="font-bold text-xl -m-1.5 p-3">
             Ojas
-          </a>
+          </Link>
         </div>
         <div className="flex">
           <button
@@ -83,23 +84,23 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                <a
+                <Link
                   href={linkData.booking_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-gray-900 hover:bg-gray-50"
                 >
                   Booking Link
-                </a>
+                </Link>
 
-                <a
+                <Link
                   href={linkData.gift_card_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-gray-900 hover:bg-gray-50"
                 >
                   Purchase Gift Card
-                </a>
+                </Link>
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-gray-900 hover:bg-gray-50">
                     Promotion

@@ -1,5 +1,6 @@
 import { contactData } from "@/data/contact-data";
 import { openingTimeData } from "@/data/opening-time-data";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -32,34 +33,34 @@ export default function Footer() {
             </p>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
-                <a
+                <Link
                   href={contactData.map_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-700"
                 >
                   {contactData.address}
-                </a>
+                </Link>
               </li>
               <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
-                <a
+                <Link
                   href={contactData.phone_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-700"
                 >
                   {contactData.phone}
-                </a>
+                </Link>
               </li>
               <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
-                <a
+                <Link
                   href={contactData.email_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-700"
                 >
                   {contactData.email}
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -107,17 +108,17 @@ export default function Footer() {
           <span className="text-sm text-gray-500 font-normal text-center">
             © 2024 by Ojas
           </span>
-          <a
+          <Link
             className="text-sm text-gray-500 font-normal"
             target="_blank"
             rel="noopener noreferrer"
             href="/legal/privacy"
           >
             Privacy & Terms
-          </a>
+          </Link>
           <div className="flex items-center justify-center space-x-5 rtl:space-x-reverse">
             {/* Facebook */}
-            <a
+            <Link
               href="#"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
@@ -130,9 +131,9 @@ export default function Footer() {
                   <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
                 </svg>
               </span>
-            </a>
+            </Link>
             {/* Instagram */}
-            <a
+            <Link
               href="#"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
@@ -146,7 +147,7 @@ export default function Footer() {
                 </svg>
               </span>
               <span className="sr-only">Dribbble account</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

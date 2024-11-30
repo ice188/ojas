@@ -1,5 +1,6 @@
 import { linkData } from "@/data/link-data";
 import { serviceData } from "@/data/service-data";
+import Link from "next/link";
 
 export default function ServiceList({
   categoryUrl,
@@ -22,14 +23,14 @@ export default function ServiceList({
                     key={service.name}
                     className="flex flex-col sm:flex-row gap-6 py-8"
                   >
-                    <div className="flex gap-x-9 w-full">
+                    <div className="flex flex-col gap-x-9 w-full sm:flex-row">
                       <img
                         alt=""
                         src={service.img_url}
                         className="size-64 object-cover flex-none rounded-full bg-gray-50"
                       />
 
-                      <div className="flex flex-col justify-between flex-auto">
+                      <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         {/* Service Name */}
                         <div>
                           <p className="text-lg font-semibold text-gray-900">
@@ -55,11 +56,11 @@ export default function ServiceList({
                             )}
                           </div>
 
-                          <a href={linkData.booking_link}>
+                          <Link href={linkData.booking_link}>
                             <button className="text-sm text-white font-semibold rounded-md w-[100px] border bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                               Book Now
                             </button>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

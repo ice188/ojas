@@ -1,5 +1,6 @@
 import { linkData } from "@/data/link-data";
 import { promotionData } from "@/data/promotion-data";
+import Link from "next/link";
 
 export default function PromotionList({
   promotionType,
@@ -39,11 +40,11 @@ export default function PromotionList({
                       {/* Right Side (Booking Button) */}
                       <div className="flex flex-col justify-between h-full">
                         <div className="mt-auto flex justify-start sm:justify-end">
-                          <a href={linkData.booking_link}>
+                          <Link href={linkData.booking_link}>
                             <button className="text-sm text-white font-semibold rounded-md w-[120px] border bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                               Book Now
                             </button>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

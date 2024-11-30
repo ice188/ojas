@@ -15,24 +15,27 @@ interface Category {
 }
 
 export interface ServiceData {
-  "massage": Category;
-  "facial": Category;
-  "laser": Category;
-  "nail": Category;
-  "brow": Category;
-  "lashes": Category;
-  "waxing": Category;
+  massage: Category;
+  facial: Category;
+  laser: Category;
+  nail: Category;
+  brow: Category;
+  lashes: Category;
+  waxing: Category;
+  "body-sculpting": Category;
+  "oxylight-led": Category;
 }
 
 export const serviceData: ServiceData = {
-  "massage": {
+  massage: {
     name: "Massage",
-    description: "Feel deeply relaxed and rejuvenated as stress and tension melt from the body. Your mind will be calmer and sense awakened, restoring feelings of wellbeing.",
+    description:
+      "Feel deeply relaxed and rejuvenated as stress and tension melt from the body. Your mind will be calmer and sense awakened, restoring feelings of wellbeing.",
     img_url: "/home/massage.png",
     services: [
       {
         name: "Deep Tissue Massage",
-        description: 
+        description:
           "Indulge in the ultimate relaxation experience with our deep tissue massage. Our skilled therapists specialize in providing therapeutic relief by targeting the deeper layers of muscle and connective tissue. During your session, you'll feel tension and knots dissolve as our expert practitioners use firm pressure and slow strokes to alleviate chronic aches and pains. Whether you're suffering from muscle tension, sports injuries, or simply seeking profound relaxation, our deep tissue massage will leave you feeling revitalized and renewed. Experience the profound benefits of deep tissue massage and reclaim your sense of well-being today. Book your session now and discover the transformative power of therapeutic touch.",
         img_url: "/placeholder.png",
         pressure: "Firm",
@@ -128,9 +131,10 @@ export const serviceData: ServiceData = {
       },
     ],
   },
-  "facial": {
+  facial: {
     name: "Facial",
-    description: "We only use top brands for our clients. All of our Facials are customized and suited to your skin’s needs at each appointment.",
+    description:
+      "We only use top brands for our clients. All of our Facials are customized and suited to your skin’s needs at each appointment.",
     img_url: "/placeholder.png",
     services: [
       {
@@ -237,7 +241,7 @@ export const serviceData: ServiceData = {
       },
     ],
   },
-  "laser": {
+  laser: {
     name: "Laser",
     img_url: "/placeholder.png",
     services: [
@@ -288,9 +292,10 @@ export const serviceData: ServiceData = {
     ],
   },
 
-  "nail": {
+  nail: {
     name: "Nail",
-    description: "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
+    description:
+      "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
     img_url: "/placeholder.png",
     services: [
       {
@@ -308,9 +313,9 @@ export const serviceData: ServiceData = {
         img_url: "/placeholder.png",
         price_range: "5 - 25",
       },
-    ]
+    ],
   },
-  "brow": {
+  brow: {
     name: "Brow",
     img_url: "/placeholder.png",
     services: [
@@ -339,9 +344,9 @@ export const serviceData: ServiceData = {
         img_url: "/placeholder.png",
         price_range: "38",
       },
-    ]
+    ],
   },
-  "lashes": {
+  lashes: {
     name: "Lashes",
     img_url: "/placeholder.png",
     services: [
@@ -360,9 +365,9 @@ export const serviceData: ServiceData = {
         img_url: "/placeholder.png",
         price_range: "75",
       },
-    ]
+    ],
   },
-  "waxing": {
+  waxing: {
     name: "Waxing",
     img_url: "/placeholder.png",
     services: [
@@ -391,6 +396,40 @@ export const serviceData: ServiceData = {
         img_url: "/placeholder.png",
         price_range: "70",
       },
-    ]
+    ],
+  },
+
+  "body-sculpting": {
+    name: "Body Sculpting",
+    img_url: "/placeholder.png",
+    services: [
+      {
+        name: "Body Sculpting",
+        img_url: "/placeholder.png",
+        price_range: "100",
+        description:
+          "Using HI-EMT (High-Intensity Focused Electro-Magnetic Technology) technology can continuously expand and contract your muscles, which is equivalently to extreme training, which can deeply reshape the internal structure of the muscles, and the myofibrils grow (the muscles will grow). Produce new protein chains and muscle fibers (muscle hyperplasia), thereby increasing muscle density and volume.",
+        benefits: [
+          "Reduce fat",
+          "Build muscles",
+          "Vest line",
+          "Abdominal muscles",
+          "Shaping peach hips",
+          "Postpartum women's abdomen, improving rectus abdominis separation",
+        ],
+      },
+    ],
+  },
+  "oxylight-led": {
+    name: "Alpha Oxylight LED Pod",
+    img_url: "/placeholder.png",
+    services: [
+      {
+        name: "Alpha Oxylight LED Pod",
+        img_url: "/placeholder.png",
+        price_range: "100",
+        description: `Pure oxygen LED pod creates a new category of holistic body treatments and improves targeted results by 50% - 200% via the various combinations of, LED light, oxygen, and heat energies for:\n`,
+      },
+    ],
   },
 };

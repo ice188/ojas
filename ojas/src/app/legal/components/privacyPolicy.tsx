@@ -1,5 +1,6 @@
 import { contactData } from "@/data/contact-data";
 import { linkData } from "@/data/link-data";
+import Link from "next/link";
 
 export default function PrivacyPolicy() {
   return (
@@ -19,14 +20,14 @@ export default function PrivacyPolicy() {
           <p className="text-gray-700 text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
             10169392 Manitoba Ltd. (Ojas Massage & Spa) (“us”, “we”, or “our”)
             operates the{" "}
-            <a
+            <Link
               href={linkData.domain_link}
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-600 underline"
             >
               {linkData.domain_link}
-            </a>{" "}
+            </Link>{" "}
             website (hereinafter referred to as the “Service”). This page
             informs you of our policies regarding the collection, use and
             disclosure of personal data when you use our Service and the choices
@@ -40,14 +41,14 @@ export default function PrivacyPolicy() {
           <ul className="space-y-6 list-disc ml-4">
             <li>
               <strong>Service:</strong> Service is the{" "}
-              <a
+              <Link
                 href={linkData.domain_link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-indigo-600 underline"
               >
                 {linkData.domain_link}
-              </a>{" "}
+              </Link>{" "}
               website operated by 10169392 Manitoba Ltd. (Ojas Massage & Spa).
             </li>
             <li>
@@ -224,14 +225,14 @@ export default function PrivacyPolicy() {
             secure handling of payment information. <br />
             <br /> The payment processors we work with are: ChaseTheir Privacy
             Policy can be viewed at{" "}
-            <a
+            <Link
               href="https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-600 underline"
             >
               https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy
-            </a>{" "}
+            </Link>{" "}
           </p>
           <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
             Links to Other Sites
@@ -268,14 +269,14 @@ export default function PrivacyPolicy() {
           <p>
             If you have any questions about this Privacy Policy, please contact
             us by email:{" "}
-            <a
+            <Link
               href={contactData.email_link}
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-600 underline"
             >
               {contactData.email}
-            </a>
+            </Link>
           </p>
         </div>
       </div>

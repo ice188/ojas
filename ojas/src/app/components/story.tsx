@@ -1,0 +1,35 @@
+export default function Story() {
+  return (
+    <div className="pb-24 pt-16 relative">
+      <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
+        <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
+          <img
+            className="lg:order-none order-2 lg:mx-0 mx-auto h-full rounded-3xl object-cover"
+            src="/home/welcome_img.jpg"
+            alt="spa"
+          />
+          <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
+            <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
+              <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                Revitalize Your Mind & Body
+              </h2>
+              <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
+                Escape the hustle and bustle of everyday life and immerse
+                yourself in a world of serenity at our luxurious spa. Whether
+                you are looking to unwind with a soothing massage, rejuvenate
+                your skin with a refreshing facial, or simply find peace in a
+                tranquil atmosphere, our spa offers the perfect space for you to
+                relax and recharge.
+              </p>
+            </div>
+            {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                <span className="px-1.5 text-white text-sm font-medium leading-6">
+                  Get Started
+                </span>
+              </button> */}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

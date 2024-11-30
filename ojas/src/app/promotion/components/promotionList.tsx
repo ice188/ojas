@@ -21,27 +21,32 @@ export default function PromotionList({
                 {promotionData[promotionType].promotions.map((promotion) => (
                   <li
                     key={promotion.name}
-                    className="flex flex-col sm:flex-row gap-6 py-8 w-full"
+                    className="flex flex-col sm:flex-row gap-6 py-8"
                   >
-                    <div className="grid grid-cols-1 sm:grid-cols-[2fr_1fr] gap-6 w-full">
-                      {/* Left Side (Promotion Info) */}
-                      <div className="min-w-0 flex flex-col justify-between">
-                        <p className="text-lg font-semibold text-gray-900">
-                          {promotion.name}
-                        </p>
-                        <p className="mt-1 text-sm text-gray-500 leading-relaxed break-words">
-                          You will be saving ${promotion.saving} with this deal!
-                        </p>
-                        <p className="mt-4 text-lg font-semibold text-gray-900">
-                          ${promotion.price}
-                        </p>
-                      </div>
+                    <div className="flex flex-col gap-x-9 w-full sm:flex-row">
 
-                      {/* Right Side (Booking Button) */}
-                      <div className="flex flex-col justify-between h-full">
-                        <div className="mt-auto flex justify-start sm:justify-end">
+                      <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
+                        <div>
+                          <p className="text-lg font-semibold text-gray-900">
+                            {promotion.name}
+                          </p>
+
+                            <p className="mt-1 text-sm text-gray-500 leading-relaxed break-words">
+                              You will save ${promotion.saving} with this deal!
+                            </p>
+
+                        </div>
+
+                        <div className="flex justify-between items-end mt-4">
+                          <div>
+                            <p className="text-lg font-semibold text-gray-900">
+                              ${promotion.price}
+                            </p>
+
+                          </div>
+
                           <Link href={linkData.booking_link}>
-                            <button className="text-sm text-white font-semibold rounded-md w-[120px] border border-gray-200 bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+                            <button className="text-sm text-white font-semibold rounded-md w-[100px] border border-gray-200 bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                               Book Now
                             </button>
                           </Link>

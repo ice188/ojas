@@ -22,8 +22,7 @@ export interface ServiceData {
   brow: Category;
   lashes: Category;
   waxing: Category;
-  "body-sculpting": Category;
-  "oxylight-led": Category;
+  others: Category;
 }
 
 export const serviceData: ServiceData = {
@@ -399,9 +398,10 @@ export const serviceData: ServiceData = {
     ],
   },
 
-  "body-sculpting": {
-    name: "Body Sculpting",
+  others: {
+    name: "Others",
     img_url: "/placeholder.png",
+    description: "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. These high-end treatments utilize cutting-edge technology and innovative methods to deliver exceptional, targeted results. Whether you're seeking muscle sculpting, relaxation, or revitalization, these services cater to your every need with an emphasis on luxurious care and advanced techniques.",
     services: [
       {
         name: "Body Sculpting",
@@ -418,17 +418,12 @@ export const serviceData: ServiceData = {
           "Postpartum women's abdomen, improving rectus abdominis separation",
         ],
       },
-    ],
-  },
-  "oxylight-led": {
-    name: "Alpha Oxylight LED Pod",
-    img_url: "/placeholder.png",
-    services: [
+
       {
         name: "Alpha Oxylight LED Pod",
         img_url: "/placeholder.png",
         price_range: "100",
-        description: `Pure oxygen LED pod creates a new category of holistic body treatments and improves targeted results by 50% - 200% via the various combinations of, LED light, oxygen, and heat energies for:\n`,
+        description: `Pure oxygen LED pod creates a new category of holistic body treatments and improves targeted results by 50% - 200% via the various combinations of LED light, oxygen, and heat energies for: chronic fatigue syndrome, fibromyalgia, sleep/insomnia, seasonal affective disorder, pain relief - chronic or acute, increased circulation, vitamin d, detoxification/cellulite, cleansing/balancing, relaxation/stress reduction, meditation/calming, energy/revitalize, skin care, weight loss/metabolism, weight management, immune system boost, full body oxygenation, color therapy, aromatherapy, body wrap, clarity/harmony.`,
       },
     ],
   },

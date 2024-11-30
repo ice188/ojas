@@ -23,7 +23,7 @@ export default function ServiceList({
                     key={service.name}
                     className="flex flex-col sm:flex-row gap-6 py-8"
                   >
-                    <div className="flex flex-col gap-x-9 w-full sm:flex-row">
+                    <div className="flex flex-col gap-x-9 w-full justify-center items-center sm:flex-row">
                       <img
                         alt=""
                         src={service.img_url}

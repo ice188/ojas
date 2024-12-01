@@ -13,7 +13,7 @@ export default function PromotionList({
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">
-              <h2 className="text-gray-900 text-3xl font-bold font-manrope leading-normal text-center pb-3">
+              <h2 className="text-green-800 text-3xl font-bold font-manrope leading-normal text-center pb-3">
                 {promotionData[promotionType].name} Deals
               </h2>
 
@@ -26,7 +26,7 @@ export default function PromotionList({
                     <div className="flex flex-col gap-x-9 w-full sm:flex-row">
                       <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         <div>
-                          <p className="text-lg font-semibold text-gray-900">
+                          <p className="text-lg font-semibold text-green-800">
                             {promotion.name}
                           </p>
 
@@ -37,13 +37,13 @@ export default function PromotionList({
 
                         <div className="flex justify-between items-end mt-4">
                           <div>
-                            <p className="text-lg font-semibold text-gray-900">
+                            <p className="text-lg font-semibold text-green-800">
                               ${promotion.price}
                             </p>
                           </div>
 
                           <Link href={linkData.booking_link}>
-                            <button className="text-sm text-white font-semibold rounded-md w-[100px] border border-gray-200 bg-indigo-600 px-3 py-2 hover:bg-indigo-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+                            <button className="text-sm text-white font-semibold rounded-md w-[100px] border border-gray-200 bg-green-800 px-3 py-2 hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                               Book Now
                             </button>
                           </Link>

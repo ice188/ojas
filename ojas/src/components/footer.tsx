@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:py-16 md:grid-cols-3">
           {/* Hours of Service */}
           <div>
-            <p className="mb-6 font-bold md:text-lg text-gray-900">
+            <p className="mb-6 font-bold md:text-lg text-green-800">
               Opening Hours
             </p>
             <ul className="grid text-gray-500 w-[140px] md:w-[180px] font-medium">
@@ -18,7 +18,7 @@ export default function Footer() {
                   className="mb-4 flex justify-between items-center"
                   key={day_of_week}
                 >
-                  <span className="text-xs md:text-sm font-semibold text-gray-700">
+                  <span className="text-xs md:text-sm font-semibold text-green-800">
                     {day_of_week}
                   </span>
                   <span className="text-xs md:text-sm">{hours}</span>
@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
 
           <div className="justify-center items-center">
-            <p className="mb-6 font-bold md:text-lg text-gray-900">
+            <p className="mb-6 font-bold md:text-lg text-green-800">
               Contact Us
             </p>
             <ul className="text-gray-500 font-medium">
@@ -65,7 +65,7 @@ export default function Footer() {
             </ul>
 
             {/* <div className="mt-6">
-              <p className="mb-6 font-bold md:text-lg text-gray-900">
+              <p className="mb-6 font-bold md:text-lg text-green-800">
                 Gift Card
               </p>
               <a
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col mb-4 sm:mb-0 items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
-            <p className="text-center mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-lg text-gray-900">
+            <p className="text-center mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-lg text-green-800">
               Subscribe to Receive Promotion Offers
             </p>
             <div className="flex-col items-center justify-center md:flex max-w-md gap-x-4 mx-auto mb-4">
@@ -104,12 +104,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="px-4 py-2.5 -mt-6 sm:-mt-4 bg-white border-t flex items-center justify-between">
-          <span className="text-sm text-gray-500 font-normal text-center">
+        <div className="bg-green-800 px-4 py-2.5 -mt-6 sm:-mt-4 bg-white border-t flex items-center justify-between">
+          <span className="text-sm text-gray-500 font-normal text-center text-white">
             © 2024 by Ojas
           </span>
           <Link
-            className="text-sm text-gray-500 font-normal hover:text-gray-200"
+            className="text-sm text-gray-500 font-normal hover:text-gray-200 text-white"
             target="_blank"
             rel="noopener noreferrer"
             href="/legal/privacy"
@@ -118,10 +118,7 @@ export default function Footer() {
           </Link>
           <div className="flex items-center justify-center space-x-5 rtl:space-x-reverse">
             {/* Facebook */}
-            <Link
-              href="#"
-              className="text-gray-500 hover:text-gray-200 "
-            >
+            <Link href="#" className="text-white hover:text-gray-200 ">
               <span className="[&>svg]:h-4 [&>svg]:w-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -133,10 +130,7 @@ export default function Footer() {
               </span>
             </Link>
             {/* Instagram */}
-            <Link
-              href="#"
-              className="text-gray-500 hover:text-gray-200 "
-            >
+            <Link href="#" className="text-white hover:text-gray-200 ">
               <span className="[&>svg]:h-5 [&>svg]:w-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

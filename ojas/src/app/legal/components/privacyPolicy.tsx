@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+              <h2 className="text-green-800 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                 Privacy Policy
               </h2>
               <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
             improve the Service. By using the Service, you agree to the
             collection and use of information in accordance with this policy.
           </p>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Definitions
           </h3>
           <ul className="space-y-6 list-disc ml-4">
@@ -67,14 +67,14 @@ export default function PrivacyPolicy() {
               (computer or mobile device).
             </li>
           </ul>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Information Collection and Use
           </h3>
           <p>
             We collect several different types of information for various
             purposes to provide and improve our Service to you.
           </p>
-          <h4 className="-mt-4 -mb-4 text-gray-900 text-xl font-semibold">
+          <h4 className="-mt-4 -mb-4 text-green-800 text-xl font-semibold">
             Types of Data Collected
           </h4>
           <div>
@@ -121,7 +121,7 @@ export default function PrivacyPolicy() {
             when a cookie is being sent. However, if you do not accept cookies,
             you may not be able to use some portions of our Service.
           </div>
-          <h4 className="-mt-4 -mb-4 text-gray-900 text-xl font-semibold">
+          <h4 className="-mt-4 -mb-4 text-green-800 text-xl font-semibold">
             Use of Data
           </h4>
           <p>
@@ -151,7 +151,7 @@ export default function PrivacyPolicy() {
               unless you have opted not to receive such information
             </li>
           </ul>
-          <h4 className="-mb-4 -mt-4 text-gray-900 text-xl font-semibold">
+          <h4 className="-mb-4 -mt-4 text-green-800 text-xl font-semibold">
             Transfer of Data
           </h4>
           <p>
@@ -172,7 +172,7 @@ export default function PrivacyPolicy() {
             there are adequate controls in place including the security of your
             data and other personal information.
           </p>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Disclosure of Data Legal Requirements
           </h3>
           <p>
@@ -196,7 +196,7 @@ export default function PrivacyPolicy() {
             </li>
             <li>To protect against legal liability</li>
           </ul>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Service Providers
           </h3>
           <p>
@@ -207,7 +207,7 @@ export default function PrivacyPolicy() {
             Personal Data only to perform these tasks on our behalf and are
             obligated not to disclose or use it for any other purpose.
           </p>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Payments
           </h3>
           <p>
@@ -234,7 +234,7 @@ export default function PrivacyPolicy() {
               https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy
             </Link>{" "}
           </p>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Links to Other Sites
           </h3>
           <p>
@@ -248,7 +248,7 @@ export default function PrivacyPolicy() {
             content, privacy policies or practices of any third party sites or
             services.
           </p>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Changes to This Privacy Policy
           </h3>
           <p>
@@ -263,7 +263,7 @@ export default function PrivacyPolicy() {
             changes. Changes to this Privacy Policy are effective when they are
             posted on this page.
           </p>
-          <h3 className="-mt-2 -mb-2 text-gray-900 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
             Contact Us
           </h3>
           <p>

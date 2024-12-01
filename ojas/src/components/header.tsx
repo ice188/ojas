@@ -26,7 +26,10 @@ export default function Header() {
         className="mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="font-bold text-xl -m-1.5 p-3 text-gray-900">
+          <Link
+            href="/"
+            className="font-bold text-xl -m-1.5 p-3 text-green-800"
+          >
             Ojas
           </Link>
         </div>
@@ -57,7 +60,7 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3 bg-white">
-                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-gray-900 hover:bg-gray-50">
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-green-800 hover:bg-gray-50">
                     Services
                     <ChevronDownIcon
                       aria-hidden="true"
@@ -88,7 +91,7 @@ export default function Header() {
                   href={linkData.booking_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-green-800 hover:bg-gray-50"
                 >
                   Booking Link
                 </Link>
@@ -97,12 +100,12 @@ export default function Header() {
                   href={linkData.gift_card_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-green-800 hover:bg-gray-50"
                 >
                   Purchase Gift Card
                 </Link>
                 <Disclosure as="div" className="-mx-3">
-                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-gray-900 hover:bg-gray-50">
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-green-800 hover:bg-gray-50">
                     Promotion
                     <ChevronDownIcon
                       aria-hidden="true"

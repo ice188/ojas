@@ -1,11 +1,15 @@
-import { Viewport } from "next";
+
 import "../styles/globals.css";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { SpeedInsights } from "@vercel/speed-insights/next"
-export const viewport: Viewport = {
-  initialScale: 1,
-  width: 'device-width'
-}
+// import { Metadata } from "next";
+
+// export const metadata: Metadata = {
+//   title: "My App",
+//   description: "This is a sample Next.js SPA",
+//   other: {
+//     "google-site-verification": "ktoOJE5C8EGmF_NefALK4ywlpdREMmJ7U-3gh4hyYwg",
+//   },
+// };
+
 
 export default function RootLayout({
   children,

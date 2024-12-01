@@ -16,7 +16,7 @@ export default function Service() {
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">
-              <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal text-center">
+              <h2 className="text-green-800 text-4xl font-bold font-manrope leading-normal text-center">
                 Our Services
               </h2>
             </div>
@@ -30,7 +30,7 @@ export default function Service() {
                       onClick={() => handleTabClick(categoryUrl)}
                       className={`inline-block p-4 border-b-2 rounded-t-lg ${
                         activeTab === categoryUrl
-                          ? "text-blue-600 border-blue-600 "
+                          ? "text-green-800 border-green-800 "
                           : "border-transparent hover:text-gray-500 hover:border-gray-200 "
                       }`}
                     >
@@ -58,7 +58,7 @@ export default function Service() {
                   />
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
                     <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-                      <h2 className="text-gray-900 text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
+                      <h2 className="text-green-800 text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
                         {
                           serviceData[activeTab as keyof typeof serviceData]
                             .name
@@ -68,10 +68,12 @@ export default function Service() {
                         {
                           serviceData[activeTab as keyof typeof serviceData]
                             .description
-                        }{" "}<br/><br/>
+                        }{" "}
+                        <br />
+                        <br />
                         <Link
                           href={`/service/${activeTab}`}
-                          className="mt-4 text-blue-600 hover:text-blue-500"
+                          className="mt-4 text-green-600 hover:text-green-500"
                         >
                           See Details
                         </Link>

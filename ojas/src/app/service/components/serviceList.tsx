@@ -57,7 +57,7 @@ export default function ServiceList({
                           </div>
 
                           <Link href={linkData.booking_link}>
-                            <button className="text-sm text-white font-semibold rounded-md w-[100px] border border-gray-200 bg-green-800 px-3 py-2 hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+                            <button className="text-sm text-white font-semibold rounded-md w-[100px] border border-gray-200 bg-green-800 px-3 py-2 hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
                               Book Now
                             </button>
                           </Link>

@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
               href={linkData.domain_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 underline"
+              className="text-green-800 underline"
             >
               {linkData.domain_link}
             </Link>{" "}
@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
                 href={linkData.domain_link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-600 underline"
+                className="text-green-800 underline"
               >
                 {linkData.domain_link}
               </Link>{" "}
@@ -229,7 +229,7 @@ export default function PrivacyPolicy() {
               href="https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 underline"
+              className="text-green-800 underline"
             >
               https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy
             </Link>{" "}
@@ -273,7 +273,7 @@ export default function PrivacyPolicy() {
               href={contactData.email_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 underline"
+              className="text-green-800 underline"
             >
               {contactData.email}
             </Link>

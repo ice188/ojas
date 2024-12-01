@@ -92,11 +92,11 @@ export default function Footer() {
                 required
                 placeholder="Enter your email"
                 autoComplete="email"
-                className="w-[160px] sm:w-[200px] mr-2 md:mr-0 text-xs sm:text-sm text-gray-500 font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white/5 px-3.5 py-2 ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm/6"
+                className="focus:outline-0 focus:border-none w-[160px] sm:w-[200px] mr-2 md:mr-0 text-xs sm:text-sm text-gray-500 font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white/5 px-3.5 py-2 !focus:outline-none focus:ring-2 focus:ring-green-800 sm:text-sm/6"
               />
               <button
                 type="submit"
-                className="text-xs sm:text-sm text-gray-500 font-normal rounded-md w-[100px] mt-4 border bg-white px-3 py-2 text-sm font-semibol hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="text-white bg-green-800 text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
               >
                 Subscribe
               </button>

@@ -131,7 +131,7 @@ export const serviceData: ServiceData = {
     ],
   },
   facial: {
-    name: "Facial",
+    name: "Facials",
     description:
       "We only use top brands for our clients. All of our Facials are customized and suited to your skin’s needs at each appointment.",
     img_url: "/placeholder.png",
@@ -292,7 +292,7 @@ export const serviceData: ServiceData = {
   },
 
   nail: {
-    name: "Nail",
+    name: "Nails",
     description:
       "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
     img_url: "/placeholder.png",

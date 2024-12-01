@@ -9,7 +9,11 @@ module.exports = {
     './src/pages/**/*.{ts,tsx}', 
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-nurrito)'],
+      },
+    },
   },
   plugins: [
     

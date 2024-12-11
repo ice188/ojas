@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="bg-green-800 px-4 py-2.5 -mt-6 sm:-mt-4 bg-white border-t flex items-center justify-between">
+        <div className="bg-green-800 px-4 py-2.5 -mt-6 sm:-mt-4 border-t flex items-center justify-between">
           <span className="text-sm text-gray-500 font-normal text-center text-white">
             © 2024 by Ojas
           </span>

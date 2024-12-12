@@ -5,12 +5,11 @@ import { promotionData } from "@/data/promotion-data";
 import Footer from "@/components/footer";
 import Head from "next/head";
 
-export default function PromotionPage({
-  params
-}: {
-  params: {promotionType: keyof typeof promotionData};
-}) {
-  const {promotionType} = params;
+type Params = Promise<{ promotionType: string }>
+
+export default async function PromotionPage(props: { params: Params }) {
+  const params = await props.params;
+  const promotionType = params.promotionType;
   return (
     <>
       <Head>

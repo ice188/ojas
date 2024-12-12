@@ -5,12 +5,10 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Head from "next/head";
 
-export default function ServicePage({
-  params
-}: {
-  params:{categoryUrl: keyof typeof serviceData};
-}) {
-  const {categoryUrl} = params;
+type Params = Promise<{ categoryUrl: string }>
+export default async function ServicePage(props: { params: Params }) {
+  const params = await props.params;
+  const categoryUrl = params.categoryUrl;
   return (
     <>
       <Head>

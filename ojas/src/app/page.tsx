@@ -4,21 +4,19 @@ import Banner from "@/components/banner";
 import Header from "@/components/header";
 import Story from "@/app/components/story";
 import Footer from "@/components/footer";
-import Head from "next/head";
+
+import type { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Ojas Massage & Spa Winnipeg',
+  description: 'Ojas specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!',
+  keywords: ["spa", "spa near me", "massage spa near me", "massage near me", "facial near me", "asian massage near me", "massage spa", "luxury nails"],
+}
+ 
 
 export default function HomePage() {
   return (
     <>
-      <Head>
-        <title>
-        Ojas Massage and Spa Winnipeg | Relax, Rejuvenate, Renew
-        </title>
-        <meta
-          name="description"
-          content="Experience relaxation and rejuvenation at Ojas Massage and Spa in Winnipeg. Explore our range of massage and spa services designed to support your well-being. Book your session today!"
-          key="desc"
-        />
-      </Head>
       <Banner />
       <Header />
       <Welcome />

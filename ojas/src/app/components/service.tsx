@@ -45,7 +45,7 @@ export default function Service() {
             </div>
 
             <div className="relative">
-              <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
+              <div className="w-full max-w-7xl px-8 md:px-16 lg:pb-16 mx-auto">
                 <div className="w-full justify-start items-center pt-10 gap-8 lg:gap-16 grid lg:grid-cols-2 grid-cols-1">
                   <img
                     className="max-w-[400px] lg:mx-0 mx-auto w-full rounded-3xl object-cover"

@@ -14,7 +14,7 @@ export default function ServiceList({
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">
               <h2 className="text-green-800 text-3xl font-bold font-manrope leading-normal text-center pb-3">
-                {serviceData[categoryUrl].name} Services
+                {serviceData[categoryUrl].name}
               </h2>
 
               <ul role="list" className="divide-y w-full">

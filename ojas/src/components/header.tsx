@@ -20,7 +20,7 @@ export default function Header() {
   const rootPath = typeof window !== "undefined" ? window.location.origin : "";
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white z-50 mt-[41px]">
+    <header className="shadow-md fixed top-0 left-0 w-full bg-white z-50 mt-[41px]">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"

@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <div className="bg-white pb-24 pt-16 relative">
+    <div className="bg-white pb-16 relative">
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <img

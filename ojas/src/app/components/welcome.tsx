@@ -5,7 +5,7 @@ export default function Welcome() {
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="font-nunito text-green-800 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+              <h2 className="-mt-4 font-nunito text-green-800 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                 Welcome To Ojas Message & Spa!
               </h2>
               <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">

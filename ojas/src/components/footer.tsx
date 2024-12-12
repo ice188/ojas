@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="bg-white">
       <div className="w-full max-w-7xl mx-auto w-full border-t">
-        <div className="grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:py-16 md:grid-cols-3">
+        <div className="grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:grid-cols-3">
           {/* Hours of Service */}
           <div>
             <p className="mb-6 font-bold md:text-lg text-green-800">

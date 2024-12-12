@@ -16,7 +16,7 @@ export default function Service() {
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">
-              <h2 className="text-green-800 text-4xl font-bold font-manrope leading-normal text-center">
+              <h2 className="-mb-4 -mt-4 text-green-800 text-4xl font-bold font-manrope leading-normal text-center">
                 Our Services
               </h2>
             </div>

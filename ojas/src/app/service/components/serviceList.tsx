@@ -47,7 +47,7 @@ export default function ServiceList({
                         <div className="flex justify-between items-end mt-4">
                           <div>
                             <p className="text-lg font-semibold text-green-800">
-                              ${service.price_range}
+                              {service.price_range}
                             </p>
                             {service.pressure && (
                               <p className="mt-1 text-sm text-gray-500">

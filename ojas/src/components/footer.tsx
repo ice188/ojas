@@ -78,10 +78,10 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col mb-4 sm:mb-0 items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
-            <p className="text-center mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-lg text-green-800">
+            <p className="text-center md:text-left mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-lg text-green-800">
               Subscribe to Receive Promotion Offers
             </p>
-            <div className="flex-col items-center justify-center md:flex max-w-md gap-x-4 mx-auto mb-4">
+            <div className="md:items-start flex-col items-center justify-center lg:justify-start md:flex max-w-md gap-x-4 mb-4">
               <label htmlFor="email-address" className="sr-only">
                 Email address
               </label>
@@ -92,7 +92,7 @@ export default function Footer() {
                 required
                 placeholder="Enter your email"
                 autoComplete="email"
-                className="focus:outline-0 focus:border-none w-[160px] sm:w-[200px] mr-2 md:mr-0 text-xs sm:text-sm text-gray-500 font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white/5 px-3.5 py-2 !focus:outline-none focus:ring-2 focus:ring-green-800 sm:text-sm/6"
+                className="focus:outline-0 focus:border-none w-[160px] sm:w-[200px] lg:w-[230px] mr-2 md:mr-0 text-xs sm:text-sm text-gray-500 font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white/5 px-3.5 py-2 !focus:outline-none focus:ring-2 focus:ring-green-800 sm:text-sm/6"
               />
               <button
                 type="submit"

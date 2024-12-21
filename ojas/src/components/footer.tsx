@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="bg-[#91AC8F] " >
-      <div className="w-full mx-auto w-full border-none">
+      <div className="w-full mx-auto w-full border-0">
 
         <div className=" grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:grid-cols-3">
           {/* Hours of Service */}

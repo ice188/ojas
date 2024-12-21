@@ -137,6 +137,48 @@ export const serviceData: ServiceData = {
     img_url: "/placeholder.png",
     services: [
       {
+        name: "Hydrating Facial",
+        description:
+          "Pamper your skin with our Hydrating Signature Facial, designed to restore moisture and revitalize your complexion. After a gentle cleanse, enjoy a customized hydrating mask and nourishing serums, leaving your skin radiant and deeply hydrated. Perfect for all skin types, this treatment leaves you feeling refreshed and glowing.",
+        img_url: "/service/facial/hydrate.jpeg",
+        price_range: "$120 / 75 min",
+      },
+      {
+        name: "Anti Aging",
+        description:
+          "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
+        img_url: "/placeholder.png",
+        price_range: "$130 / 75 min",
+      },
+      {
+        name: "Acne treatment",
+        description:
+          "Our Acne Treatment Signature Facial is a targeted solution to combat breakouts and promote clear, healthy skin. The treatment begins with a thorough cleanse to remove impurities and unclog pores, preparing your skin for the innovative Bubble Masque. This masque utilizes gentle bubbling action to penetrate deep into pores, effectively dissolving impurities and unclogging congested skin. Extractions are performed to remove impurities and prevent future breakouts. The session concludes with soothing serums and moisturizers to hydrate and calm your skin, leaving you with a renewed sense of confidence. This comprehensive approach addresses the root causes of acne, promoting clearer and healthier skin.",
+        img_url: "/service/facial/acne.jpeg",
+        price_range: "$130 / 75 min",
+      },
+      {
+        name: "Glow Facial",
+        description:
+          "Illuminate your complexion with our Glow Signature Facial, designed to enhance your skin's natural radiance. The treatment begins with a thorough cleanse to remove impurities and prepare your skin for rejuvenation. Next, indulge in a gentle exfoliation to reveal a brighter, smoother texture. Our skilled estheticians will massage in hydrating serums and moisturizers, leaving your skin with a luminous, dewy finish. Finally, enjoy our signature mask, infused with potent ingredients to nourish and revitalize your skin from within. Treat yourself to this rejuvenating facial and unveil a radiant glow that lasts.",
+        img_url: "/service/facial/glow.jpeg",
+        price_range: "$130 / 75 min",
+      },
+      {
+        name: "Total Care Facial",
+        description:
+          "Elevate your skincare routine with our Total Care Signature Facial, a comprehensive solution tailored to address all your skin concerns in one luxurious experience. Our skilled estheticians begin by assessing your skin's unique needs, customizing each step of the treatment to deliver maximum results. Starting with a thorough cleanse, we remove impurities and prepare your skin for deep nourishment. Next, indulge in a gentle exfoliation to reveal a smoother, more radiant complexion. Our signature mask, infused with potent ingredients, targets specific concerns such as hydration, firmness, and brightening, providing instant rejuvenation.  Relax and unwind as we perform gentle extractions to clear pores and remove impurities, promoting clearer, healthier skin. Enjoy a luxurious massage using rich serums and moisturizers, deeply hydrating and revitalizing your skin from within. Whether you're looking to combat aging, acne, or simply rejuvenate your complexion, our Total Care Treat.",
+        img_url: "/service/facial/total-care.jpeg",
+        price_range: "$145 / 75 min",
+      },
+      {
+        name: "Back Facial",
+        description:
+          "Treat your back to the ultimate pampering experience with our Signature Back Facial. Designed to address the unique needs of this hard-to-reach area, our skilled estheticians begin by deeply cleansing the skin to remove impurities, excess oil, and dead skin cells. Next, indulge in a luxurious exfoliation to reveal smoother, softer skin. Enjoy a relaxing massage as we apply hydrating serums and moisturizers, leaving your skin feeling nourished and rejuvenated. Our signature mask, tailored specifically for the back, works to purify pores, detoxify the skin, and promote a clearer complexion. Whether you're seeking to address back acne, congestion, or simply want to indulge in a spa-like experience, our Signature Back Facial is the perfect solution for achieving radiant, healthy skin from head to toe.",
+        img_url: "/service/facial/back.jpeg",
+        price_range: "$145 / 75 min",
+      },
+      {
         name: "RF Microneedling",
         description:
           "Discover microneedling, a cutting-edge treatment that rejuvenates your skin by stimulating collagen and elastin production. Using fine needles, this procedure smooths wrinkles, reduces acne scars, and evens skin tone, leaving you with firmer, radiant skin. Tailored to your unique needs, it’s the ultimate skincare solution.",
@@ -195,49 +237,7 @@ export const serviceData: ServiceData = {
           "Transform your skin with our Signature Facial Peel. This treatment exfoliates gently, diminishing fine lines, wrinkles, and uneven texture while targeting hyperpigmentation, acne scars, and dullness. After a deep cleanse, our estheticians apply the peel with precision, followed by a hydrating mask and calming serums to nourish and revitalize. Reveal smoother, brighter, and more youthful-looking skin with minimal downtime.",
         img_url: "/placeholder.png",
         price_range: "$175 / 75 min",
-      },
-      {
-        name: "Hydrating Facial",
-        description:
-          "Pamper your skin with our Hydrating Signature Facial, designed to restore moisture and revitalize your complexion. After a gentle cleanse, enjoy a customized hydrating mask and nourishing serums, leaving your skin radiant and deeply hydrated. Perfect for all skin types, this treatment leaves you feeling refreshed and glowing.",
-        img_url: "/service/facial/hydrate.jpeg",
-        price_range: "$120 / 75 min",
-      },
-      {
-        name: "Anti Aging",
-        description:
-          "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
-        img_url: "/placeholder.png",
-        price_range: "$130 / 75 min",
-      },
-      {
-        name: "Acne treatment",
-        description:
-          "Our Acne Treatment Signature Facial is a targeted solution to combat breakouts and promote clear, healthy skin. The treatment begins with a thorough cleanse to remove impurities and unclog pores, preparing your skin for the innovative Bubble Masque. This masque utilizes gentle bubbling action to penetrate deep into pores, effectively dissolving impurities and unclogging congested skin. Extractions are performed to remove impurities and prevent future breakouts. The session concludes with soothing serums and moisturizers to hydrate and calm your skin, leaving you with a renewed sense of confidence. This comprehensive approach addresses the root causes of acne, promoting clearer and healthier skin.",
-        img_url: "/service/facial/acne.jpeg",
-        price_range: "$130 / 75 min",
-      },
-      {
-        name: "Glow Facial",
-        description:
-          "Illuminate your complexion with our Glow Signature Facial, designed to enhance your skin's natural radiance. The treatment begins with a thorough cleanse to remove impurities and prepare your skin for rejuvenation. Next, indulge in a gentle exfoliation to reveal a brighter, smoother texture. Our skilled estheticians will massage in hydrating serums and moisturizers, leaving your skin with a luminous, dewy finish. Finally, enjoy our signature mask, infused with potent ingredients to nourish and revitalize your skin from within. Treat yourself to this rejuvenating facial and unveil a radiant glow that lasts.",
-        img_url: "/service/facial/glow.jpeg",
-        price_range: "$130 / 75 min",
-      },
-      {
-        name: "Total Care Facial",
-        description:
-          "Elevate your skincare routine with our Total Care Signature Facial, a comprehensive solution tailored to address all your skin concerns in one luxurious experience. Our skilled estheticians begin by assessing your skin's unique needs, customizing each step of the treatment to deliver maximum results. Starting with a thorough cleanse, we remove impurities and prepare your skin for deep nourishment. Next, indulge in a gentle exfoliation to reveal a smoother, more radiant complexion. Our signature mask, infused with potent ingredients, targets specific concerns such as hydration, firmness, and brightening, providing instant rejuvenation.  Relax and unwind as we perform gentle extractions to clear pores and remove impurities, promoting clearer, healthier skin. Enjoy a luxurious massage using rich serums and moisturizers, deeply hydrating and revitalizing your skin from within. Whether you're looking to combat aging, acne, or simply rejuvenate your complexion, our Total Care Treat.",
-        img_url: "/service/facial/total-care.jpeg",
-        price_range: "$145 / 75 min",
-      },
-      {
-        name: "Back Facial",
-        description:
-          "Treat your back to the ultimate pampering experience with our Signature Back Facial. Designed to address the unique needs of this hard-to-reach area, our skilled estheticians begin by deeply cleansing the skin to remove impurities, excess oil, and dead skin cells. Next, indulge in a luxurious exfoliation to reveal smoother, softer skin. Enjoy a relaxing massage as we apply hydrating serums and moisturizers, leaving your skin feeling nourished and rejuvenated. Our signature mask, tailored specifically for the back, works to purify pores, detoxify the skin, and promote a clearer complexion. Whether you're seeking to address back acne, congestion, or simply want to indulge in a spa-like experience, our Signature Back Facial is the perfect solution for achieving radiant, healthy skin from head to toe.",
-        img_url: "/service/facial/back.jpeg",
-        price_range: "$145 / 75 min",
-      },
+      }
     ],
   },
   laser: {
@@ -279,7 +279,7 @@ export const serviceData: ServiceData = {
         ],
       },
       {
-        name: "Laser Freckles Removal or Fading",
+        name: "Laser Freckles Removal/Fading",
         img_url: "/placeholder.png",
         price_range: "$30 - $220",
         description:

@@ -3,11 +3,11 @@ import ServiceList from "../components/serviceList";
 import { serviceData } from "@/data/service-data";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import type { Metadata } from "next";
 
-type Params = { categoryUrl: string };
+type Params = Promise<{ categoryUrl: string }>;
 
-export async function generateMetadata({params}: {params: Params}): Promise<Metadata> {
+export async function generateMetadata(props: { params: Params }) {
+  const params = await props.params;
   const categoryUrl = params.categoryUrl;
   const serviceName =
     serviceData[categoryUrl as keyof typeof serviceData]?.name || "Service";
@@ -29,7 +29,8 @@ export async function generateMetadata({params}: {params: Params}): Promise<Meta
   };
 }
 
-export default async function ServicePage({ params }: { params: Params }) {
+export default async function ServicePage(props: { params: Params }) {
+  const params = await props.params;
   const categoryUrl = params.categoryUrl;
   return (
     <>

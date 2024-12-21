@@ -3,11 +3,11 @@ import Header from "@/components/header";
 import PromotionList from "../components/promotionList";
 import { promotionData } from "@/data/promotion-data";
 import Footer from "@/components/footer";
-import type { Metadata } from "next";
 
-type Params = { promotionType: string };
+type Params = Promise<{ promotionType: string }>;
 
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+export async function generateMetadata(props: { params: Params }) {
+  const params = await props.params;
   const promotionType = params.promotionType;
   const promotionName = promotionData[promotionType as keyof typeof promotionData]?.name || "Promotion";
 
@@ -29,9 +29,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-export default async function PromotionPage({ params }: { params: Params }) {
+export default async function PromotionPage(props: { params: Params }) {
+  const params = await props.params;
   const promotionType = params.promotionType;
-
   return (
     <>
       <Banner />

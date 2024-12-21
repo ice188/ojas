@@ -35,55 +35,55 @@ export const serviceData: ServiceData = {
       {
         name: "Deep Tissue Massage",
         description:
-          "Indulge in the ultimate relaxation experience with our deep tissue massage. Our skilled therapists specialize in providing therapeutic relief by targeting the deeper layers of muscle and connective tissue. During your session, you'll feel tension and knots dissolve as our expert practitioners use firm pressure and slow strokes to alleviate chronic aches and pains. Whether you're suffering from muscle tension, sports injuries, or simply seeking profound relaxation, our deep tissue massage will leave you feeling revitalized and renewed. Experience the profound benefits of deep tissue massage and reclaim your sense of well-being today. Book your session now and discover the transformative power of therapeutic touch.",
-        img_url: "/placeholder.png",
+          "Experience ultimate relaxation with our deep tissue massage. Our skilled therapists use firm pressure and slow strokes to target deeper muscle layers, relieving tension, knots, and chronic aches. Whether you're dealing with muscle pain or just need to unwind, our massage will leave you feeling refreshed. Book now and feel the difference.",
+        img_url: "/service/massage/deep-tissue.jpeg",
         pressure: "Firm",
         price_range: "$60 - $190",
       },
       {
         name: "Relaxation Massage",
         description:
-          "Escape the hustle and bustle of daily life and surrender to pure bliss with our relaxation massage at our spa. Our skilled therapists specialize in creating a serene sanctuary where you can unwind, de-stress, and rejuvenate your body and mind. During your session, you'll experience the soothing touch of expert practitioners as they gently knead away tension and promote deep relaxation. Using a combination of long, flowing strokes and gentle pressure, our relaxation massage melts away stress, eases muscle tension, and restores harmony to your entire being. Experience the ultimate in relaxation and book your massage today. Let us help you reconnect with your inner calm and embark on a journey to total relaxation and well-being.",
-        img_url: "/placeholder.png",
+          "Escape stress with our relaxation massage. Our skilled therapists use soothing strokes to ease tension and promote deep relaxation, restoring balance to your body and mind.",
+        img_url: "/service/massage/relaxation.jpeg",
         pressure: "Light - Medium",
         price_range: "$60 - $190",
       },
       {
         name: "Acupressure Massage (RMT)",
         description:
-          "Experience the rejuvenating power of acupressure massage. Our skilled therapists apply pressure to specific points on your body, stimulating energy flow and promoting holistic healing. During your session, you'll feel tension melt away as our expert practitioners target key acupressure points, releasing blocked energy and restoring balance to your body and mind. Whether you're seeking relief from stress, pain, or simply want to enhance your overall well-being, our acupressure massage will leave you feeling relaxed, revitalized, and ready to take on the world. Discover the benefits of this ancient healing art and book your acupressure massage today.",
-        img_url: "/placeholder.png",
+          "Experience the healing power of acupressure massage. Our skilled therapists target specific points to stimulate energy flow, relieve tension, and restore balance. Feel revitalized and ready to take on the world.",
+        img_url: "/service/massage/accupressure.jpeg",
         pressure: "Medium - Firm",
         price_range: "$95 - $190",
       },
       {
         name: "Deep Detox Massage (RMT)",
         description:
-          "Rebalance your body and rejuvenate your spirit with our deep detox massage. Our skilled therapists specialize in the art of detoxification, using a combination of techniques to cleanse and purify your body from within.Includes full body therapeutic massage, Cupping, Gua Sha and Infrared Treatment (heat lamp). The heat from the Infrared lamp will enhance blood circulation, detox and slow down the inflammation, warm up your tissues in preparation for a deep tissue massage accompanied by cupping, and Gua Sha. The therapist will incorporate all of the modalities in a deeply relaxing and therapeutic treatment 90 minute session. Anyone who is suffering from severe Stress, Tension, Muscle Aches and Pain, Hyperactivity, Sleep Disorders, Chronic stiffness or pain, will greatly benefit from this treatment. Experience the transformative power of detoxification and book your deep detox massage today.",
-        img_url: "/placeholder.png",
+          "Rebalance and rejuvenate with our deep detox massage. Our therapists combine therapeutic massage, cupping, Gua Sha, and infrared heat to cleanse your body, boost circulation, and reduce inflammation. This 90-minute treatment helps relieve stress, muscle pain, sleep disorders, and chronic tension. Experience the benefits of detoxification and relaxation today.",
+        img_url: "/service/massage/deep-detox.jpeg",
         pressure: "Light - Firm",
         price_range: "$165 / 90 min",
       },
       {
         name: "Cupping Massage (RMT)",
         description:
-          "Are you seeking a holistic approach to relaxation and wellness? Discover the rejuvenating benefits of cupping massage at our spa. Cupping massage combines the ancient art of cupping therapy with the therapeutic techniques of massage. During a cupping massage session, cups are placed on specific areas of the body to create suction, which helps to increase blood flow, release muscle tension, and promote lymphatic drainage. Whether you're looking to alleviate muscle pain, improve circulation, or simply unwind and de-stress, our skilled therapists will customize the treatment to address your individual needs and preferences. Experience the healing power of cupping massage and embark on a journey to greater relaxation, vitality, and balance. Book your appointment today and indulge in a transformative spa experience like no other.",
-        img_url: "/placeholder.png",
+          "Experience the rejuvenating benefits of cupping massage. This ancient therapy, combined with massage techniques, increases blood flow, relieves muscle tension, and promotes lymphatic drainage. Whether you want to ease pain, improve circulation, or simply relax, our skilled therapists will tailor the treatment to your needs. Discover the healing power of cupping and restore balance to your body and mind.",
+        img_url: "/service/massage/cupping.jpeg",
         pressure: "Medium - Firm",
         price_range: "$115 - $210",
       },
       {
         name: "Face and Body Rejuvenation Massage (RMT)",
         description:
-          "Indulge in ultimate relaxation with our combined full body massage and special  face massage. Let our skilled therapists melt away tension with a soothing massage tailored to your needs, followed by a rejuvenating massage to refresh and nourish your body and skin. Experience the perfect blend of relaxation and MyoGlow in one luxurious session. Book now to elevate your self-care routine to new heights.",
-        img_url: "/placeholder.png",
+          "Indulge in ultimate relaxation with our full body and face massage. Our skilled therapists will melt away tension and refresh your skin, combining soothing massage with MyoGlow for a rejuvenating experience. Elevate your self-care routine today.",
+        img_url: "/service/massage/face-body.jpeg",
         pressure: "Light - Medium",
         price_range: "$155 / 90 min",
       },
       {
         name: "Face Rejuvenation Massage",
         description:
-          "Our signature face rejuvenation massage begins with a thorough cleansing to remove impurities and prepare your skin for maximum absorption of nourishing oils and serums. Using a combination of soothing strokes, gentle kneading, and targeted acupressure, our therapists work to stimulate circulation, promote lymphatic drainage, and reduce tension in the facial muscles. As you drift into a state of deep relaxation, feel the stress and fatigue melt away, leaving behind a renewed sense of vitality and youthfulness. Whether you're looking to combat the signs of aging, improve skin tone and texture, or simply indulge in some self-care, our face rejuvenation massage is the perfect solution for achieving a radiant and refreshed complexion.",
+          "Our face rejuvenation massage begins with a cleansing to remove impurities, followed by nourishing oils and serums. Gentle strokes, kneading, and acupressure boost circulation, ease tension, and promote lymphatic drainage. Unwind as stress melts away, leaving your skin radiant and refreshed—perfect for combating aging or enjoying self-care.",
         img_url: "/placeholder.png",
         pressure: "Light - Medium",
         price_range: "$80 / 45 min",
@@ -101,14 +101,14 @@ export const serviceData: ServiceData = {
       {
         name: "Prenatal Massage (RMT)",
         description:
-          "Experience the nurturing care you deserve with our prenatal massage. Specifically designed for expecting mothers, this gentle yet effective massage focuses on relieving the unique discomforts associated with pregnancy. Our certified therapists provide expert support, using techniques that promote relaxation and alleviate tension in areas such as the lower back, hips, and legs. Feel a sense of relief as you enjoy this safe and soothing experience, tailored to address your changing needs throughout each trimester. Enhance your well-being and bond with your baby in a tranquil environment dedicated to your comfort and relaxation.",
+          "Experience the care you deserve with our prenatal massage, designed for expecting mothers. Our certified therapists use gentle techniques to relieve tension in the lower back, hips, and legs, promoting relaxation and comfort through every trimester. Enjoy a soothing, safe treatment tailored to your needs in a serene environment.",
         img_url: "/placeholder.png",
         price_range: "$100 / 1h",
       },
       {
         name: "Infrared Light Massage (RMT)",
         description:
-          "Indulge in the soothing warmth of our infrared light massage therapy. Our advanced technology combines gentle infrared light with targeted massage to relieve tension, promote relaxation, and rejuvenate your body from within. Experience the perfect blend of comfort and healing as our specialized treatments help ease muscle aches and joint pain, reduce inflammation, improve circulation, and melt away stress. Discover the ultimate relaxation experience with our infrared light massage therapy today.",
+          "Relax and rejuvenate with our infrared light massage therapy. Combining gentle infrared warmth with targeted massage, this treatment eases muscle aches, reduces inflammation, improves circulation, and relieves stress. Experience the perfect blend of comfort and healing.",
         img_url: "/placeholder.png",
         pressure: "Medium - Firm",
         price_range: "$115 / 1h",
@@ -116,7 +116,7 @@ export const serviceData: ServiceData = {
       {
         name: "GuaSha Massage (RMT)",
         description:
-          "Experience the ancient art of Gua Sha massage, a revitalizing therapy that promotes holistic wellness and radiant skin. Our skilled therapists use smooth, specialized tools to gently scrape the skin, stimulating circulation and promoting lymphatic drainage. This centuries-old technique helps release tension, reduce inflammation, and enhance the natural detoxification process of the body. Feel rejuvenated and refreshed as you enjoy the deep relaxation and revitalization of Gua Sha massage. Treat yourself to this traditional healing practice and unlock a new level of balance and vitality.",
+          "Experience the ancient art of Gua Sha massage, a therapeutic practice that enhances circulation, promotes lymphatic drainage, and reduces tension. Using smooth tools, our skilled therapists help detoxify, reduce inflammation, and restore balance. Rejuvenate your body and mind with this traditional healing therapy.",
         img_url: "/placeholder.png",
         pressure: "Medium - Firm",
         price_range: "$115 / 1h",
@@ -124,7 +124,7 @@ export const serviceData: ServiceData = {
       {
         name: "Couples Massage-each",
         description:
-          "Experience the ultimate in relaxation together with our Couples Massage. To ensure a harmonious and rejuvenating experience for both individuals, we provide two skilled massage therapists who will work simultaneously. Whether you’re celebrating a special occasion or simply enjoying some quality time together, our couples massage is designed to provide a deeply relaxing experience tailored to your individual needs. Please note that when booking a couples massage, two therapists will be scheduled to ensure a seamless and synchronized session. Book your appointment today and unwind in perfect harmony.",
+          "Share the ultimate relaxation with our Couples Massage. Enjoy a synchronized session with two skilled therapists providing tailored treatments for both individuals. Perfect for special occasions or quality time together, this experience ensures harmony and rejuvenation.",
         img_url: "/placeholder.png",
         price_range: "$95 - $143",
       },
@@ -139,7 +139,7 @@ export const serviceData: ServiceData = {
       {
         name: "RF Microneedling",
         description:
-          "Discover the transformative power of microneedling – a cutting-edge skincare treatment designed to rejuvenate your skin from within. Our microneedling procedure involves using fine needles to create controlled micro-injuries to the skin, stimulating collagen and elastin production. This results in smoother, firmer, and more radiant skin, reducing the appearance of wrinkles, acne scars, and hyperpigmentation. Experience the ultimate skincare solution with our expertly performed microneedling treatment, tailored to your unique skin needs.",
+          "Discover microneedling, a cutting-edge treatment that rejuvenates your skin by stimulating collagen and elastin production. Using fine needles, this procedure smooths wrinkles, reduces acne scars, and evens skin tone, leaving you with firmer, radiant skin. Tailored to your unique needs, it’s the ultimate skincare solution.",
         img_url: "/placeholder.png",
         price_range: "$480 - $580",
         benefits: [
@@ -157,7 +157,7 @@ export const serviceData: ServiceData = {
       {
         name: "Micro-Sponge Seaweed Skin Renewal Facial",
         description:
-          "Experience the next level of skincare renewal with our Micro-Sponge Seaweed Skin Renewal Facial. This is a cell renewal accelerating treatment that the Marine Sponges are refined to micro needle between 100 – 200 microns in length and 10 in diameter forming a natural delivery system. They are enriched with a variety of precious natural seaweeds, minerals and herbal extracts, which penetrated our thick epithelium to reach into dermis to accelerate blood circulation and boost Epidermal Cell proliferation. This treatment will help remove dead keratinocytes and eventually renew skin to look more healthy, re-densified, lifted, glowing and youthful with even complexion.",
+          "Elevate your skincare with our Micro-Sponge Seaweed Skin Renewal Facial. This advanced treatment uses micro-marine sponges enriched with seaweed, minerals, and herbal extracts to penetrate deep into the skin, boosting circulation and cell renewal. It removes dead skin cells, leaving your complexion re-densified, lifted, glowing, and youthful with an even tone.",
         img_url: "/placeholder.png",
         price_range: "$210 / 1h",
         benefits: [
@@ -171,71 +171,71 @@ export const serviceData: ServiceData = {
       {
         name: "Anti Aging Peel",
         description:
-          "Experience the ultimate in skin rejuvenation with our Signature Anti-Aging Peel, a transformative treatment designed to turn back the hands of time and reveal a more youthful complexion. Our skilled estheticians begin by thoroughly cleansing your skin to remove impurities and prepare it for the peel. Indulge in the power of our signature anti-aging peel, expertly formulated with potent ingredients to stimulate collagen production, reduce the appearance of fine lines and wrinkles, and improve overall skin texture and tone. This customizable peel targets specific signs of aging, such as dullness, uneven skin tone, and loss of elasticity, delivering visible results with minimal downtime.  After the peel, luxuriate in the soothing benefits of a hydrating mask and nourishing serums to replenish and rejuvenate your skin. Rediscover a youthful glow with our Signature Facial Peel, and embrace the confidence that comes with healthier, more luminous skin.",
+          "Reveal youthful, radiant skin with our Signature Anti-Aging Peel. This transformative treatment stimulates collagen, smooths fine lines, and improves texture and tone. Our skilled estheticians customize the peel to target dullness, uneven tone, and loss of elasticity, followed by a hydrating mask and nourishing serums to rejuvenate your skin. Achieve a glowing, refreshed complexion with minimal downtime.",
         img_url: "/placeholder.png",
         price_range: "$160 / 75 min",
       },
       {
         name: "Acne Peel",
         description:
-          "Introducing our Signature Acne Peel, a targeted solution to combat breakouts, reduce acne scars, and promote clearer, healthier skin. Our skilled estheticians begin by thoroughly cleansing your skin to remove impurities and excess oil, preparing it for the peel. Experience the power of our signature acne peel, formulated with potent ingredients to exfoliate the skin, unclog pores, and reduce acne-causing bacteria. This specialized peel helps to diminish the appearance of acne scars, hyperpigmentation, and uneven texture, revealing a smoother, more even complexion. During your treatment, our estheticians carefully apply the peel, ensuring precise coverage and maximum effectiveness. After the peel, enjoy the soothing benefits of a calming mask and hydrating serums to replenish and nourish your skin. Transform your skin with our Signature Acne Peel and regain confidence with a clearer, healthier complexion.",
+          "Our Signature Acne Peel is your solution for clearer, healthier skin. This targeted treatment exfoliates, unclogs pores, and reduces acne-causing bacteria while diminishing scars and hyperpigmentation. After a deep cleanse, our estheticians apply the peel with precision, followed by a calming mask and hydrating serums to soothe and nourish. Reveal a smoother, more confident complexion.",
         img_url: "/placeholder.png",
         price_range: "$160 / 75 min",
       },
       {
         name: "Glow Peel",
         description:
-          "Experience the transformative power of our signature glow peel, formulated with potent brightening agents to gently exfoliate the skin, reduce the appearance of dark spots, and promote a more radiant complexion. This customized peel targets specific areas of concern, such as sun damage, age spots, and discolouration, delivering visible results with minimal downtime. Our skilled estheticians begin by thoroughly cleansing your skin to remove impurities and prepare it for the peel.  Then our estheticians carefully apply the glow peel, ensuring even coverage and maximum efficacy. After the peel, indulge in the soothing benefits of a calming mask and hydrating serums to replenish and nourish your skin, leaving it feeling refreshed and revitalized. Unveil a luminous, radiant complexion with our Signature Glow Peel and embrace the confidence that comes with brighter, more even-toned skin.",
+          "Reveal radiant, even-toned skin with our Signature Glow Peel. Formulated with brightening agents, this gentle peel reduces dark spots, sun damage, and discoloration while promoting a luminous complexion. After a thorough cleanse, our estheticians apply the peel with precision, followed by a calming mask and hydrating serums to refresh and revitalize your skin. Achieve a brighter, more confident glow.",
         img_url: "/placeholder.png",
         price_range: "$160 / 75 min",
       },
       {
         name: "Signature Peel",
         description:
-          "Elevate your skincare routine with our Signature Facial Peel, a transformative treatment designed to reveal smoother, brighter, and more youthful-looking skin. Our skilled estheticians begin by thoroughly cleansing your skin to remove impurities and prepare it for the peel. Experience the power of our signature peel, formulated with potent yet gentle exfoliating agents to resurface the skin, diminish the appearance of fine lines, wrinkles, and uneven texture. This customizable peel targets specific skin concerns, such as hyperpigmentation, acne scars, and dullness, delivering visible results with minimal downtime. Relax and unwind as our estheticians apply the peel with precision, ensuring maximum efficacy and comfort. After the peel, enjoy the soothing benefits of a hydrating mask and calming serums to replenish and nourish your skin. Reveal a radiant, revitalized complexion with our Signature Facial Peel, and embrace the confidence that comes with healthier, more luminous skin.",
+          "Transform your skin with our Signature Facial Peel. This treatment exfoliates gently, diminishing fine lines, wrinkles, and uneven texture while targeting hyperpigmentation, acne scars, and dullness. After a deep cleanse, our estheticians apply the peel with precision, followed by a hydrating mask and calming serums to nourish and revitalize. Reveal smoother, brighter, and more youthful-looking skin with minimal downtime.",
         img_url: "/placeholder.png",
         price_range: "$175 / 75 min",
       },
       {
         name: "Hydrating Facial",
         description:
-          "Indulge your skin with our Hydrating Signature Facial, a luxurious treatment designed to replenish moisture and revitalize your complexion. This facial begins with a gentle cleanse, followed by a hydrating mask tailored to your skin's needs. Relax as our skilled estheticians massage in rich, nourishing serums, leaving your skin radiant and hydrated. Perfect for all skin types, this treatment will leave you feeling refreshed and hydrated.",
-        img_url: "/placeholder.png",
+          "Pamper your skin with our Hydrating Signature Facial, designed to restore moisture and revitalize your complexion. After a gentle cleanse, enjoy a customized hydrating mask and nourishing serums, leaving your skin radiant and deeply hydrated. Perfect for all skin types, this treatment leaves you feeling refreshed and glowing.",
+        img_url: "/service/facial/hydrate.jpeg",
         price_range: "$120 / 75 min",
       },
       {
         name: "Anti Aging",
         description:
-          "Experience the ultimate in rejuvenation with our Anti-Aging Signature Facial. This luxurious treatment is specially crafted to combat the signs of aging and restore youthful vitality to your skin. Our skilled estheticians begin by cleansing and exfoliating to remove impurities and stimulate cell turnover. Relax as our expert therapists massage in potent serums and moisturizers, delivering intensive hydration and firming benefits. Next, indulge in a customized mask infused with powerful anti-aging ingredients to target fine lines, wrinkles, and uneven texture. Pamper yourself with this indulgent facial, and reveal a smoother, more radiant complexion that defies the hands of time.",
+          "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
         img_url: "/placeholder.png",
         price_range: "$130 / 75 min",
       },
       {
         name: "Acne treatment",
         description:
-          "Say goodbye to blemishes with our Acne Treatment Signature Facial, a targeted solution to combat breakouts and promote clear, healthy skin. Our skilled estheticians begin with a thorough cleanse to remove impurities and unclog pores, preparing your skin for treatment. Experience the innovative Bubble Masque, which utilizes gentle bubbling action to penetrate deep into pores, effectively dissolving impurities and unclogging congested skin. Our extractions help to remove impurities and prevent future breakouts. Relax as we apply soothing serums and moisturizers to hydrate and calm your skin, leaving you with a renewed sense of confidence. Finally, indulge in a relaxing massage using soothing serums and moisturizers, leaving your skin feeling refreshed, revitalized, and free from acne-related concerns.",
-        img_url: "/placeholder.png",
+          "Our Acne Treatment Signature Facial is a targeted solution to combat breakouts and promote clear, healthy skin. The treatment begins with a thorough cleanse to remove impurities and unclog pores, preparing your skin for the innovative Bubble Masque. This masque utilizes gentle bubbling action to penetrate deep into pores, effectively dissolving impurities and unclogging congested skin. Extractions are performed to remove impurities and prevent future breakouts. The session concludes with soothing serums and moisturizers to hydrate and calm your skin, leaving you with a renewed sense of confidence. This comprehensive approach addresses the root causes of acne, promoting clearer and healthier skin.",
+        img_url: "/service/facial/acne.jpeg",
         price_range: "$130 / 75 min",
       },
       {
         name: "Glow Facial",
         description:
-          "Illuminate your complexion with our Glow Signature Facial, a luxurious treatment designed to enhance your skin's natural radiance. This transformative facial starts with a thorough cleanse to remove impurities and prepare your skin for rejuvenation. Next, indulge in a gentle exfoliation to reveal a brighter, smoother texture. Our skilled estheticians will then massage in hydrating serums and moisturizers, leaving your skin with a luminous, dewy finish. Experience the luxurious glow with our signature mask, infused with potent ingredients to nourish and revitalize your skin from within. Treat yourself to this rejuvenating facial and unveil a radiant glow that lasts.",
-        img_url: "/placeholder.png",
+          "Illuminate your complexion with our Glow Signature Facial, designed to enhance your skin's natural radiance. The treatment begins with a thorough cleanse to remove impurities and prepare your skin for rejuvenation. Next, indulge in a gentle exfoliation to reveal a brighter, smoother texture. Our skilled estheticians will massage in hydrating serums and moisturizers, leaving your skin with a luminous, dewy finish. Finally, enjoy our signature mask, infused with potent ingredients to nourish and revitalize your skin from within. Treat yourself to this rejuvenating facial and unveil a radiant glow that lasts.",
+        img_url: "/service/facial/glow.jpeg",
         price_range: "$130 / 75 min",
       },
       {
         name: "Total Care Facial",
         description:
           "Elevate your skincare routine with our Total Care Signature Facial, a comprehensive solution tailored to address all your skin concerns in one luxurious experience. Our skilled estheticians begin by assessing your skin's unique needs, customizing each step of the treatment to deliver maximum results. Starting with a thorough cleanse, we remove impurities and prepare your skin for deep nourishment. Next, indulge in a gentle exfoliation to reveal a smoother, more radiant complexion. Our signature mask, infused with potent ingredients, targets specific concerns such as hydration, firmness, and brightening, providing instant rejuvenation.  Relax and unwind as we perform gentle extractions to clear pores and remove impurities, promoting clearer, healthier skin. Enjoy a luxurious massage using rich serums and moisturizers, deeply hydrating and revitalizing your skin from within. Whether you're looking to combat aging, acne, or simply rejuvenate your complexion, our Total Care Treat.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/total-care.jpeg",
         price_range: "$145 / 75 min",
       },
       {
         name: "Back Facial",
         description:
           "Treat your back to the ultimate pampering experience with our Signature Back Facial. Designed to address the unique needs of this hard-to-reach area, our skilled estheticians begin by deeply cleansing the skin to remove impurities, excess oil, and dead skin cells. Next, indulge in a luxurious exfoliation to reveal smoother, softer skin. Enjoy a relaxing massage as we apply hydrating serums and moisturizers, leaving your skin feeling nourished and rejuvenated. Our signature mask, tailored specifically for the back, works to purify pores, detoxify the skin, and promote a clearer complexion. Whether you're seeking to address back acne, congestion, or simply want to indulge in a spa-like experience, our Signature Back Facial is the perfect solution for achieving radiant, healthy skin from head to toe.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/back.jpeg",
         price_range: "$145 / 75 min",
       },
     ],
@@ -326,39 +326,39 @@ export const serviceData: ServiceData = {
   },
   brow: {
     name: "Brow",
-    img_url: "/placeholder.png",
+    img_url: "/service/brow/brow.jpeg",
     services: [
       {
         name: "Brow Lamination",
-        img_url: "/placeholder.png",
+        img_url: "/service/brow/brow.jpeg",
         price_range: "$80 / 45 min",
         description:
           "Achieve perfectly styled, full brows with our brow lamination treatment.",
       },
       {
         name: "Brow Tint",
-        img_url: "/placeholder.png",
+        img_url: "/service/brow/brow.jpeg",
         price_range: "$25 / 30 min",
         description:
           "Darken your brows for a defined, natural look with our tinting service.",
       },
       {
         name: "Brow Lamination & Tint",
-        img_url: "/placeholder.png",
+        img_url: "/service/brow/brow.jpeg",
         price_range: "$100 / 1h",
         description:
           "Combine brow lamination and tinting for fuller, perfectly shaped brows.",
       },
       {
         name: "Brow Waxing & Shape",
-        img_url: "/placeholder.png",
+        img_url: "/service/lash/lash.jpeg",
         price_range: "$20 / 15 min",
         description:
           "Shape and clean up your brows with a precise waxing service.",
       },
       {
         name: "Brow Tint, Waxing & Shape",
-        img_url: "/placeholder.png",
+        img_url: "/service/brow/brow.jpeg",
         price_range: "$38 / 30 min",
         description:
           "Get perfectly shaped, tinted brows with this all-in-one waxing and tinting service.",
@@ -368,27 +368,27 @@ export const serviceData: ServiceData = {
 
   lashes: {
     name: "Lashes",
-    img_url: "/placeholder.png",
+    img_url: "/service/lash/lash.jpeg",
     services: [
       {
         name: "Lash Lift",
         description:
           "Give your lashes a natural lift for a bold, wide-eyed look.",
-        img_url: "/placeholder.png",
+        img_url: "/service/lash/lash.jpeg",
         price_range: "$65 / 45 min",
       },
       {
         name: "Lash Tint",
         description:
           "Darken your lashes for a fuller, more defined appearance.",
-        img_url: "/placeholder.png",
+        img_url: "/service/lash/lash.jpeg",
         price_range: "$25 / 20 min",
       },
       {
         name: "Lash Lift & Tint",
         description:
           "Lift and tint your lashes for a stunning, effortless look that lasts.",
-        img_url: "/placeholder.png",
+        img_url: "/service/lash/lash.jpeg",
         price_range: "$75 / 1h",
       },
     ],

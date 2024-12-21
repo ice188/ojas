@@ -1,6 +1,6 @@
 export default function Welcome() {
   return (
-    <div className="bg-[#91AC8F] md:pt-24 pb-16 lg:pb-24 relative mt-[98px]">
+    <div className="bg-[#91AC8F] pt-16 md:pt-24 pb-16 lg:pb-24 relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">

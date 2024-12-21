@@ -8,7 +8,7 @@ export default function ServiceList({
   categoryUrl: keyof typeof serviceData;
 }) {
   return (
-    <div className="bg-white pb-16 pt-16 relative mt-[98px]">
+    <div className="bg-white pb-8 pt-16 relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <h2

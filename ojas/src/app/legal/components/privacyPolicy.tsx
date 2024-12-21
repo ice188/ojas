@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
         <div className="w-full justify-start items-center gap-10 grid grid-cols-1">
           <div className="w-full flex-col justify-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start gap-4 flex">
-              <h2 className="text-[#4B5945] text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+              <h2 className="text-[#4B5945] text-4xl font-bold font-manrope leading-normal text-start ">
                 Privacy Policy
               </h2>
               <p className="text-gray-500 text-base font-normal leading-relaxed max-w-7xl">
@@ -90,36 +90,41 @@ export default function PrivacyPolicy() {
             <li>Phone number</li>
             <li>Cookies and Usage Data</li>
           </ul>
-          We may use your Personal Data to contact you with newsletters,
-          marketing or promotional materials and other information that may be
-          of interest to you. You may opt out of receiving any, or all, of these
-          communications from us by following the unsubscribe link or the
-          instructions provided in any email we send.
-          <div>
-            <div className="text-gray-700 font-semibold -mt-4">Usage Data</div> We may also
-            collect information on how the Service is accessed and used (“Usage
-            Data”). This Usage Data may include information such as your
-            computer’s Internet Protocol address (e.g. IP address), browser
+          <div className="text-gray-700">
+            We may use your Personal Data to contact you with newsletters,
+            marketing or promotional materials and other information that may be
+            of interest to you. You may opt out of receiving any, or all, of
+            these communications from us by following the unsubscribe link or
+            the instructions provided in any email we send.
+          </div>
+          <div className="text-gray-700">
+            <div className="text-gray-700 font-semibold -mt-4">Usage Data</div>{" "}
+            used (“Usage Data”). This Usage Data may include information such as
+            your computer’s Internet Protocol address (e.g. IP address), browser
             type, browser version, the pages of our Service that you visit, the
             time and date of your visit, the time spent on those pages, unique
             device identifiers and other diagnostic data. <br />
             <br />
-            Tracking & Cookies Data; We use cookies and similar tracking
-            technologies to track the activity on our Service and we hold
-            certain information. Cookies are files with a small amount of data
-            which may include an anonymous unique identifier. Cookies are sent
-            to your browser from a website and stored on your device. Other
-            tracking technologies are also used such as beacons, tags and
-            scripts to collect and track information and to improve and analyse
-            our Service. You can instruct your browser to refuse all cookies or
-            to indicate when a cookie is being sent. However, if you do not
-            accept cookies, you may not be able to use some portions of our
-            Service.
+            <div className="text-gray-700">
+              Tracking & Cookies Data; We use cookies and similar tracking
+              technologies to track the activity on our Service and we hold
+              certain information. Cookies are files with a small amount of data
+              which may include an anonymous unique identifier. Cookies are sent
+              to your browser from a website and stored on your device. Other
+              tracking technologies are also used such as beacons, tags and
+              scripts to collect and track information and to improve and
+              analyse our Service. You can instruct your browser to refuse all
+              cookies or to indicate when a cookie is being sent. However, if
+              you do not accept cookies, you may not be able to use some
+              portions of our Service.
+            </div>
             <br />
             <br />
-            You can instruct your browser to refuse all cookies or to indicate
-            when a cookie is being sent. However, if you do not accept cookies,
-            you may not be able to use some portions of our Service.
+            <div className="text-gray-700">
+              You can instruct your browser to refuse all cookies or to indicate
+              when a cookie is being sent. However, if you do not accept
+              cookies, you may not be able to use some portions of our Service.
+            </div>
           </div>
           <h4 className="-mt-4 -mb-4 text-[#4B5945] text-xl font-semibold">
             Use of Data

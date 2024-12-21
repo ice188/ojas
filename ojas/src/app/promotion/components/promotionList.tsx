@@ -8,7 +8,7 @@ export default function PromotionList({
   promotionType: keyof typeof promotionData;
 }) {
   return (
-    <div className="bg-white pt-16 relative mt-[98px]">
+    <div className="bg-white pb-8  relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <h2  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-white bg-[#91AC8F] text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8">

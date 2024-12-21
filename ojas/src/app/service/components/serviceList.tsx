@@ -11,12 +11,15 @@ export default function ServiceList({
     <div className="bg-white pb-16 pt-16 relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
+          <h2
+            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+            className="text-white bg-[#91AC8F] text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8"
+          >
+            {serviceData[categoryUrl].name}
+          </h2>
+
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">
-              <h2 className="text-green-800 text-3xl font-bold font-manrope leading-normal text-center pb-3">
-                {serviceData[categoryUrl].name}
-              </h2>
-
               <ul role="list" className="divide-y w-full">
                 {serviceData[categoryUrl].services.map((service) => (
                   <li
@@ -33,7 +36,7 @@ export default function ServiceList({
                       <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         {/* Service Name */}
                         <div>
-                          <p className="text-lg font-semibold text-green-800">
+                          <p className="text-lg font-semibold text-[#66785F]">
                             {service.name}
                           </p>
                           {service.description && (
@@ -46,7 +49,7 @@ export default function ServiceList({
                         {/* Price, Pressure, and Button */}
                         <div className="flex justify-between items-end mt-4">
                           <div>
-                            <p className="text-lg font-semibold text-green-800">
+                            <p className="text-lg font-semibold text-[#66785F]">
                               {service.price_range}
                             </p>
                             {service.pressure && (
@@ -57,7 +60,7 @@ export default function ServiceList({
                           </div>
 
                           <Link href={linkData.booking_link}>
-                            <button className="text-sm text-white font-semibold rounded-md w-[100px] border border-gray-200 bg-green-800 px-3 py-2 hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
+                            <button className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
                               Book Now
                             </button>
                           </Link>

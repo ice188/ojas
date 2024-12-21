@@ -6,13 +6,13 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-white py-16 relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
-        <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
-          <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="text-green-800 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+        <div className="w-full justify-start items-center gap-10 grid grid-cols-1">
+          <div className="w-full flex-col justify-start items-center gap-10 inline-flex">
+            <div className="w-full flex-col justify-start lg:items-start gap-4 flex">
+              <h2 className="text-[#4B5945] text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                 Privacy Policy
               </h2>
-              <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
+              <p className="text-gray-500 text-base font-normal leading-relaxed max-w-7xl">
                 Effective date: 1 January, 2024
               </p>
             </div>
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
               href={linkData.domain_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-800 underline"
+              className="text-[#4B5945] underline"
             >
               {linkData.domain_link}
             </Link>{" "}
@@ -35,17 +35,17 @@ export default function PrivacyPolicy() {
             improve the Service. By using the Service, you agree to the
             collection and use of information in accordance with this policy.
           </p>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Definitions
           </h3>
-          <ul className="space-y-6 list-disc ml-4">
+          <ul className="space-y-6 list-disc ml-4 text-gray-700">
             <li>
               <strong>Service:</strong> Service is the{" "}
               <Link
                 href={linkData.domain_link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-green-800 underline"
+                className="text-[#4B5945] underline"
               >
                 {linkData.domain_link}
               </Link>{" "}
@@ -67,24 +67,24 @@ export default function PrivacyPolicy() {
               (computer or mobile device).
             </li>
           </ul>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Information Collection and Use
           </h3>
-          <p>
+          <p className="text-gray-700">
             We collect several different types of information for various
             purposes to provide and improve our Service to you.
           </p>
-          <h4 className="-mt-4 -mb-4 text-green-800 text-xl font-semibold">
+          <h4 className="-mt-4 -mb-4 text-[#4B5945] text-xl font-semibold">
             Types of Data Collected
           </h4>
-          <div>
+          <div className="text-gray-700">
             <div className="font-semibold">Personal Data</div> While using our
             Service, we may ask you to provide us with certain personally
             identifiable information that can be used to contact or identify you
             (“Personal Data”). Personally identifiable information may include,
             but is not limited to:{" "}
           </div>
-          <ul className="space-y-4 list-disc ml-4 -mt-6 -mb-6">
+          <ul className="space-y-4 list-disc ml-4 -mt-6 -mb-6 text-gray-700">
             <li>Email address</li>
             <li>First name and last names</li>
             <li>Phone number</li>
@@ -96,7 +96,7 @@ export default function PrivacyPolicy() {
           communications from us by following the unsubscribe link or the
           instructions provided in any email we send.
           <div>
-            <div className="font-semibold -mt-4">Usage Data</div> We may also
+            <div className="text-gray-700 font-semibold -mt-4">Usage Data</div> We may also
             collect information on how the Service is accessed and used (“Usage
             Data”). This Usage Data may include information such as your
             computer’s Internet Protocol address (e.g. IP address), browser
@@ -121,16 +121,16 @@ export default function PrivacyPolicy() {
             when a cookie is being sent. However, if you do not accept cookies,
             you may not be able to use some portions of our Service.
           </div>
-          <h4 className="-mt-4 -mb-4 text-green-800 text-xl font-semibold">
+          <h4 className="-mt-4 -mb-4 text-[#4B5945] text-xl font-semibold">
             Use of Data
           </h4>
-          <p>
+          <p className="text-gray-700">
             We collect several different types of information for various
             purposes to provide and improve our Service to you. 10169392
             Manitoba Ltd. (Ojas Massage & Spa) uses the collected data for
             various purposes:
           </p>
-          <ul className="space-y-4 list-disc ml-4 -mt-6 ">
+          <ul className="space-y-4 list-disc ml-4 -mt-6 text-gray-700">
             <li>To provide and maintain our Service</li>
             <li>To notify you about changes to our Service</li>
             <li>
@@ -151,10 +151,10 @@ export default function PrivacyPolicy() {
               unless you have opted not to receive such information
             </li>
           </ul>
-          <h4 className="-mb-4 -mt-4 text-green-800 text-xl font-semibold">
+          <h4 className="-mb-4 -mt-4 text-[#4B5945] text-xl font-semibold">
             Transfer of Data
           </h4>
-          <p>
+          <p className="text-gray-700">
             Your information, including Personal Data, may be transferred to —
             and maintained on — computers located outside of your state,
             province, country or other governmental jurisdiction where the data
@@ -172,15 +172,15 @@ export default function PrivacyPolicy() {
             there are adequate controls in place including the security of your
             data and other personal information.
           </p>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Disclosure of Data Legal Requirements
           </h3>
-          <p>
+          <p className="text-gray-700">
             10169392 Manitoba Ltd. (Ojas Massage & Spa) may disclose your
             Personal Data in the good faith belief that such action is necessary
             to:
           </p>
-          <ul className="space-y-4 list-disc ml-4 -mt-6">
+          <ul className="space-y-4 list-disc ml-4 -mt-6 text-gray-700">
             <li>To comply with a legal obligation</li>
             <li>
               To protect and defend the rights or property of 10169392 Manitoba
@@ -196,10 +196,10 @@ export default function PrivacyPolicy() {
             </li>
             <li>To protect against legal liability</li>
           </ul>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Service Providers
           </h3>
-          <p>
+          <p className="text-gray-700">
             We may employ third party companies and individuals to facilitate
             our Service (“Service Providers”), provide the Service on our
             behalf, perform Service-related services or assist us in analyzing
@@ -207,10 +207,10 @@ export default function PrivacyPolicy() {
             Personal Data only to perform these tasks on our behalf and are
             obligated not to disclose or use it for any other purpose.
           </p>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Payments
           </h3>
-          <p>
+          <p className="text-gray-700">
             We may provide paid products and/or services within the Service. In
             that case, we use third-party services for payment processing (e.g.
             payment processors). <br />
@@ -229,15 +229,15 @@ export default function PrivacyPolicy() {
               href="https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-800 underline"
+              className="text-[#4B5945] underline"
             >
               https://www.chase.com/digital/resources/privacy-security/privacy/online-privacy-policy
             </Link>{" "}
           </p>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Links to Other Sites
           </h3>
-          <p>
+          <p className="text-gray-700">
             Our Service may contain links to other sites that are not operated
             by us. If you click a third party link, you will be directed to that
             third party’s site. We strongly advise you to review the Privacy
@@ -248,10 +248,10 @@ export default function PrivacyPolicy() {
             content, privacy policies or practices of any third party sites or
             services.
           </p>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Changes to This Privacy Policy
           </h3>
-          <p>
+          <p className="text-gray-700">
             We may update our Privacy Policy from time to time. We will notify
             you of any changes by posting the new Privacy Policy on this page.
             We will let you know via email and/or a prominent notice on our
@@ -263,17 +263,17 @@ export default function PrivacyPolicy() {
             changes. Changes to this Privacy Policy are effective when they are
             posted on this page.
           </p>
-          <h3 className="-mt-2 -mb-2 text-green-800 text-2xl font-semibold">
+          <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Contact Us
           </h3>
-          <p>
+          <p className="text-gray-700">
             If you have any questions about this Privacy Policy, please contact
             us by email:{" "}
             <Link
               href={contactData.email_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-800 underline"
+              className="text-[#4B5945] underline"
             >
               {contactData.email}
             </Link>

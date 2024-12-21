@@ -45,7 +45,7 @@ export const promotionData: PromotionData = {
     ],
   },
   promotion: {
-    name: "Time-Limited Deals",
+    name: "Special Promotion",
     promotions: [
         {
             name: "DPL - Buy 5 Get 1 Free",

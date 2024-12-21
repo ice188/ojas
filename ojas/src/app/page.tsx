@@ -6,6 +6,7 @@ import Story from "@/app/components/story";
 import Footer from "@/components/footer";
 
 import type { Metadata } from 'next';
+import Promotion from "./components/promotion";
  
 export const metadata: Metadata = {
   title: 'Ojas Massage & Spa Winnipeg',
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Welcome />
       <Service />
       <Story />
+      <Promotion/>
       <Footer />
     </>
   );

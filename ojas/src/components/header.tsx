@@ -28,7 +28,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link
             href="/"
-            className="font-bold text-xl -m-1.5 p-3 text-green-800"
+            className="font-bold text-xl -m-1.5 p-3 text-[#4B5945]"
           >
             Ojas
           </Link>
@@ -60,7 +60,7 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3 bg-white">
-                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-green-800 hover:bg-gray-50">
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]">
                     Services
                     <ChevronDownIcon
                       aria-hidden="true"
@@ -91,7 +91,7 @@ export default function Header() {
                   href={linkData.booking_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-green-800 hover:bg-gray-50"
+                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
                 >
                   Booking Link
                 </Link>
@@ -100,12 +100,12 @@ export default function Header() {
                   href={linkData.gift_card_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="-mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-green-800 hover:bg-gray-50"
+                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
                 >
                   Purchase Gift Card
                 </Link>
                 <Disclosure as="div" className="-mx-3">
-                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-green-800 hover:bg-gray-50">
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]">
                     Promotion
                     <ChevronDownIcon
                       aria-hidden="true"

@@ -1,6 +1,6 @@
 export default function Story() {
   return (
-    <div className="bg-white pt-4 pb-16 relative md:pb-24">
+    <div className="bg-[#91AC8F]  pt-16 pb-16 relative">
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <img
@@ -10,10 +10,10 @@ export default function Story() {
           />
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="text-green-800 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+              <h2 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                 Revitalize Your Mind & Body
               </h2>
-              <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
+              <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
                 Escape the hustle and bustle of everyday life and immerse
                 yourself in a world of serenity at our luxurious spa. Whether
                 you are looking to unwind with a soothing massage, rejuvenate

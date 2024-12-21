@@ -4,40 +4,42 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-white">
-      <div className="w-full max-w-7xl mx-auto w-full border-t">
-        <div className="grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:grid-cols-3">
+    <div className="bg-[#91AC8F] " >
+      <div className="w-full mx-auto w-full border-none">
+
+        <div className=" grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:grid-cols-3">
           {/* Hours of Service */}
           <div>
-            <p className="mb-6 font-bold md:text-lg text-green-800">
+            <p className=" mb-6 font-bold md:text-xl text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
               Opening Hours
             </p>
-            <ul className="grid text-gray-500 w-[140px] md:w-[180px] font-medium">
+            <ul className="grid text-white w-[140px] md:w-[180px] font-medium">
               {openingTimeData.map(({ day_of_week, hours }) => (
                 <li
                   className="mb-4 flex justify-between items-center"
                   key={day_of_week}
                 >
-                  <span className="text-xs md:text-sm font-semibold text-green-800">
+                  <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-xs md:text-sm font-semibold text-white">
                     {day_of_week}
                   </span>
-                  <span className="text-xs md:text-sm">{hours}</span>
+                  <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-xs md:text-sm">{hours}</span>
                 </li>
               ))}
             </ul>
           </div>
 
           <div className="justify-center items-center">
-            <p className="mb-6 font-bold md:text-lg text-green-800">
+            <p className="mb-6 font-bold md:text-xl  text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
               Contact Us
             </p>
-            <ul className="text-gray-500 font-medium">
+            <ul className="text-white font-medium">
               <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
                 <Link
                   href={contactData.map_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-200"
+                  className="hover:text-gray-200 underline"
+                  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
                 >
                   {contactData.address}
                 </Link>
@@ -47,7 +49,8 @@ export default function Footer() {
                   href={contactData.phone_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-200"
+                  className="hover:text-gray-200 underline"
+                  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
                 >
                   {contactData.phone}
                 </Link>
@@ -57,7 +60,8 @@ export default function Footer() {
                   href={contactData.email_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-200"
+                  className="hover:text-gray-200 underline"
+                  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
                 >
                   {contactData.email}
                 </Link>
@@ -78,7 +82,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col mb-4 sm:mb-0 items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
-            <p className="text-center md:text-left mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-lg text-green-800">
+            <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-center md:text-left mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-xl text-white">
               Subscribe to Receive Promotion Offers
             </p>
             <div className="md:items-start flex-col items-center justify-center lg:justify-start md:flex max-w-md gap-x-4 mb-4">
@@ -92,11 +96,11 @@ export default function Footer() {
                 required
                 placeholder="Enter your email"
                 autoComplete="email"
-                className="focus:outline-0 focus:border-none w-[160px] sm:w-[200px] lg:w-[230px] mr-2 md:mr-0 text-xs sm:text-sm text-gray-500 font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white/5 px-3.5 py-2 !focus:outline-none focus:ring-2 focus:ring-green-800 sm:text-sm/6"
+                className="focus:outline-0 focus:border-none w-[160px] sm:w-[200px] lg:w-[230px] mr-2 md:mr-0 text-xs sm:text-sm text-white font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white px-3.5 py-2 !focus:outline-none focus:ring-2 focus:ring-green-800 sm:text-sm/6"
               />
               <button
                 type="submit"
-                className="text-white bg-green-800 text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
+                className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
               >
                 Subscribe
               </button>
@@ -104,7 +108,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="bg-green-800 px-4 py-2.5 -mt-6 sm:-mt-4 border-t flex items-center justify-between">
+        <div className="bg-[#4B5945] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between" >
           <span className="text-sm text-gray-500 font-normal text-center text-white">
             © 2024 by Ojas
           </span>

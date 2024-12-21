@@ -247,7 +247,7 @@ export const serviceData: ServiceData = {
       {
         name: "DPL Photo Facial",
         description:
-          "Our DPL Photo facial, a cutting-edge skincare treatment designed to revitalize your skin. Using advanced Dynamic Pulsed Lighty to restore collagen and elastin in the deep skin. By stimulating collagen production and promoting cellular renewal, it delivers long-lasting results, revealing smoother, firmer, and more youthful-looking skin. Say goodbye to imperfections and hello to a luminous, even-toned complexion with our DPL Photo Facial.",
+          "Revitalize your skin with our DPL Photo Facial, using Dynamic Pulsed Light to stimulate collagen production and promote cellular renewal for smoother, firmer, and more youthful skin. This treatment targets sun damage, acne scars, and fine lines, leaving your complexion luminous and even-toned.",
         img_url: "/placeholder.png",
         price_range: "$280 - $320",
         benefits: [
@@ -256,7 +256,7 @@ export const serviceData: ServiceData = {
           "Acne and scars",
           "Spider veins",
           "Pigmentation",
-          "Anti aging",
+          "Anti-aging",
           "Reduce pore size",
           "Hydrating",
           "Fine lines",
@@ -265,7 +265,7 @@ export const serviceData: ServiceData = {
       {
         name: "Carbon Laser Peel",
         description:
-          "Indulge in the ultimate skincare treatment with our Carbon Laser Peel. This innovative procedure deeply cleanses, exfoliates, and revitalizes your skin, leaving it radiant and rejuvenated. By utilizing the power of carbon particles and laser technology, this treatment effectively targets imperfections, reduces pore size, and promotes collagen production for a smoother, more youthful complexion. Say goodbye to dull, tired skin and hello to a luminous glow with our Carbon Laser Peel.",
+          "Our Carbon Laser Peel deeply cleanses and exfoliates your skin using carbon particles and laser technology. It targets acne, reduces pore size, and stimulates collagen production, leaving your skin radiant, youthful, and glowing.",
         img_url: "/placeholder.png",
         price_range: "$220 - $260",
         benefits: [
@@ -279,14 +279,18 @@ export const serviceData: ServiceData = {
         ],
       },
       {
-        name: "Laser Freckles Removal/Fading",
+        name: "Laser Freckles Removal or Fading",
         img_url: "/placeholder.png",
         price_range: "$30 - $220",
+        description:
+          "Reduce or fade freckles with targeted laser treatment for clearer, even-toned skin.",
       },
       {
         name: "Laser Hair Removal",
         img_url: "/placeholder.png",
         price_range: "$95 - $260",
+        description:
+          "Enjoy smooth, hair-free skin with our effective and long-lasting laser hair removal service.",
       },
     ],
   },
@@ -299,16 +303,22 @@ export const serviceData: ServiceData = {
     services: [
       {
         name: "Manicure",
+        description:
+          "Treat your hands to a relaxing manicure for neat, beautiful nails.",
         img_url: "/placeholder.png",
         price_range: "$25 - $70",
       },
       {
         name: "Pedicure",
+        description:
+          "Pamper your feet with a soothing pedicure for soft skin and polished nails.",
         img_url: "/placeholder.png",
         price_range: "$15 - $90",
       },
       {
         name: "Add-ons (Nail Art, Polish etc.)",
+        description:
+          "Enhance your nail service with extra touches like nail polish, art, or upgrades for a personalized look.",
         img_url: "/placeholder.png",
         price_range: "$5 - $25",
       },
@@ -322,45 +332,62 @@ export const serviceData: ServiceData = {
         name: "Brow Lamination",
         img_url: "/placeholder.png",
         price_range: "$80 / 45 min",
+        description:
+          "Achieve perfectly styled, full brows with our brow lamination treatment.",
       },
       {
         name: "Brow Tint",
         img_url: "/placeholder.png",
         price_range: "$25 / 30 min",
+        description:
+          "Darken your brows for a defined, natural look with our tinting service.",
       },
       {
         name: "Brow Lamination & Tint",
         img_url: "/placeholder.png",
         price_range: "$100 / 1h",
+        description:
+          "Combine brow lamination and tinting for fuller, perfectly shaped brows.",
       },
       {
         name: "Brow Waxing & Shape",
         img_url: "/placeholder.png",
         price_range: "$20 / 15 min",
+        description:
+          "Shape and clean up your brows with a precise waxing service.",
       },
       {
         name: "Brow Tint, Waxing & Shape",
         img_url: "/placeholder.png",
         price_range: "$38 / 30 min",
+        description:
+          "Get perfectly shaped, tinted brows with this all-in-one waxing and tinting service.",
       },
     ],
   },
+
   lashes: {
     name: "Lashes",
     img_url: "/placeholder.png",
     services: [
       {
         name: "Lash Lift",
+        description:
+          "Give your lashes a natural lift for a bold, wide-eyed look.",
         img_url: "/placeholder.png",
         price_range: "$65 / 45 min",
       },
       {
         name: "Lash Tint",
+        description:
+          "Darken your lashes for a fuller, more defined appearance.",
         img_url: "/placeholder.png",
         price_range: "$25 / 20 min",
       },
       {
         name: "Lash Lift & Tint",
+        description:
+          "Lift and tint your lashes for a stunning, effortless look that lasts.",
         img_url: "/placeholder.png",
         price_range: "$75 / 1h",
       },
@@ -372,26 +399,36 @@ export const serviceData: ServiceData = {
     services: [
       {
         name: "Face Waxing",
+        description:
+          "Smooth and fresh skin with our gentle face waxing service.",
         img_url: "/placeholder.png",
         price_range: "$10 - $20",
       },
       {
         name: "Arms",
+        description:
+          "Say goodbye to unwanted hair and enjoy soft, smooth arms.",
         img_url: "/placeholder.png",
         price_range: "$18 - $35",
       },
       {
         name: "Legs",
+        description:
+          "Get smooth, hair-free legs with our professional waxing service for a clean and lasting finish.",
         img_url: "/placeholder.png",
         price_range: "$35 - $52",
       },
       {
         name: "Bikini",
+        description:
+          "Clean up your bikini line with a precise and comfortable waxing.",
         img_url: "/placeholder.png",
         price_range: "$30 / 10 min",
       },
       {
         name: "Brazilian",
+        description:
+          "Experience a thorough and comfortable Brazilian waxing for a smooth, long-lasting result.",
         img_url: "/placeholder.png",
         price_range: "$70 / 20 min",
       },
@@ -401,7 +438,8 @@ export const serviceData: ServiceData = {
   others: {
     name: "Others",
     img_url: "/placeholder.png",
-    description: "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. These high-end treatments utilize cutting-edge technology and innovative methods to deliver exceptional, targeted results. Whether you're seeking muscle sculpting, relaxation, or revitalization, these services cater to your every need with an emphasis on luxurious care and advanced techniques.",
+    description:
+      "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. These high-end treatments utilize cutting-edge technology and innovative methods to deliver exceptional, targeted results. Whether you're seeking muscle sculpting, relaxation, or revitalization, these services cater to your every need with an emphasis on luxurious care and advanced techniques.",
     services: [
       {
         name: "Body Sculpting",

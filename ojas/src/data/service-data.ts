@@ -84,7 +84,7 @@ export const serviceData: ServiceData = {
         name: "Face Rejuvenation Massage",
         description:
           "Our face rejuvenation massage begins with a cleansing to remove impurities, followed by nourishing oils and serums. Gentle strokes, kneading, and acupressure boost circulation, ease tension, and promote lymphatic drainage. Unwind as stress melts away, leaving your skin radiant and refreshed—perfect for combating aging or enjoying self-care.",
-        img_url: "/placeholder.png",
+        img_url: "/service/massage/face-massage.jpeg",
         pressure: "Light - Medium",
         price_range: "$80 / 45 min",
         benefits: [
@@ -147,7 +147,7 @@ export const serviceData: ServiceData = {
         name: "Anti Aging",
         description:
           "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/anti-aging.jpeg",
         price_range: "$130 / 75 min",
       },
       {
@@ -182,7 +182,7 @@ export const serviceData: ServiceData = {
         name: "RF Microneedling",
         description:
           "Discover microneedling, a cutting-edge treatment that rejuvenates your skin by stimulating collagen and elastin production. Using fine needles, this procedure smooths wrinkles, reduces acne scars, and evens skin tone, leaving you with firmer, radiant skin. Tailored to your unique needs, it’s the ultimate skincare solution.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/rf.jpeg",
         price_range: "$480 - $580",
         benefits: [
           "fine lines and wrinkles",
@@ -200,7 +200,7 @@ export const serviceData: ServiceData = {
         name: "Micro-Sponge Seaweed Skin Renewal Facial",
         description:
           "Elevate your skincare with our Micro-Sponge Seaweed Skin Renewal Facial. This advanced treatment uses micro-marine sponges enriched with seaweed, minerals, and herbal extracts to penetrate deep into the skin, boosting circulation and cell renewal. It removes dead skin cells, leaving your complexion re-densified, lifted, glowing, and youthful with an even tone.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/seaweed.jpeg",
         price_range: "$210 / 1h",
         benefits: [
           "Minimizing pores",
@@ -214,28 +214,28 @@ export const serviceData: ServiceData = {
         name: "Anti Aging Peel",
         description:
           "Reveal youthful, radiant skin with our Signature Anti-Aging Peel. This transformative treatment stimulates collagen, smooths fine lines, and improves texture and tone. Our skilled estheticians customize the peel to target dullness, uneven tone, and loss of elasticity, followed by a hydrating mask and nourishing serums to rejuvenate your skin. Achieve a glowing, refreshed complexion with minimal downtime.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/anti-aging-peel.jpeg",
         price_range: "$160 / 75 min",
       },
       {
         name: "Acne Peel",
         description:
           "Our Signature Acne Peel is your solution for clearer, healthier skin. This targeted treatment exfoliates, unclogs pores, and reduces acne-causing bacteria while diminishing scars and hyperpigmentation. After a deep cleanse, our estheticians apply the peel with precision, followed by a calming mask and hydrating serums to soothe and nourish. Reveal a smoother, more confident complexion.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/acne-peel.jpeg",
         price_range: "$160 / 75 min",
       },
       {
         name: "Glow Peel",
         description:
           "Reveal radiant, even-toned skin with our Signature Glow Peel. Formulated with brightening agents, this gentle peel reduces dark spots, sun damage, and discoloration while promoting a luminous complexion. After a thorough cleanse, our estheticians apply the peel with precision, followed by a calming mask and hydrating serums to refresh and revitalize your skin. Achieve a brighter, more confident glow.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/glow-peel.jpeg",
         price_range: "$160 / 75 min",
       },
       {
         name: "Signature Peel",
         description:
           "Transform your skin with our Signature Facial Peel. This treatment exfoliates gently, diminishing fine lines, wrinkles, and uneven texture while targeting hyperpigmentation, acne scars, and dullness. After a deep cleanse, our estheticians apply the peel with precision, followed by a hydrating mask and calming serums to nourish and revitalize. Reveal smoother, brighter, and more youthful-looking skin with minimal downtime.",
-        img_url: "/placeholder.png",
+        img_url: "/service/facial/signature-peel.jpeg",
         price_range: "$175 / 75 min",
       }
     ],
@@ -248,7 +248,7 @@ export const serviceData: ServiceData = {
         name: "DPL Photo Facial",
         description:
           "Revitalize your skin with our DPL Photo Facial, using Dynamic Pulsed Light to stimulate collagen production and promote cellular renewal for smoother, firmer, and more youthful skin. This treatment targets sun damage, acne scars, and fine lines, leaving your complexion luminous and even-toned.",
-        img_url: "/placeholder.png",
+        img_url: "/service/laser/dpl.jpeg",
         price_range: "$280 - $320",
         benefits: [
           "Sun damage",
@@ -266,7 +266,7 @@ export const serviceData: ServiceData = {
         name: "Carbon Laser Peel",
         description:
           "Our Carbon Laser Peel deeply cleanses and exfoliates your skin using carbon particles and laser technology. It targets acne, reduces pore size, and stimulates collagen production, leaving your skin radiant, youthful, and glowing.",
-        img_url: "/placeholder.png",
+        img_url: "/service/laser/carbon-peel.jpeg",
         price_range: "$220 - $260",
         benefits: [
           "Acne",
@@ -305,21 +305,21 @@ export const serviceData: ServiceData = {
         name: "Manicure",
         description:
           "Treat your hands to a relaxing manicure for neat, beautiful nails.",
-        img_url: "/placeholder.png",
+        img_url: "/service/nails/manicure.png",
         price_range: "$25 - $70",
       },
       {
         name: "Pedicure",
         description:
           "Pamper your feet with a soothing pedicure for soft skin and polished nails.",
-        img_url: "/placeholder.png",
+        img_url: "/service/nails/pedicure.png",
         price_range: "$15 - $90",
       },
       {
         name: "Add-ons (Nail Art, Polish etc.)",
         description:
           "Enhance your nail service with extra touches like nail polish, art, or upgrades for a personalized look.",
-        img_url: "/placeholder.png",
+        img_url: "/service/nails/manicure.png",
         price_range: "$5 - $25",
       },
     ],
@@ -330,7 +330,7 @@ export const serviceData: ServiceData = {
     services: [
       {
         name: "Brow Lamination",
-        img_url: "/service/brow/brow.jpeg",
+        img_url: "/service/brow/brow-lamination.jpeg",
         price_range: "$80 / 45 min",
         description:
           "Achieve perfectly styled, full brows with our brow lamination treatment.",
@@ -351,14 +351,14 @@ export const serviceData: ServiceData = {
       },
       {
         name: "Brow Waxing & Shape",
-        img_url: "/service/lash/lash.jpeg",
+        img_url: "/service/brow/brow-waxing.jpeg",
         price_range: "$20 / 15 min",
         description:
           "Shape and clean up your brows with a precise waxing service.",
       },
       {
         name: "Brow Tint, Waxing & Shape",
-        img_url: "/service/brow/brow.jpeg",
+        img_url: "/service/brow/brow-lamination.jpeg",
         price_range: "$38 / 30 min",
         description:
           "Get perfectly shaped, tinted brows with this all-in-one waxing and tinting service.",
@@ -374,7 +374,7 @@ export const serviceData: ServiceData = {
         name: "Lash Lift",
         description:
           "Give your lashes a natural lift for a bold, wide-eyed look.",
-        img_url: "/service/lash/lash.jpeg",
+        img_url: "/service/lash/lash-lift.jpeg",
         price_range: "$65 / 45 min",
       },
       {

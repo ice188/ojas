@@ -10,7 +10,7 @@ import Promotion from "./components/promotion";
  
 export const metadata: Metadata = {
   title: 'Ojas Massage & Spa Winnipeg',
-  description: 'Ojas specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!',
+  description: 'Ojas Massage & Spa Winnipeg specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!',
   keywords: ["spa", "spa near me", "massage spa near me", "massage near me", "facial near me", "asian massage near me", "massage spa", "luxury nails"],
 }
  

@@ -337,14 +337,14 @@ export const serviceData: ServiceData = {
       },
       {
         name: "Brow Tint",
-        img_url: "/service/brow/brow.jpeg",
+        img_url: "/placeholder.png",
         price_range: "$25 / 30 min",
         description:
           "Darken your brows for a defined, natural look with our tinting service.",
       },
       {
         name: "Brow Lamination & Tint",
-        img_url: "/service/brow/brow.jpeg",
+        img_url: "/placeholder.png",
         price_range: "$100 / 1h",
         description:
           "Combine brow lamination and tinting for fuller, perfectly shaped brows.",
@@ -358,7 +358,7 @@ export const serviceData: ServiceData = {
       },
       {
         name: "Brow Tint, Waxing & Shape",
-        img_url: "/service/brow/brow-lamination.jpeg",
+        img_url: "/service/brow/brow-wst.jpeg",
         price_range: "$38 / 30 min",
         description:
           "Get perfectly shaped, tinted brows with this all-in-one waxing and tinting service.",

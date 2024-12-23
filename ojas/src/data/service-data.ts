@@ -319,7 +319,7 @@ export const serviceData: ServiceData = {
         name: "Add-ons (Nail Art, Polish etc.)",
         description:
           "Enhance your nail service with extra touches like nail polish, art, or upgrades for a personalized look.",
-        img_url: "/service/nails/manicure.png",
+        img_url: "/service/nails/add-ons.jpeg",
         price_range: "$5 - $25",
       },
     ],

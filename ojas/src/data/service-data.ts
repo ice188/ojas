@@ -30,7 +30,7 @@ export const serviceData: ServiceData = {
     name: "Massage",
     description:
       "Feel deeply relaxed and rejuvenated as stress and tension melt from the body. Your mind will be calmer and sense awakened, restoring feelings of wellbeing.",
-    img_url: "/home/massage.png",
+    img_url: "/service/massage/category.jpeg",
     services: [
       {
         name: "Deep Tissue Massage",
@@ -102,7 +102,7 @@ export const serviceData: ServiceData = {
         name: "Prenatal Massage (RMT)",
         description:
           "Experience the care you deserve with our prenatal massage, designed for expecting mothers. Our certified therapists use gentle techniques to relieve tension in the lower back, hips, and legs, promoting relaxation and comfort through every trimester. Enjoy a soothing, safe treatment tailored to your needs in a serene environment.",
-        img_url: "/placeholder.png",
+        img_url: "/service/massage/prenatal.jpeg",
         price_range: "$100 / 1h",
       },
       {
@@ -125,7 +125,7 @@ export const serviceData: ServiceData = {
         name: "Couples Massage-each",
         description:
           "Share the ultimate relaxation with our Couples Massage. Enjoy a synchronized session with two skilled therapists providing tailored treatments for both individuals. Perfect for special occasions or quality time together, this experience ensures harmony and rejuvenation.",
-        img_url: "/placeholder.png",
+        img_url: "/service/massage/couples.jpeg",
         price_range: "$95 - $143",
       },
     ],
@@ -134,7 +134,7 @@ export const serviceData: ServiceData = {
     name: "Facials",
     description:
       "We only use top brands for our clients. All of our Facials are customized and suited to your skin’s needs at each appointment.",
-    img_url: "/placeholder.png",
+    img_url: "/service/facial/category.jpeg",
     services: [
       {
         name: "Hydrating Facial",
@@ -242,7 +242,7 @@ export const serviceData: ServiceData = {
   },
   laser: {
     name: "Laser",
-    img_url: "/placeholder.png",
+    img_url: "/service/laser/category.jpeg",
     services: [
       {
         name: "DPL Photo Facial",
@@ -280,14 +280,14 @@ export const serviceData: ServiceData = {
       },
       {
         name: "Laser Freckles Removal/Fading",
-        img_url: "/placeholder.png",
+        img_url: "/service/laser/freckle-removal.jpeg",
         price_range: "$30 - $220",
         description:
           "Reduce or fade freckles with targeted laser treatment for clearer, even-toned skin.",
       },
       {
         name: "Laser Hair Removal",
-        img_url: "/placeholder.png",
+        img_url: "/service/laser/hair-removal.jpeg",
         price_range: "$95 - $260",
         description:
           "Enjoy smooth, hair-free skin with our effective and long-lasting laser hair removal service.",
@@ -299,7 +299,7 @@ export const serviceData: ServiceData = {
     name: "Nails",
     description:
       "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
-    img_url: "/placeholder.png",
+    img_url: "/service/nails/category.jpeg",
     services: [
       {
         name: "Manicure",
@@ -326,7 +326,7 @@ export const serviceData: ServiceData = {
   },
   brow: {
     name: "Brow",
-    img_url: "/service/brow/brow.jpeg",
+    img_url: "/service/brow/category.jpeg",
     services: [
       {
         name: "Brow Lamination",
@@ -337,14 +337,14 @@ export const serviceData: ServiceData = {
       },
       {
         name: "Brow Tint",
-        img_url: "/placeholder.png",
+        img_url: "/service/brow/brow-tint.jpeg",
         price_range: "$25 / 30 min",
         description:
           "Darken your brows for a defined, natural look with our tinting service.",
       },
       {
         name: "Brow Lamination & Tint",
-        img_url: "/placeholder.png",
+        img_url: "/service/brow/brow-lamination-tint.jpeg",
         price_range: "$100 / 1h",
         description:
           "Combine brow lamination and tinting for fuller, perfectly shaped brows.",
@@ -368,7 +368,7 @@ export const serviceData: ServiceData = {
 
   lashes: {
     name: "Lashes",
-    img_url: "/service/lash/lash.jpeg",
+    img_url: "/service/lash/category.jpeg",
     services: [
       {
         name: "Lash Lift",
@@ -401,35 +401,35 @@ export const serviceData: ServiceData = {
         name: "Face Waxing",
         description:
           "Smooth and fresh skin with our gentle face waxing service.",
-        img_url: "/placeholder.png",
+        img_url: "/service/waxing/face-waxing.jpeg",
         price_range: "$10 - $20",
       },
       {
         name: "Arms",
         description:
           "Say goodbye to unwanted hair and enjoy soft, smooth arms.",
-        img_url: "/placeholder.png",
+        img_url: "/service/waxing/arm-waxing.jpeg",
         price_range: "$18 - $35",
       },
       {
         name: "Legs",
         description:
           "Get smooth, hair-free legs with our professional waxing service for a clean and lasting finish.",
-        img_url: "/placeholder.png",
+        img_url: "/service/waxing/leg-waxing.jpeg",
         price_range: "$35 - $52",
       },
       {
         name: "Bikini",
         description:
           "Clean up your bikini line with a precise and comfortable waxing.",
-        img_url: "/placeholder.png",
+        img_url: "/service/waxing/bikini-waxing.jpeg",
         price_range: "$30 / 10 min",
       },
       {
         name: "Brazilian",
         description:
           "Experience a thorough and comfortable Brazilian waxing for a smooth, long-lasting result.",
-        img_url: "/placeholder.png",
+        img_url: "/service/waxing/brazillian-waxing.jpeg",
         price_range: "$70 / 20 min",
       },
     ],

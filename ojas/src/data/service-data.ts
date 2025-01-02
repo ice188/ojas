@@ -228,7 +228,7 @@ export const serviceData: ServiceData = {
         name: "Glow Peel",
         description:
           "Reveal radiant, even-toned skin with our Signature Glow Peel. Formulated with brightening agents, this gentle peel reduces dark spots, sun damage, and discoloration while promoting a luminous complexion. After a thorough cleanse, our estheticians apply the peel with precision, followed by a calming mask and hydrating serums to refresh and revitalize your skin. Achieve a brighter, more confident glow.",
-        img_url: "/service/facial/glow-peel.jpeg",
+        img_url: "/service/facial/glow-facial.jpeg",
         price_range: "$160 / 75 min",
       },
       {

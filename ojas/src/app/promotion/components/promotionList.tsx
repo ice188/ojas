@@ -1,4 +1,4 @@
-import { linkData } from "@/data/link-data";
+import { contactData } from "@/data/contact-data";
 import { promotionData } from "@/data/promotion-data";
 import Link from "next/link";
 
@@ -42,9 +42,9 @@ export default function PromotionList({
                             </p>
                           </div>
 
-                          <Link href={linkData.booking_link}>
+                          <Link href={contactData.phone_link}>
                             <button className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
-                              Book Now
+                              Call Now
                             </button>
                           </Link>
                         </div>

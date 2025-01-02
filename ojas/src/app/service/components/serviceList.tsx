@@ -72,6 +72,12 @@ export default function ServiceList({
               </ul>
             </div>
           </div>
+          {/* Cancellation Policy */}
+          <div className="w-full mt-6 px-4 py-4 bg-[#F9F9F9] rounded-md -mt-8">
+            <p className="text-gray-500 text-sm text-center">
+              <strong>Cancellation Policy:</strong> We require 24 hour notice on all cancellations. Missed appointments or failure to provide sufficient notice will be subject to a $25 fee. Please do your best to arrive on time to your appointment. If you are more than 10 minutes late, the appointment may need to be rescheduled.  This is to ensure that the patients who arrive on time do not wait longer than necessary for their scheduled appointment.
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -76,7 +76,7 @@ export const serviceData: ServiceData = {
         name: "Face and Body Rejuvenation Massage (RMT)",
         description:
           "Indulge in ultimate relaxation with our full body and face massage. Our skilled therapists will melt away tension and refresh your skin, combining soothing massage with MyoGlow for a rejuvenating experience. Elevate your self-care routine today.",
-        img_url: "/service/massage/face-body.jpeg",
+        img_url: "/service/massage/face-body-re.jpeg",
         pressure: "Light - Medium",
         price_range: "$155 / 90 min",
       },
@@ -161,7 +161,7 @@ export const serviceData: ServiceData = {
         name: "Glow Facial",
         description:
           "Illuminate your complexion with our Glow Signature Facial, designed to enhance your skin's natural radiance. The treatment begins with a thorough cleanse to remove impurities and prepare your skin for rejuvenation. Next, indulge in a gentle exfoliation to reveal a brighter, smoother texture. Our skilled estheticians will massage in hydrating serums and moisturizers, leaving your skin with a luminous, dewy finish. Finally, enjoy our signature mask, infused with potent ingredients to nourish and revitalize your skin from within. Treat yourself to this rejuvenating facial and unveil a radiant glow that lasts.",
-        img_url: "/service/facial/glow.jpeg",
+        img_url: "/service/facial/glow-facial.jpeg",
         price_range: "$130 / 75 min",
       },
       {
@@ -381,14 +381,14 @@ export const serviceData: ServiceData = {
         name: "Lash Tint",
         description:
           "Darken your lashes for a fuller, more defined appearance.",
-        img_url: "/service/lash/lash.jpeg",
+        img_url: "/service/lash/lash-tint.jpeg",
         price_range: "$25 / 20 min",
       },
       {
         name: "Lash Lift & Tint",
         description:
           "Lift and tint your lashes for a stunning, effortless look that lasts.",
-        img_url: "/service/lash/lash.jpeg",
+        img_url: "/service/lash/lash-lift-tint.jpeg",
         price_range: "$75 / 1h",
       },
     ],
@@ -405,28 +405,28 @@ export const serviceData: ServiceData = {
         price_range: "$10 - $20",
       },
       {
-        name: "Arms",
+        name: "Arms Waxing",
         description:
           "Say goodbye to unwanted hair and enjoy soft, smooth arms.",
         img_url: "/service/waxing/arm-waxing.jpeg",
         price_range: "$18 - $35",
       },
       {
-        name: "Legs",
+        name: "Legs Waxing",
         description:
           "Get smooth, hair-free legs with our professional waxing service for a clean and lasting finish.",
         img_url: "/service/waxing/leg-waxing.jpeg",
         price_range: "$35 - $52",
       },
       {
-        name: "Bikini",
+        name: "Bikini Waxing",
         description:
           "Clean up your bikini line with a precise and comfortable waxing.",
         img_url: "/service/waxing/bikini-waxing.jpeg",
         price_range: "$30 / 10 min",
       },
       {
-        name: "Brazilian",
+        name: "Brazilian Waxing",
         description:
           "Experience a thorough and comfortable Brazilian waxing for a smooth, long-lasting result.",
         img_url: "/service/waxing/brazillian-waxing.jpeg",
@@ -443,7 +443,7 @@ export const serviceData: ServiceData = {
     services: [
       {
         name: "Body Sculpting",
-        img_url: "/placeholder.png",
+        img_url: "/service/others/sculpting.jpeg",
         price_range: "$100 / 30 min",
         description:
           "Using HI-EMT (High-Intensity Focused Electro-Magnetic Technology) technology can continuously expand and contract your muscles, which is equivalently to extreme training, which can deeply reshape the internal structure of the muscles, and the myofibrils grow (the muscles will grow). Produce new protein chains and muscle fibers (muscle hyperplasia), thereby increasing muscle density and volume.",
@@ -459,7 +459,7 @@ export const serviceData: ServiceData = {
 
       {
         name: "Alpha Oxylight LED Pod",
-        img_url: "/placeholder.png",
+        img_url: "/service/others/alpha.jpeg",
         price_range: "$100 / 30 min",
         description: `Pure oxygen LED pod creates a new category of holistic body treatments and improves targeted results by 50% - 200% via the various combinations of LED light, oxygen, and heat energies for: chronic fatigue syndrome, fibromyalgia, sleep/insomnia, seasonal affective disorder, pain relief - chronic or acute, increased circulation, vitamin d, detoxification/cellulite, cleansing/balancing, relaxation/stress reduction, meditation/calming, energy/revitalize, skin care, weight loss/metabolism, weight management, immune system boost, full body oxygenation, color therapy, aromatherapy, body wrap, clarity/harmony.`,
       },

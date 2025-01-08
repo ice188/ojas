@@ -3,7 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import About from "./components/about";
 
-export default async function PromotionPage() {
+export default function PromotionPage() {
   return (
     <>
       <Banner />

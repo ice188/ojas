@@ -143,6 +143,13 @@ export default function Header() {
                   </DisclosurePanel>
                 </Disclosure>
                 
+                <Link
+                  href={"/"}
+                  
+                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
+                >
+                  Home
+                </Link>
               </div>
             </div>
           </div>

@@ -11,6 +11,13 @@ export default function ServiceList({
     <div className="bg-white pb-8 relative mt-[98px]">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
+          {/* Cancellation Policy */}
+          <div className="w-full mt-6 px-4 py-4 bg-[#F9F9F9] rounded-md -mt-8">
+            <p className="text-gray-500 text-sm text-center">
+              <strong>Cancellation Policy:</strong> We require 24 hour notice on all cancellations. Missed appointments or failure to provide sufficient notice will be subject to a $25 fee. Please do your best to arrive on time to your appointment. If you are more than 10 minutes late, the appointment may need to be rescheduled.  This is to ensure that the patients who arrive on time do not wait longer than necessary for their scheduled appointment.
+            </p>
+          </div>
+          
           <h2
             style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
             className="text-white bg-[#91AC8F] text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8"
@@ -72,12 +79,7 @@ export default function ServiceList({
               </ul>
             </div>
           </div>
-          {/* Cancellation Policy */}
-          <div className="w-full mt-6 px-4 py-4 bg-[#F9F9F9] rounded-md -mt-8">
-            <p className="text-gray-500 text-sm text-center">
-              <strong>Cancellation Policy:</strong> We require 24 hour notice on all cancellations. Missed appointments or failure to provide sufficient notice will be subject to a $25 fee. Please do your best to arrive on time to your appointment. If you are more than 10 minutes late, the appointment may need to be rescheduled.  This is to ensure that the patients who arrive on time do not wait longer than necessary for their scheduled appointment.
-            </p>
-          </div>
+          
         </div>
       </div>
     </div>

@@ -22,6 +22,7 @@ export interface ServiceData {
   brow: Category;
   lashes: Category;
   waxing: Category;
+  acunpuncture: Category;
   others: Category;
 }
 
@@ -109,7 +110,7 @@ export const serviceData: ServiceData = {
         name: "Infrared Light Massage (RMT)",
         description:
           "Relax and rejuvenate with our infrared light massage therapy. Combining gentle infrared warmth with targeted massage, this treatment eases muscle aches, reduces inflammation, improves circulation, and relieves stress. Experience the perfect blend of comfort and healing.",
-        img_url: "/placeholder.png",
+        img_url: "/service/massage/infrared.jpeg",
         pressure: "Medium - Firm",
         price_range: "$115 / 1h",
       },
@@ -117,7 +118,7 @@ export const serviceData: ServiceData = {
         name: "GuaSha Massage (RMT)",
         description:
           "Experience the ancient art of Gua Sha massage, a therapeutic practice that enhances circulation, promotes lymphatic drainage, and reduces tension. Using smooth tools, our skilled therapists help detoxify, reduce inflammation, and restore balance. Rejuvenate your body and mind with this traditional healing therapy.",
-        img_url: "/placeholder.png",
+        img_url: "/service/massage/guasha.jpeg",
         pressure: "Medium - Firm",
         price_range: "$115 / 1h",
       },
@@ -243,6 +244,7 @@ export const serviceData: ServiceData = {
   laser: {
     name: "Laser",
     img_url: "/service/laser/category.jpeg",
+    description: "Laser services offer a range of treatments including skin revitalization, acne and scar reduction, pore minimization, hair removal, and freckle fading using advanced laser technologies for smoother, clearer, and youthful skin.",
     services: [
       {
         name: "DPL Photo Facial",
@@ -327,6 +329,7 @@ export const serviceData: ServiceData = {
   brow: {
     name: "Brow",
     img_url: "/service/brow/category.jpeg",
+    description: "Brow services include treatments for shaping, tinting, and laminating brows to achieve a fuller, defined, and perfectly styled look.",
     services: [
       {
         name: "Brow Lamination",
@@ -369,11 +372,12 @@ export const serviceData: ServiceData = {
   lashes: {
     name: "Lashes",
     img_url: "/service/lash/category.jpeg",
+    description: "Lash services offer a variety of treatments to enhance the length, volume, and curl of your lashes for a more dramatic and eye-catching look.",
     services: [
       {
         name: "Lash Lift",
         description:
-          "Give your lashes a natural lift for a bold, wide-eyed look.",
+          "Give your lashes a natural lift for a bold, eye-catching look.",
         img_url: "/service/lash/lash-lift.jpeg",
         price_range: "$65 / 45 min",
       },
@@ -395,7 +399,8 @@ export const serviceData: ServiceData = {
   },
   waxing: {
     name: "Waxing",
-    img_url: "/placeholder.png",
+    img_url: "/service/waxing/category.jpeg",
+    description: "Waxing services provide effective hair removal for smooth, hair-free skin, targeting areas such as eyebrows, legs, arms, and more, with long-lasting results.",
     services: [
       {
         name: "Face Waxing",
@@ -435,11 +440,25 @@ export const serviceData: ServiceData = {
     ],
   },
 
+  acunpuncture: {
+    name: "Acupuncture",
+    img_url: "/service/acupuncture/category.jpeg",
+    description: "Embark on a journey to wellness and balance with our acupuncture treatment, a time-honored practice rooted in ancient Chinese medicine. Acupuncture is based on the concept of energy flow, or Qi, within the body. ",
+    services: [
+      {
+        name: "Acupuncture",
+        img_url: "/service/acupuncture/acupuncture.jpeg",
+        price_range: "$110 first visit, $100 follow up visit",
+        description:"Embark on a journey to wellness and balance with our acupuncture treatment, a time-honored practice rooted in ancient Chinese medicine. Acupuncture is based on the concept of energy flow, or Qi, within the body. By stimulating specific points along the body's meridian pathways with fine needles, our experienced acupuncturists help to restore harmony and promote the body's natural healing processes. During your acupuncture session, you will be guided to a state of deep relaxation as the gentle insertion of needles triggers a cascade of physiological responses. Many of our clients report feelings of calmness, reduced pain, and improved energy levels following their treatment. Whether you seek relief from chronic pain, stress, anxiety, or a variety of other conditions, acupuncture offers a safe and effective solution. Our skilled practitioners tailor each treatment to address your unique needs and goals, ensuring a personalized and holistic approach to your wellness journey.",
+      }
+    ],
+  },
+
   others: {
     name: "Others",
-    img_url: "/placeholder.png",
+    img_url: "/home/yoga.webp",
     description:
-      "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. These high-end treatments utilize cutting-edge technology and innovative methods to deliver exceptional, targeted results. Whether you're seeking muscle sculpting, relaxation, or revitalization, these services cater to your every need with an emphasis on luxurious care and advanced techniques.",
+      "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. ",
     services: [
       {
         name: "Body Sculpting",

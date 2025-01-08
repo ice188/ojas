@@ -5,15 +5,24 @@ import Header from "@/components/header";
 import Story from "@/app/components/story";
 import Footer from "@/components/footer";
 
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 import Promotion from "./components/promotion";
- 
+
 export const metadata: Metadata = {
-  title: 'Ojas Massage & Spa Winnipeg',
-  description: 'Ojas Massage & Spa Winnipeg specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!',
-  keywords: ["spa", "spa near me", "massage spa near me", "massage near me", "facial near me", "asian massage near me", "massage spa", "luxury nails"],
-}
- 
+  title: "H Plus Day Spa  Winnipeg",
+  description:
+    "H Plus Day Spa  Winnipeg specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!",
+  keywords: [
+    "spa",
+    "spa near me",
+    "massage spa near me",
+    "massage near me",
+    "facial near me",
+    "asian massage near me",
+    "massage spa",
+    "luxury nails",
+  ],
+};
 
 export default function HomePage() {
   return (
@@ -23,7 +32,7 @@ export default function HomePage() {
       <Welcome />
       <Service />
       <Story />
-      <Promotion/>
+      <Promotion />
       <Footer />
     </>
   );

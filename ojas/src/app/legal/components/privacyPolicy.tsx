@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
             </div>
           </div>
           <p className="text-gray-700 text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
-            10169392 Manitoba Ltd. (Ojas Massage & Spa) (“us”, “we”, or “our”)
+            10169392 Manitoba Ltd. (H Plus Day Spa ) (“us”, “we”, or “our”)
             operates the{" "}
             <Link
               href={linkData.domain_link}
@@ -49,7 +49,8 @@ export default function PrivacyPolicy() {
               >
                 {linkData.domain_link}
               </Link>{" "}
-              website operated by 10169392 Manitoba Ltd. (Ojas Massage & Spa).
+              website operated by 10169392 Manitoba Ltd. (H Plus Day Spa Massage
+              & Spa).
             </li>
             <li>
               <strong>Personal Data:</strong> Data about a living individual who
@@ -132,8 +133,8 @@ export default function PrivacyPolicy() {
           <p className="text-gray-700">
             We collect several different types of information for various
             purposes to provide and improve our Service to you. 10169392
-            Manitoba Ltd. (Ojas Massage & Spa) uses the collected data for
-            various purposes:
+            Manitoba Ltd. (H Plus Day Spa ) uses the collected data for various
+            purposes:
           </p>
           <ul className="space-y-4 list-disc ml-4 -mt-6 text-gray-700">
             <li>To provide and maintain our Service</li>
@@ -170,7 +171,7 @@ export default function PrivacyPolicy() {
             <br />
             Your consent to this Privacy Policy followed by your submission of
             such information represents your agreement to that transfer.
-            10169392 Manitoba Ltd. (Ojas Massage & Spa) will take all the steps
+            10169392 Manitoba Ltd. (H Plus Day Spa ) will take all the steps
             reasonably necessary to ensure that your data is treated securely
             and in accordance with this Privacy Policy and no transfer of your
             Personal Data will take place to an organization or a country unless
@@ -181,15 +182,14 @@ export default function PrivacyPolicy() {
             Disclosure of Data Legal Requirements
           </h3>
           <p className="text-gray-700">
-            10169392 Manitoba Ltd. (Ojas Massage & Spa) may disclose your
-            Personal Data in the good faith belief that such action is necessary
-            to:
+            10169392 Manitoba Ltd. (H Plus Day Spa ) may disclose your Personal
+            Data in the good faith belief that such action is necessary to:
           </p>
           <ul className="space-y-4 list-disc ml-4 -mt-6 text-gray-700">
             <li>To comply with a legal obligation</li>
             <li>
               To protect and defend the rights or property of 10169392 Manitoba
-              Ltd. (Ojas Massage & Spa)
+              Ltd. (H Plus Day Spa )
             </li>
             <li>
               To prevent or investigate possible wrongdoing in connection with

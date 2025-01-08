@@ -9,11 +9,13 @@ type Params = Promise<{ promotionType: string }>;
 export async function generateMetadata(props: { params: Params }) {
   const params = await props.params;
   const promotionType = params.promotionType;
-  const promotionName = promotionData[promotionType as keyof typeof promotionData]?.name || "Promotion";
+  const promotionName =
+    promotionData[promotionType as keyof typeof promotionData]?.name ||
+    "Promotion";
 
   return {
-    title: `Ojas Massage and Spa | ${promotionName}`,
-    description: `Explore our exclusive promotions at Ojas Massage & Spa. Get the best deals on facials, massages, and more.`,
+    title: `H Plus Day Spa Massage and Spa | ${promotionName}`,
+    description: `Explore our exclusive promotions at H Plus Day Spa . Get the best deals on facials, massages, and more.`,
     keywords: [
       "spa promotions",
       "massage promotions",
@@ -24,7 +26,7 @@ export async function generateMetadata(props: { params: Params }) {
       "massage package",
       "spa discounts",
       "massage discounts",
-      `${promotionName.toLowerCase()} offers`
+      `${promotionName.toLowerCase()} offers`,
     ],
   };
 }
@@ -36,7 +38,9 @@ export default async function PromotionPage(props: { params: Params }) {
     <>
       <Banner />
       <Header />
-      <PromotionList promotionType={promotionType as keyof typeof promotionData} />
+      <PromotionList
+        promotionType={promotionType as keyof typeof promotionData}
+      />
       <Footer />
     </>
   );

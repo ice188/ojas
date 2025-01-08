@@ -4,13 +4,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-[#91AC8F] " >
+    <div className="bg-[#91AC8F] ">
       <div className="w-full mx-auto w-full border-0">
-
         <div className=" grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:grid-cols-3">
           {/* Hours of Service */}
           <div>
-            <p className=" mb-6 font-bold md:text-xl text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+            <p
+              className=" mb-6 font-bold md:text-xl text-white"
+              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+            >
               Opening Hours
             </p>
             <ul className="grid text-white w-[140px] md:w-[180px] font-medium">
@@ -19,17 +21,28 @@ export default function Footer() {
                   className="mb-4 flex justify-between items-center"
                   key={day_of_week}
                 >
-                  <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-xs md:text-sm font-semibold text-white">
+                  <span
+                    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                    className="text-xs md:text-sm font-semibold text-white"
+                  >
                     {day_of_week}
                   </span>
-                  <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-xs md:text-sm">{hours}</span>
+                  <span
+                    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                    className="text-xs md:text-sm"
+                  >
+                    {hours}
+                  </span>
                 </li>
               ))}
             </ul>
           </div>
 
           <div className="justify-center items-center">
-            <p className="mb-6 font-bold md:text-xl  text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+            <p
+              className="mb-6 font-bold md:text-xl  text-white"
+              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+            >
               Contact Us
             </p>
             <ul className="text-white font-medium">
@@ -39,7 +52,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-200 underline"
-                  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
+                  style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
                 >
                   {contactData.address}
                 </Link>
@@ -50,7 +63,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-200 underline"
-                  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
+                  style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
                 >
                   {contactData.phone}
                 </Link>
@@ -61,7 +74,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-200 underline"
-                  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}
+                  style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
                 >
                   {contactData.email}
                 </Link>
@@ -82,7 +95,10 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col mb-4 sm:mb-0 items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
-            <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-center md:text-left mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-xl text-white">
+            <p
+              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+              className="text-center md:text-left mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-xl text-white"
+            >
               Subscribe to Receive Promotion Offers
             </p>
             <div className="md:items-start flex-col items-center justify-center lg:justify-start md:flex max-w-md gap-x-4 mb-4">
@@ -108,9 +124,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-0 bg-[#4B5945] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between" >
+        <div className="border-0 bg-[#4B5945] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
           <span className="text-sm text-gray-500 font-normal text-center text-white">
-            © 2024 by Ojas
+            © 2024 by H Plus Day Spa
           </span>
           <Link
             className="text-sm text-gray-500 font-normal hover:text-gray-200 text-white"

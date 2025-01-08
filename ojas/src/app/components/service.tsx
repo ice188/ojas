@@ -22,7 +22,7 @@ export default function Service() {
             </div>
           </div>
           <div className="mx-auto w-full rounded-3xl object-cover">
-            <div className="text-lg font-medium text-center text-gray-500 border-b border-gray-200">
+            <div className="text-lg font-medium text-center text-gray-500 border-b border-gray-200 ">
               <ul className="w-full flex overflow-x-auto overflow-hidden">
                 {Object.keys(serviceData).map((categoryUrl) => (
                   <li key={categoryUrl} className="me-2 w-full">

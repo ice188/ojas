@@ -30,7 +30,7 @@ export default function Header() {
             href="/"
             className="font-bold text-xl -m-1.5 p-3 text-[#4B5945]"
           >
-            Ojas
+            H Plus Day Spa
           </Link>
         </div>
         <div className="flex">
@@ -87,13 +87,22 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
+                
                 <Link
                   href={linkData.booking_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
                 >
-                  Booking Link
+                  Booking Appointment
+                </Link>
+
+                <Link
+                  href={"/about-us"}
+                  
+                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
+                >
+                  About Us
                 </Link>
 
                 <Link
@@ -133,6 +142,7 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
+                
               </div>
             </div>
           </div>

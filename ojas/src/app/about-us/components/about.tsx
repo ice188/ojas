@@ -13,7 +13,7 @@ export default function About() {
               <h2 className="text-[#66785F] text-3xl font-bold font-manrope leading-normal lg:text-start text-center">
                 Meet Olivia: The Heart Behind Ojas Spa
               </h2>
-              <p className="mt-8 sm:mt-0 text-[#91AC8F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
+              <p className="sm:mt-0 text-[#91AC8F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
                 At Ojas Spa, our name is inspired by the ancient wisdom of
                 Ayurveda, where “Ojas” represents the essence of life and
                 vitality. In Sanskrit, Ojas is often described as the subtle

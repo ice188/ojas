@@ -28,7 +28,7 @@ export default function Welcome() {
               </button> */}
           </div>
           <img
-            className="lg:mx-0 mx-auto h-full rounded-3xl object-cover"
+            className="lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
             src="/home/welcome_img.jpg"
             alt="spa"
           />

@@ -13,7 +13,7 @@ export async function generateMetadata(props: { params: Params }) {
     serviceData[categoryUrl as keyof typeof serviceData]?.name || "Service";
 
   return {
-    title: `H Plus Day Spa Massage and Spa | ${serviceName}`,
+    title: `H Plus Day Spa | ${serviceName}`,
     description: `Best-quality ${serviceName.toLowerCase()} service in Winnipeg. Explore our exclusive range of services at H Plus Day Spa .`,
     keywords: [
       "spa",
@@ -23,7 +23,7 @@ export async function generateMetadata(props: { params: Params }) {
       "facial near me",
       "asian massage near me",
       "massage spa",
-      "luxury nails",
+      "nails",
       `${serviceName} near me`,
     ],
   };

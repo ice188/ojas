@@ -9,13 +9,13 @@ export default function Welcome() {
                 className="-mt-4 font-nunito text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
               >
-                Welcome To H Plus Day Spa
+                Welcome To H&nbsp;Plus&nbsp;Day&nbsp;Spa
               </h2>
               <p
                 className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto "
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
               >
-                At H Plus Day Spa Massage and Spa, we are committed to providing
+                At H Plus Day Spa, we are committed to providing
                 a space of relaxation and rejuvenation, where you can unwind and
                 revitalize your mind and body. Our mission is to ensure that
                 every visitor leaves feeling refreshed, balanced, and renewed.

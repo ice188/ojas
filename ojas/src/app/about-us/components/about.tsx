@@ -8,12 +8,15 @@ export default function About() {
             src="/home/team.jpeg"
             alt="spa"
           />
-          <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
+          <div className="w-full justify-center items-center gap-8 grid grid-cols-1 ">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="text-[#66785F] text-3xl font-bold font-manrope leading-normal lg:text-start text-center">
+              <h2
+                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                className="w-full text-white bg-[#91AC8F] px-4 text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8"
+              >
                 Meet Olivia: The Heart Behind H Plus Day Spa
               </h2>
-              <p className="mt-4  text-[#91AC8F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
+              <p className="mt-8 sm:mt-16 text-[#66785F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
                 Olivia is someone who has always been deeply connected to nature
                 and its healing power. Her journey began with a simple love for
                 the natural world—savoring the delicate notes of tea, nurturing
@@ -27,31 +30,31 @@ export default function About() {
                 of her vision for H Plus Day Spa.
                 <br />
                 <br />
-                When Olivia created H Plus Day Spa, she envisioned a sanctuary where
-                everyone could experience profound relaxation and healing
+                When Olivia created H Plus Day Spa, she envisioned a sanctuary
+                where everyone could experience profound relaxation and healing
                 through natural, physical therapies. Drawing inspiration from
                 the Ayurvedic concept of “Ojas,” the vital energy that sustains
                 life, she wanted every guest to feel rejuvenated, energized, and
                 whole.
                 <br />
                 <br />
-                At H Plus Day Spa, Olivia combines her passion for holistic wellness
-                with thoughtful, personalized care. From therapeutic massage and
-                acupuncture to medical facials and natural beauty treatments,
-                each service reflects her dedication to helping others find
-                harmony and vitality.
+                At H Plus Day Spa, Olivia combines her passion for holistic
+                wellness with thoughtful, personalized care. From therapeutic
+                massage and acupuncture to medical facials and natural beauty
+                treatments, each service reflects her dedication to helping
+                others find harmony and vitality.
                 <br />
                 <br />
-                Olivia welcomes you to H Plus Day Spa, a space where the essence of
-                nature meets the art of healing. Here, you’ll discover not just
-                a moment of relaxation but a pathway to renewed energy, balance,
-                and inner peace.
+                Olivia welcomes you to H Plus Day Spa, a space where the essence
+                of nature meets the art of healing. Here, you’ll discover not
+                just a moment of relaxation but a pathway to renewed energy,
+                balance, and inner peace.
                 <br />
                 <br />
                 <span className="font-bold">
                   “Wellness is not just a luxury—it is the foundation of a
-                  fulfilling life. I created H Plus Day Spa to share this belief with
-                  everyone who walks through our doors.” – Olivia
+                  fulfilling life. I created H Plus Day Spa to share this belief
+                  with everyone who walks through our doors.” – Olivia
                 </span>
               </p>
             </div>

@@ -5,39 +5,53 @@ export default function About() {
         <div className="sm:items-start w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <img
             className="lg:order-none order-2 lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
-            src="/home/welcome_img.jpg"
+            src="/home/team.jpeg"
             alt="spa"
           />
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
               <h2 className="text-[#66785F] text-3xl font-bold font-manrope leading-normal lg:text-start text-center">
-                Meet Olivia: The Heart Behind Ojas Spa
+                Meet Olivia: The Heart Behind H Plus Day Spa
               </h2>
-              <p className="sm:mt-0 text-[#91AC8F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
-                At Ojas Spa, our name is inspired by the ancient wisdom of
-                Ayurveda, where “Ojas” represents the essence of life and
-                vitality. In Sanskrit, Ojas is often described as the subtle
-                energy that sustains the body, mind, and spirit, providing
-                resilience, radiance, and inner strength.
+              <p className="mt-4  text-[#91AC8F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
+                Olivia is someone who has always been deeply connected to nature
+                and its healing power. Her journey began with a simple love for
+                the natural world—savoring the delicate notes of tea, nurturing
+                lush green plants, and exploring the ancient wisdom of
+                traditional Chinese medicine through self-study.
                 <br />
                 <br />
-                Ojas is the foundation of wellness—nourishing our immune system,
-                balancing our emotions, and bringing a glow to our skin and
-                life. When your Ojas is strong, you feel vibrant, peaceful, and
-                deeply connected to yourself and the world around you.
+                For Olivia, health is life’s most precious gift. She firmly
+                believes that true wellness begins with balance—between mind,
+                body, and the natural world. This belief became the cornerstone
+                of her vision for H Plus Day Spa.
                 <br />
                 <br />
-                At Ojas Spa, we embrace this philosophy to guide everything we
-                do. From therapeutic massages and acupuncture to facials and
-                beauty treatments, each service is thoughtfully designed to
-                nurture your vitality and promote balance. We aim to help you
-                rediscover your natural energy and leave feeling renewed in body
-                and mind.
+                When Olivia created H Plus Day Spa, she envisioned a sanctuary where
+                everyone could experience profound relaxation and healing
+                through natural, physical therapies. Drawing inspiration from
+                the Ayurvedic concept of “Ojas,” the vital energy that sustains
+                life, she wanted every guest to feel rejuvenated, energized, and
+                whole.
+                <br />
+                <br />
+                At H Plus Day Spa, Olivia combines her passion for holistic wellness
+                with thoughtful, personalized care. From therapeutic massage and
+                acupuncture to medical facials and natural beauty treatments,
+                each service reflects her dedication to helping others find
+                harmony and vitality.
+                <br />
+                <br />
+                Olivia welcomes you to H Plus Day Spa, a space where the essence of
+                nature meets the art of healing. Here, you’ll discover not just
+                a moment of relaxation but a pathway to renewed energy, balance,
+                and inner peace.
                 <br />
                 <br />
                 <span className="font-bold">
-                  Ojas Spa is more than a place—it’s a sanctuary where your
-                  journey to inner harmony begins.
+                  “Wellness is not just a luxury—it is the foundation of a
+                  fulfilling life. I created H Plus Day Spa to share this belief with
+                  everyone who walks through our doors.” – Olivia
                 </span>
               </p>
             </div>

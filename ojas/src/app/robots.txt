@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ojas-massage-spa.netlify.app/sitemap.xml
+Sitemap: https://ojasmassagespa.com/sitemap.xml

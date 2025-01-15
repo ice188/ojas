@@ -2,7 +2,7 @@ import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
 import type { MetadataRoute } from 'next'
 
-const BASE_URL = "https://ojas-massage-spa.netlify.app";
+const BASE_URL = "https://ojasmassagespa.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = ["", "legal/privacy"];

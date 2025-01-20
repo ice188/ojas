@@ -18,7 +18,8 @@ export default function PrivacyPolicy() {
             </div>
           </div>
           <p className="text-gray-700 text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
-            10169392 Manitoba Ltd. (Ojas ) (“us”, “we”, or “our”) operates the{" "}
+            10169392 Manitoba Ltd. (Spa Ojas ) (“us”, “we”, or “our”) operates
+            the{" "}
             <Link
               href={linkData.domain_link}
               target="_blank"
@@ -48,7 +49,8 @@ export default function PrivacyPolicy() {
               >
                 {linkData.domain_link}
               </Link>{" "}
-              website operated by 10169392 Manitoba Ltd. (Ojas Massage & Spa).
+              website operated by 10169392 Manitoba Ltd. (Spa Ojas Massage &
+              Spa).
             </li>
             <li>
               <strong>Personal Data:</strong> Data about a living individual who
@@ -131,7 +133,8 @@ export default function PrivacyPolicy() {
           <p className="text-gray-700">
             We collect several different types of information for various
             purposes to provide and improve our Service to you. 10169392
-            Manitoba Ltd. (Ojas ) uses the collected data for various purposes:
+            Manitoba Ltd. (Spa Ojas ) uses the collected data for various
+            purposes:
           </p>
           <ul className="space-y-4 list-disc ml-4 -mt-6 text-gray-700">
             <li>To provide and maintain our Service</li>
@@ -168,25 +171,25 @@ export default function PrivacyPolicy() {
             <br />
             Your consent to this Privacy Policy followed by your submission of
             such information represents your agreement to that transfer.
-            10169392 Manitoba Ltd. (Ojas ) will take all the steps reasonably
-            necessary to ensure that your data is treated securely and in
-            accordance with this Privacy Policy and no transfer of your Personal
-            Data will take place to an organization or a country unless there
-            are adequate controls in place including the security of your data
-            and other personal information.
+            10169392 Manitoba Ltd. (Spa Ojas ) will take all the steps
+            reasonably necessary to ensure that your data is treated securely
+            and in accordance with this Privacy Policy and no transfer of your
+            Personal Data will take place to an organization or a country unless
+            there are adequate controls in place including the security of your
+            data and other personal information.
           </p>
           <h3 className="-mt-2 -mb-2 text-[#4B5945] text-2xl font-semibold">
             Disclosure of Data Legal Requirements
           </h3>
           <p className="text-gray-700">
-            10169392 Manitoba Ltd. (Ojas ) may disclose your Personal Data in
-            the good faith belief that such action is necessary to:
+            10169392 Manitoba Ltd. (Spa Ojas ) may disclose your Personal Data
+            in the good faith belief that such action is necessary to:
           </p>
           <ul className="space-y-4 list-disc ml-4 -mt-6 text-gray-700">
             <li>To comply with a legal obligation</li>
             <li>
               To protect and defend the rights or property of 10169392 Manitoba
-              Ltd. (Ojas )
+              Ltd. (Spa Ojas )
             </li>
             <li>
               To prevent or investigate possible wrongdoing in connection with

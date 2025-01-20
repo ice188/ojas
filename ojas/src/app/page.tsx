@@ -9,9 +9,9 @@ import type { Metadata } from "next";
 import Promotion from "./components/promotion";
 
 export const metadata: Metadata = {
-  title: "Ojas  Winnipeg",
+  title: "Spa Ojas  Winnipeg",
   description:
-    "Ojas  Winnipeg specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!",
+    "Spa Ojas  Winnipeg specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!",
   keywords: [
     "spa",
     "spa near me",

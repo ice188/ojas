@@ -10,17 +10,43 @@ export default function Story() {
           />
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-              Why “Ojas”?
+              <h2
+                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                className="text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
+              >
+                Why “Spa Ojas”?
               </h2>
-              <p style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
-              At Ojas Spa, our name is inspired by the ancient wisdom of Ayurveda, where “Ojas” represents the <span className="font-bold">essence of life and vitality</span>. In Sanskrit, Ojas is often described as the subtle energy that sustains the body, mind, and spirit, providing resilience, radiance, and inner strength.
-              <br/><br/>
-              Ojas is the foundation of wellness—nourishing our immune system, balancing our emotions, and bringing a glow to our skin and life. When your Ojas is strong, you feel vibrant, peaceful, and deeply connected to yourself and the world around you.
-              <br/><br/>
-              At Ojas Spa, we embrace this philosophy to guide everything we do. From therapeutic massages and acupuncture to facials and beauty treatments, each service is thoughtfully designed to nurture your vitality and promote balance. We aim to help you rediscover your natural energy and leave feeling renewed in body and mind.
-              <br/><br/>
-              <span className="font-bold">Ojas Spa is more than a place—it’s a sanctuary where your journey to inner harmony begins.</span>
+              <p
+                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto"
+              >
+                At Spa Ojas Spa, our name is inspired by the ancient wisdom of
+                Ayurveda, where “Spa Ojas” represents the{" "}
+                <span className="font-bold">essence of life and vitality</span>.
+                In Sanskrit, Spa Ojas is often described as the subtle energy
+                that sustains the body, mind, and spirit, providing resilience,
+                radiance, and inner strength.
+                <br />
+                <br />
+                Spa Ojas is the foundation of wellness—nourishing our immune
+                system, balancing our emotions, and bringing a glow to our skin
+                and life. When your Spa Ojas is strong, you feel vibrant,
+                peaceful, and deeply connected to yourself and the world around
+                you.
+                <br />
+                <br />
+                At Spa Ojas Spa, we embrace this philosophy to guide everything
+                we do. From therapeutic massages and acupuncture to facials and
+                beauty treatments, each service is thoughtfully designed to
+                nurture your vitality and promote balance. We aim to help you
+                rediscover your natural energy and leave feeling renewed in body
+                and mind.
+                <br />
+                <br />
+                <span className="font-bold">
+                  Spa Ojas Spa is more than a place—it’s a sanctuary where your
+                  journey to inner harmony begins.
+                </span>
               </p>
             </div>
             {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">

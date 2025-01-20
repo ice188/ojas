@@ -1,8 +1,8 @@
 import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://ojasmassagespa.com";
+const BASE_URL = "https://Spa Ojasmassagespa.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = ["", "legal/privacy"];
@@ -20,10 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const urls = allPages.map((path) => ({
     url: `${BASE_URL}/${path}`,
     lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
+    changeFrequency: "monthly" as const,
     priority: path === "" ? 1.0 : 0.8,
   }));
 
   return urls;
-
 }

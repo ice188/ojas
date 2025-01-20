@@ -30,7 +30,7 @@ export default function Header() {
             href="/"
             className="font-bold text-xl -m-1.5 p-3 text-[#4B5945]"
           >
-            Ojas
+            Spa Ojas
           </Link>
         </div>
         <div className="flex">

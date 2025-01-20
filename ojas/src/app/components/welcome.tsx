@@ -15,10 +15,10 @@ export default function Welcome() {
                 className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto "
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
               >
-                At H Plus Day Spa, we are committed to providing
-                a space of relaxation and rejuvenation, where you can unwind and
-                revitalize your mind and body. Our mission is to ensure that
-                every visitor leaves feeling refreshed, balanced, and renewed.
+                At Ojas, we are committed to providing a space of relaxation and
+                rejuvenation, where you can unwind and revitalize your mind and
+                body. Our mission is to ensure that every visitor leaves feeling
+                refreshed, balanced, and renewed.
               </p>
             </div>
             {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">

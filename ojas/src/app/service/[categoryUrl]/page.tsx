@@ -13,8 +13,8 @@ export async function generateMetadata(props: { params: Params }) {
     serviceData[categoryUrl as keyof typeof serviceData]?.name || "Service";
 
   return {
-    title: `H Plus Day Spa | ${serviceName}`,
-    description: `Best-quality ${serviceName.toLowerCase()} service in Winnipeg. Explore our exclusive range of services at H Plus Day Spa .`,
+    title: `Ojas | ${serviceName}`,
+    description: `Best-quality ${serviceName.toLowerCase()} service in Winnipeg. Explore our exclusive range of services at Ojas .`,
     keywords: [
       "spa",
       "spa near me",

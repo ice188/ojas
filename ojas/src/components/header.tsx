@@ -30,7 +30,7 @@ export default function Header() {
             href="/"
             className="font-bold text-xl -m-1.5 p-3 text-[#4B5945]"
           >
-            H Plus Day Spa
+            Ojas
           </Link>
         </div>
         <div className="flex">
@@ -87,7 +87,7 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                
+
                 <Link
                   href={linkData.booking_link}
                   target="_blank"
@@ -99,7 +99,6 @@ export default function Header() {
 
                 <Link
                   href={"/about-us"}
-                  
                   className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
                 >
                   About Us
@@ -142,10 +141,9 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-                
+
                 <Link
                   href={"/"}
-                  
                   className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
                 >
                   Home

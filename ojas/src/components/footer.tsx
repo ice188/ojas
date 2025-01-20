@@ -93,40 +93,11 @@ export default function Footer() {
               </a>
             </div> */}
           </div>
-
-          <div className="flex flex-col mb-4 sm:mb-0 items-center md:items-start justify-center md:justify-start col-span-2 md:col-span-1">
-            <p
-              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-              className="text-center md:text-left mb-3 sm:mb-6 -mt-4 md:mt-0 font-bold md:text-xl text-white"
-            >
-              Subscribe to Receive Promotion Offers
-            </p>
-            <div className="md:items-start flex-col items-center justify-center lg:justify-start md:flex max-w-md gap-x-4 mb-4">
-              <label htmlFor="email-address" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="email-address"
-                name="email"
-                type="email"
-                required
-                placeholder="Enter your email"
-                autoComplete="email"
-                className="focus:outline-0 focus:border-none w-[160px] sm:w-[200px] lg:w-[230px] mr-2 md:mr-0 text-xs sm:text-sm text-white font-normal min-w-0 flex-auto border-gray-200 rounded-md border bg-white px-3.5 py-2 !focus:outline-none focus:ring-2 focus:ring-green-800 sm:text-sm/6"
-              />
-              <button
-                type="submit"
-                className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
-              >
-                Subscribe
-              </button>
-            </div>
-          </div>
         </div>
 
         <div className="border-0 bg-[#4B5945] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
           <span className="text-sm text-gray-500 font-normal text-center text-white">
-            © 2024 by H Plus Day Spa
+            © 2024 by Ojas
           </span>
           <Link
             className="text-sm text-gray-500 font-normal hover:text-gray-200 text-white"

@@ -14,7 +14,7 @@ export default function About() {
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
                 className="w-full text-white bg-[#91AC8F] px-4 text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8"
               >
-                Meet Olivia: The Heart Behind H Plus Day Spa
+                Meet Olivia: The Heart Behind Ojas
               </h2>
               <p className="mt-8 sm:mt-16 text-[#66785F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
                 Olivia is someone who has always been deeply connected to nature
@@ -27,34 +27,34 @@ export default function About() {
                 For Olivia, health is life’s most precious gift. She firmly
                 believes that true wellness begins with balance—between mind,
                 body, and the natural world. This belief became the cornerstone
-                of her vision for H Plus Day Spa.
+                of her vision for Ojas.
                 <br />
                 <br />
-                When Olivia created H Plus Day Spa, she envisioned a sanctuary
-                where everyone could experience profound relaxation and healing
+                When Olivia created Ojas, she envisioned a sanctuary where
+                everyone could experience profound relaxation and healing
                 through natural, physical therapies. Drawing inspiration from
                 the Ayurvedic concept of “Ojas,” the vital energy that sustains
                 life, she wanted every guest to feel rejuvenated, energized, and
                 whole.
                 <br />
                 <br />
-                At H Plus Day Spa, Olivia combines her passion for holistic
-                wellness with thoughtful, personalized care. From therapeutic
-                massage and acupuncture to medical facials and natural beauty
-                treatments, each service reflects her dedication to helping
-                others find harmony and vitality.
+                At Ojas, Olivia combines her passion for holistic wellness with
+                thoughtful, personalized care. From therapeutic massage and
+                acupuncture to medical facials and natural beauty treatments,
+                each service reflects her dedication to helping others find
+                harmony and vitality.
                 <br />
                 <br />
-                Olivia welcomes you to H Plus Day Spa, a space where the essence
-                of nature meets the art of healing. Here, you’ll discover not
-                just a moment of relaxation but a pathway to renewed energy,
-                balance, and inner peace.
+                Olivia welcomes you to Ojas, a space where the essence of nature
+                meets the art of healing. Here, you’ll discover not just a
+                moment of relaxation but a pathway to renewed energy, balance,
+                and inner peace.
                 <br />
                 <br />
                 <span className="font-bold">
                   “Wellness is not just a luxury—it is the foundation of a
-                  fulfilling life. I created H Plus Day Spa to share this belief
-                  with everyone who walks through our doors.” – Olivia
+                  fulfilling life. I created Ojas to share this belief with
+                  everyone who walks through our doors.” – Olivia
                 </span>
               </p>
             </div>

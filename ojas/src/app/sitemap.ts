@@ -2,7 +2,7 @@ import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://Spa Ojasmassagespa.com";
+const BASE_URL = "https://www.spaojas.ca";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = ["", "legal/privacy"];

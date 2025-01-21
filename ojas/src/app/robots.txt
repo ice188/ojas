@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Spa Ojasmassagespa.com/sitemap.xml
+Sitemap: https://www.spaojas.ca/sitemap.xml

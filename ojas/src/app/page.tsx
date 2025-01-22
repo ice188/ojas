@@ -14,13 +14,17 @@ export const metadata: Metadata = {
     "Spa Ojas specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!",
   keywords: [
     "spa",
+    "massage",
+    "best spa",
+    "spa winnipeg",
+    "spa ojas",
     "spa near me",
     "massage spa near me",
     "massage near me",
     "facial near me",
     "asian massage near me",
     "massage spa",
-    "luxury nails",
+    "nails",
   ],
 };
 

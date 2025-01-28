@@ -177,14 +177,14 @@ export const serviceData: ServiceData = {
         description:
           "Treat your back to the ultimate pampering experience with our Signature Back Facial. Designed to address the unique needs of this hard-to-reach area, our skilled estheticians begin by deeply cleansing the skin to remove impurities, excess oil, and dead skin cells. Next, indulge in a luxurious exfoliation to reveal smoother, softer skin. Enjoy a relaxing massage as we apply hydrating serums and moisturizers, leaving your skin feeling nourished and rejuvenated. Our signature mask, tailored specifically for the back, works to purify pores, detoxify the skin, and promote a clearer complexion. Whether you're seeking to address back acne, congestion, or simply want to indulge in a spa-like experience, our Signature Back Facial is the perfect solution for achieving radiant, healthy skin from head to toe.",
         img_url: "/service/facial/back.jpeg",
-        price_range: "$145 / 75 min",
+        price_range: "$95 / 45 min",
       },
       {
         name: "RF Microneedling",
         description:
           "Discover microneedling, a cutting-edge treatment that rejuvenates your skin by stimulating collagen and elastin production. Using fine needles, this procedure smooths wrinkles, reduces acne scars, and evens skin tone, leaving you with firmer, radiant skin. Tailored to your unique needs, it’s the ultimate skincare solution.",
         img_url: "/service/facial/rf.jpeg",
-        price_range: "$480 - $580",
+        price_range: "$380 - $480",
         benefits: [
           "fine lines and wrinkles",
           "reduced skin elasticity",

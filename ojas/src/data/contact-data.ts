@@ -1,6 +1,6 @@
 export const contactData = {
   phone: "(204) 691-7587",
-  email: "info@spa.ojas.ca",
+  email: "info@spaojas.ca",
   address: "60 St Anne's Rd, Winnipeg, MB R2M 2Y5",
   phone_link: "tel:2046917587",
   email_link: "mailto:email.com",

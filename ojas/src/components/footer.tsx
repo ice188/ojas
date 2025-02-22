@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="bg-[#91AC8F] ">
       <div className="w-full mx-auto border-0">
-        <div className=" grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:grid-cols-3">
+        <div className=" grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 ">
           {/* Hours of Service */}
           <div>
             <p
@@ -18,7 +18,7 @@ export default function Footer() {
             <ul className="grid text-white w-[140px] md:w-[180px] font-medium">
               {openingTimeData.map(({ day_of_week, hours }) => (
                 <li
-                  className="mb-4 flex justify-between items-center"
+                  className="mb-4 flex justify-between items-center whitespace-nowrap"
                   key={day_of_week}
                 >
                   <span

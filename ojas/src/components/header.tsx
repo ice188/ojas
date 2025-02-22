@@ -14,6 +14,9 @@ import { linkData } from "@/data/link-data";
 import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
 import Link from "next/link";
+import { Salsa } from "next/font/google";
+
+const salsa = Salsa({ subsets: ["latin"], weight: "400" });
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,14 +26,15 @@ export default function Header() {
     <header className="shadow-md fixed top-0 left-0 w-full bg-white z-50 mt-[41px]">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"
+        className="w-full mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"
       >
-        <div className="flex lg:flex-1">
+        <div className="flex items-center lg:flex-1">
           <Link
             href="/"
-            className="font-bold text-xl -m-1.5 p-3 text-[#4B5945]"
+            className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#4B5945]"
           >
-            Spa Ojas
+            <img src="/logo.png" className="w-12 h-auto mr-4" />
+            <div className={`${salsa.className}`}>SPA OJAS</div>
           </Link>
         </div>
         <div className="flex">

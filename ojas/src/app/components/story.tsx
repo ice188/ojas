@@ -4,8 +4,8 @@ export default function Story() {
       <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
         <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
           <img
-            className="lg:order-none order-2 lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
-            src="/home/welcome_img.jpg"
+            className="max-w-[500px] lg:order-none order-2 lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
+            src="/home/plant.jpg"
             alt="spa"
           />
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">

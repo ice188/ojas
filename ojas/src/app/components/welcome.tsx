@@ -29,7 +29,7 @@ export default function Welcome() {
           </div>
           <img
             className="lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
-            src="/home/welcome_img.jpg"
+            src="/home/spa.jpg"
             alt="spa"
           />
         </div>

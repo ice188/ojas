@@ -16,7 +16,7 @@ export default function About() {
               >
                 Meet Olivia: The Heart Behind Spa Ojas
               </h2>
-              <p className="mt-8 sm:mt-16 text-[#66785F] text-base font-normal leading-relaxed lg:text-start max-w-7xl mx-auto">
+              <p className="font-medium text-[#4B5945] mt-8 sm:mt-16  text-base leading-relaxed lg:text-start max-w-7xl mx-auto">
                 Olivia is someone who has always been deeply connected to nature
                 and its healing power. Her journey began with a simple love for
                 the natural world—savoring the delicate notes of tea, nurturing

@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   description:
     "Spa Ojas specialize in nonsurgical technology to correct and diminish facial and body concerns. Book your free consultation and speak to professions today!",
   keywords: [
+    "h plus day spa",
+    "head spa winnipeg",
+    "winnipeg spa",
+    "h+ day spa",
+    "facial winnipeg",
+    "winnipeg head massage",
     "spa",
     "massage",
     "best spa",

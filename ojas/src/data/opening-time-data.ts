@@ -17,11 +17,11 @@ export const openingTimeData = [
   },
   {
     day_of_week: "Fri",
-    hours: "10:00 AM - 7:00 PM",
+    hours: "10:00 AM - 8:00 PM",
   },
   {
     day_of_week: "Sat",
-    hours: "10:00 AM - 7:00 PM",
+    hours: "10:00 AM - 8:00 PM",
   },
   {
     day_of_week: "Sun",

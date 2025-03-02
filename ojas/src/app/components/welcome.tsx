@@ -9,7 +9,7 @@ export default function Welcome() {
                 className="-mt-4 font-nunito text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
               >
-                Welcome To Spa&nbsp;Ojas
+                Welcome To SPA&nbsp;OJAS
               </h2>
               <p
                 className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto "

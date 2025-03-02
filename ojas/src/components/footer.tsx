@@ -97,7 +97,7 @@ export default function Footer() {
 
         <div className="border-0 bg-[#4B5945] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
           <span className="text-sm text-gray-500 font-normal text-center text-white">
-            © 2024 by Spa Ojas
+            © 2024 by SPA OJAS
           </span>
           <Link
             className="text-sm text-gray-500 font-normal hover:text-gray-200 text-white"

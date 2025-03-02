@@ -15,7 +15,7 @@ export default function Welcome() {
                 className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto "
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
               >
-                At Spa Ojas, we are committed to providing a space of relaxation
+                At SPA OJAS, we are committed to providing a space of relaxation
                 and rejuvenation, where you can unwind and revitalize your mind
                 and body. Our mission is to ensure that every visitor leaves
                 feeling refreshed, balanced, and renewed.

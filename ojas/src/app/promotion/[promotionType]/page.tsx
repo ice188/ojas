@@ -14,8 +14,8 @@ export async function generateMetadata(props: { params: Params }) {
     "Promotion";
 
   return {
-    title: `Spa Ojas | ${promotionName}`,
-    description: `Explore our exclusive promotions at Spa Ojas. Get the best deals on facials, massages, and more.`,
+    title: `SPA OJAS | ${promotionName}`,
+    description: `Explore our exclusive promotions at SPA OJAS. Get the best deals on facials, massages, and more.`,
     keywords: [
       "spa promotions",
       "massage promotions",

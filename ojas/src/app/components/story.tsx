@@ -20,23 +20,22 @@ export default function Story() {
                 style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
                 className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto"
               >
-                At Spa Ojas, our name is inspired by the ancient wisdom of
+                At SPA OJAS, our name is inspired by the ancient wisdom of
                 Ayurveda, where “Ojas” represents the{" "}
                 <span className="font-bold">essence of life and vitality</span>.
-                In Sanskrit, Ojas is often described as the subtle energy
-                that sustains the body, mind, and spirit, providing resilience,
+                In Sanskrit, Ojas is often described as the subtle energy that
+                sustains the body, mind, and spirit, providing resilience,
                 radiance, and inner strength.
                 <br />
                 <br />
-                Ojas is the foundation of wellness—nourishing our immune
-                system, balancing our emotions, and bringing a glow to our skin
-                and life. When your Ojas is strong, you feel vibrant,
-                peaceful, and deeply connected to yourself and the world around
-                you.
+                Ojas is the foundation of wellness—nourishing our immune system,
+                balancing our emotions, and bringing a glow to our skin and
+                life. When your Ojas is strong, you feel vibrant, peaceful, and
+                deeply connected to yourself and the world around you.
                 <br />
                 <br />
-                At Spa Ojas, we embrace this philosophy to guide everything
-                we do. From therapeutic massages and acupuncture to facials and
+                At SPA OJAS, we embrace this philosophy to guide everything we
+                do. From therapeutic massages and acupuncture to facials and
                 beauty treatments, each service is thoughtfully designed to
                 nurture your vitality and promote balance. We aim to help you
                 rediscover your natural energy and leave feeling renewed in body
@@ -44,7 +43,7 @@ export default function Story() {
                 <br />
                 <br />
                 <span className="font-bold">
-                  Spa Ojas is more than a place—it’s a sanctuary where your
+                  SPA OJAS is more than a place—it’s a sanctuary where your
                   journey to inner harmony begins.
                 </span>
               </p>

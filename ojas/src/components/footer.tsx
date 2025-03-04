@@ -1,5 +1,6 @@
 import { contactData } from "@/data/contact-data";
 import { openingTimeData } from "@/data/opening-time-data";
+import { socialData } from "@/data/social-data";
 import Link from "next/link";
 
 export default function Footer() {
@@ -109,7 +110,7 @@ export default function Footer() {
           </Link>
           <div className="flex items-center justify-center space-x-5 rtl:space-x-reverse">
             {/* Facebook */}
-            <Link href="#" className="text-white hover:text-gray-200 ">
+            <Link href={socialData.facebook} className="text-white hover:text-gray-200 ">
               <span className="[&>svg]:h-4 [&>svg]:w-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +122,7 @@ export default function Footer() {
               </span>
             </Link>
             {/* Instagram */}
-            <Link href="#" className="text-white hover:text-gray-200 ">
+            <Link href={socialData.instagram} className="text-white hover:text-gray-200 ">
               <span className="[&>svg]:h-5 [&>svg]:w-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

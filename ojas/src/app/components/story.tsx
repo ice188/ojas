@@ -1,38 +1,32 @@
 export default function Story() {
   return (
-    <div className="bg-[#91AC8F]  pt-16 pb-16 relative">
-      <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
-        <div className="w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
-          <img
-            className="max-w-full lg:max-w-[400px] lg:order-none order-2 lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
-            src="/home/plant.jpg"
-            alt="spa"
-          />
-          <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2
-                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-                className="text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
-              >
-                Why “Ojas”?
+    <div className="relative px-0 md:px-16 ">
+      <div className="w-full max-w-7xl mx-auto">
+        <div className="w-full grid lg:grid-cols-2 grid-cols-1">
+          {/* Image on the left, fully covering the left half */}
+          <div className="w-full h-full">
+            <img
+              className="w-full h-full object-cover"
+              src="/home/plant.jpg"
+              alt="spa"
+            />
+          </div>
+
+          {/* Text on the right */}
+          <div className="bg-gray-100 w-full flex flex-col justify-center items-start gap-10 px-8 md:px-16">
+            <div className="text-[#2a5136] w-full flex flex-col justify-start items-start gap-4 py-16 ">
+              <h2 className="font-lora text-3xl md:text-4xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
+                Why Ojas?
               </h2>
-              <p
-                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-                className="text-white text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto"
-              >
-                At SPA OJAS, our name is inspired by the ancient wisdom of
+              <p className="font-light font-noto  leading-relaxed text-start text-center max-w-7xl mx-auto mt-4">
+                Our name is inspired by the ancient wisdom of
                 Ayurveda, where “Ojas” represents the{" "}
-                <span className="font-bold">essence of life and vitality</span>.
+                <span className="font-medium">essence of life and vitality</span>.
                 In Sanskrit, Ojas is often described as the subtle energy that
                 sustains the body, mind, and spirit, providing resilience,
                 radiance, and inner strength.
                 <br />
-                <br />
-                Ojas is the foundation of wellness—nourishing our immune system,
-                balancing our emotions, and bringing a glow to our skin and
-                life. When your Ojas is strong, you feel vibrant, peaceful, and
-                deeply connected to yourself and the world around you.
-                <br />
+
                 <br />
                 At SPA OJAS, we embrace this philosophy to guide everything we
                 do. From therapeutic massages and acupuncture to facials and
@@ -42,17 +36,12 @@ export default function Story() {
                 and mind.
                 <br />
                 <br />
-                <span className="font-bold">
-                  SPA OJAS is more than a place—it’s a sanctuary where your
+                <span className="font-salsa font-bold">
+                  SPA OJAS is more than a place — it’s a sanctuary where your
                   journey to inner harmony begins.
                 </span>
               </p>
             </div>
-            {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                <span className="px-1.5 text-white text-sm font-medium leading-6">
-                  Get Started
-                </span>
-              </button> */}
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ export interface ServiceData {
 
 export const serviceData: ServiceData = {
   massage: {
-    name: "Massage",
+    name: "Massage Therapy",
     description:
       "Feel deeply relaxed and rejuvenated as stress and tension melt from the body. Your mind will be calmer and sense awakened, restoring feelings of wellbeing.",
     img_url: "/service/massage/category.jpeg",
@@ -132,7 +132,7 @@ export const serviceData: ServiceData = {
     ],
   },
   facial: {
-    name: "Facials",
+    name: "Facial",
     description:
       "We only use top brands for our clients. All of our Facials are customized and suited to your skin’s needs at each appointment.",
     img_url: "/service/facial/category.jpeg",
@@ -242,7 +242,7 @@ export const serviceData: ServiceData = {
     ],
   },
   laser: {
-    name: "Laser",
+    name: "Laser Treatment",
     img_url: "/service/laser/category.jpeg",
     description: "Laser services offer a range of treatments including skin revitalization, acne and scar reduction, pore minimization, hair removal, and freckle fading using advanced laser technologies for smoother, clearer, and youthful skin.",
     services: [
@@ -327,7 +327,7 @@ export const serviceData: ServiceData = {
     ],
   },
   brow: {
-    name: "Brow",
+    name: "Brows",
     img_url: "/service/brow/category.jpeg",
     description: "Brow services include treatments for shaping, tinting, and laminating brows to achieve a fuller, defined, and perfectly styled look.",
     services: [
@@ -456,7 +456,7 @@ export const serviceData: ServiceData = {
 
   others: {
     name: "Others",
-    img_url: "/home/yoga.webp",
+    img_url: "/home/yoga.jpg",
     description:
       "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. ",
     services: [

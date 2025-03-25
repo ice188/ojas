@@ -1,22 +1,24 @@
 export default function About() {
   return (
-    <div className="bg-white pt-16 pb-16 relative pt-[98px] ">
-      <div className="w-full max-w-7xl px-8 md:px-16 mx-auto pt-8 md:pt-16">
-        <div className="sm:items-start w-full justify-start items-center gap-10 grid lg:grid-cols-2 grid-cols-1">
-          <img
-            className="lg:order-none order-2 lg:mx-0 mx-auto h-auto rounded-3xl object-cover"
-            src="/home/team.jpeg"
-            alt="spa"
-          />
-          <div className="w-full justify-center items-center gap-8 grid grid-cols-1 ">
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2
-                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-                className="w-full text-white bg-[#91AC8F] px-4 text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8"
-              >
-                Meet Olivia: The Heart Behind SPA OJAS
+    <div className="relative px-0 md:px-16 mt-[98px] sm:pb-16">
+      <div className="w-full max-w-7xl mx-auto">
+        <div className="w-full grid grid-cols-1">
+          {/* Image on the left, fully covering the left half */}
+          <div className="w-full h-full">
+            <img
+              className="w-full h-full object-cover"
+              src="/home/team.jpeg"
+              alt="spa"
+            />
+          </div>
+
+          {/* Text on the right */}
+          <div className="bg-gray-100 w-full flex flex-col justify-center items-start gap-10 px-8 md:px-16">
+            <div className="text-[#2a5136] w-full flex flex-col justify-start items-start gap-4 py-16 ">
+              <h2 className="font-lora text-3xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
+              Meet Olivia and Her Team: The Heart Behind SPA OJAS
               </h2>
-              <p className="font-medium text-[#4B5945] mt-8 sm:mt-16  text-base leading-relaxed lg:text-start max-w-7xl mx-auto">
+              <p className="font-light font-noto text-[#4B5945] text-base leading-relaxed lg:text-start max-w-7xl mx-auto">
                 Olivia is someone who has always been deeply connected to nature
                 and its healing power. Her journey began with a simple love for
                 the natural world—savoring the delicate notes of tea, nurturing
@@ -51,21 +53,17 @@ export default function About() {
                 and inner peace.
                 <br />
                 <br />
-                <span className="font-bold">
+                <span className="font-salsa">
                   “Wellness is not just a luxury—it is the foundation of a
                   fulfilling life. I created SPA OJAS to share this belief with
                   everyone who walks through our doors.” – Olivia
                 </span>
               </p>
             </div>
-            {/* <button className="sm:w-fit w-full px-3.5 py-2 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
-                  <span className="px-1.5 text-white text-sm font-medium leading-6">
-                    Get Started
-                  </span>
-                </button> */}
           </div>
         </div>
       </div>
     </div>
+    
   );
 }

@@ -10,7 +10,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      fontFamily: {
+       lato: ["Lato", "sans-serif"],
+       noto: ["Noto Sans", "sans-serif"],
+       playfair: ["Playfair Display", "serif"],
+       salsa: ["Salsa", "serif"],
+       montserrat: ["Montserrat", "sans-serif"],
+       lora: ["Lora", "serif"],
+       charm: ["Charm", "sans-serif"],
+       viaoda: ["Viaoda Libre", "serif"],
+       
+      },
     },
   },
   plugins: [

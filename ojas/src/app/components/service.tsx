@@ -1,89 +1,62 @@
 "use client";
-import { useState } from "react";
 import { serviceData } from "@/data/service-data";
 import Link from "next/link";
 
 export default function Service() {
-  const [activeTab, setActiveTab] = useState(Object.keys(serviceData)[0]);
-
-  const handleTabClick = (categoryUrl: string) => {
-    setActiveTab(categoryUrl);
-  };
-
   return (
-    <div className="bg-white pb-8 lg:pb-0 pt-8 relative">
-      <div className="w-full max-w-7xl px-8 md:px-16 mx-auto">
-        <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
-          <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
-            <div className="w-full flex-col justify-center items-center gap-4 flex">
-              <h2 className="-mb-5 lg:-mb-4 md:-mt-0 text-[#66785F] text-4xl font-bold font-manrope leading-normal text-center">
-                Our Services
-              </h2>
-            </div>
-          </div>
-          <div className="mx-auto w-full rounded-3xl object-cover">
-            <div className="text-lg font-medium text-center text-gray-500 border-b border-gray-200 ">
-              <ul className="w-full flex overflow-x-auto overflow-hidden">
-                {Object.keys(serviceData).map((categoryUrl) => (
-                  <li key={categoryUrl} className="me-2 w-full">
-                    <button
-                      onClick={() => handleTabClick(categoryUrl)}
-                      className={`inline-block p-4 border-b-2 rounded-t-lg text-md ${
-                        activeTab === categoryUrl
-                          ? "text-[#66785F] border-[#66785F] "
-                          : "border-transparent hover:text-gray-500 hover:border-gray-200 "
-                      }`}
-                    >
-                      {
-                        serviceData[categoryUrl as keyof typeof serviceData]
-                          .name
-                      }
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
+    <div className="text-[#2a5136] bg-white relative px-0 md:px-16 pt-8">
+      <div className="w-full max-w-7xl mx-auto">
+        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8">
+          <h2 className="font-lora text-2xl sm:text-4xl font-bold font-manrope leading-normal ">
+            Our Services
+          </h2>
+          <p className="font-noto text-sm ">
+            Served by professionals, tailored for your well-being
+          </p>
+        </div>
 
-            <div className="relative">
-              <div className="w-full max-w-7xl px-8 md:px-16 lg:pb-16 mx-auto">
-                <div className="w-full justify-start items-center pt-10 gap-8 lg:gap-16 grid lg:grid-cols-2 grid-cols-1">
+        {/* Service Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-16 mx-4 sm:mx-0">
+          {Object.keys(serviceData).map((categoryUrl) => {
+            const service =
+              serviceData[categoryUrl as keyof typeof serviceData];
+
+            return (
+              <div
+                key={categoryUrl}
+                className="w-full flex flex-col xl:flex-row bg-white shadow-lg overflow-hidden border border-gray-200"
+              >
+                {/* Image Section */}
+                <div className="w-full xl:w-1/2 relative">
                   <img
-                    className="max-w-[250px] lg:max-w-[400px] lg:mx-0 mx-auto w-full rounded-3xl object-cover"
-                    src={
-                      serviceData[activeTab as keyof typeof serviceData].img_url
-                    }
-                    alt={
-                      serviceData[activeTab as keyof typeof serviceData].name
-                    }
+                    className="w-full h-full object-cover aspect-[16/9] xl:aspect-auto"
+                    src={service.img_url}
+                    alt={service.name}
                   />
-                  <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
-                    <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-                      <h2 className="text-[#66785F] text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
-                        {
-                          serviceData[activeTab as keyof typeof serviceData]
-                            .name
-                        }
-                      </h2>
-                      <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center max-w-7xl mx-auto">
-                        {
-                          serviceData[activeTab as keyof typeof serviceData]
-                            .description
-                        }{" "}
-                        <br />
-                        <br />
-                        <Link
-                          href={`/service/${activeTab}`}
-                          className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-4 py-3 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
-                        >
-                          See Details
-                        </Link>
-                      </p>
-                    </div>
+                </div>
+
+                {/* Content Section */}
+                <div className="w-full h-full xl:w-2/3 flex flex-col justify-between relative">
+                  <div className="flex flex-col gap-4 p-6">
+                    <h3 className="font-lora text-2xl font-bold font-manrope">
+                      {service.name}
+                    </h3>
+                    <p className="font-light font-noto text-gray-500 text-md leading-relaxed">
+                      {service.description}
+                    </p>
                   </div>
+
+                  {/* Button Section - Aligned Bottom Right */}
+                  <Link
+                    href={`/service/${categoryUrl}`}
+                    className="font-noto mt-auto self-end shadow-md text-white bg-[#2a5136] text-sm font-medium px-8 py-4 hover:bg-[#B2C9AD] "
+                  >
+                    See Details
+                  </Link>
                 </div>
               </div>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </div>

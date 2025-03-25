@@ -5,78 +5,123 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-[#91AC8F] ">
+    <div className="bg-gray-100 text-[#2a5136]">
       <div className="w-full mx-auto border-0">
-        <div className=" grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 ">
+        <div className=" max-w-7xl grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 md:py-16">
           {/* Hours of Service */}
           <div>
-            <p
-              className=" mb-6 font-bold md:text-xl text-white"
-              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-            >
+            <p className="whitespace-nowrap flex items-center font-lora mb-8 font-bold md:text-2xl">
               Opening Hours
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-4 md:size-6 ml-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
             </p>
-            <ul className="grid text-white w-[140px] md:w-[180px] font-medium">
+            <ul className="font-light font-noto grid w-[140px] md:w-[180px]">
               {openingTimeData.map(({ day_of_week, hours }) => (
                 <li
                   className="mb-4 flex justify-between items-center whitespace-nowrap"
                   key={day_of_week}
                 >
-                  <span
-                    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-                    className="text-xs md:text-sm font-semibold text-white"
-                  >
+                  <span className="font-semibold text-xs md:text-sm uppercase">
                     {day_of_week}
                   </span>
-                  <span
-                    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-                    className="text-xs md:text-sm"
-                  >
-                    {hours}
-                  </span>
+                  <span className="text-xs md:text-sm">{hours}</span>
                 </li>
               ))}
             </ul>
           </div>
 
           <div className="justify-center items-center">
-            <p
-              className="mb-6 font-bold md:text-xl  text-white"
-              style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-            >
+            <p className="mb-8 font-bold md:text-2xl font-lora">
               Contact Us
             </p>
-            <ul className="text-white font-medium">
-              <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
+            <ul className="font-medium">
+              <li className="font-light font-noto mb-4 flex justify-between items-center text-xs md:text-sm">
                 <Link
                   href={contactData.map_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-200 underline"
-                  style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                  className="flex hover:text-gray-200 underline"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-4 mr-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                    />
+                  </svg>
                   {contactData.address}
                 </Link>
               </li>
-              <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
+              <li className="font-light font-noto mb-4 flex justify-between items-center text-xs md:text-sm">
                 <Link
                   href={contactData.phone_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-200 underline"
-                  style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                  className="flex items-center hover:text-gray-200 underline"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-4 mr-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                    />
+                  </svg>
                   {contactData.phone}
                 </Link>
               </li>
-              <li className="mb-4 flex justify-between items-center text-xs md:text-sm">
+              <li className="font-light font-noto mb-4 flex justify-between items-center text-xs md:text-sm">
                 <Link
                   href={contactData.email_link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gray-200 underline"
-                  style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+                  className="flex items-center hover:text-gray-200 underline"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-4 mr-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                    />
+                  </svg>
+
                   {contactData.email}
                 </Link>
               </li>
@@ -96,9 +141,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-0 bg-[#4B5945] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
+        <div className="font-salsa border-0 bg-[#2a5136] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
           <span className="text-sm text-gray-500 font-normal text-center text-white">
-            © 2024 by SPA OJAS
+            © 2025 by SPA OJAS
           </span>
           <Link
             className="text-sm text-gray-500 font-normal hover:text-gray-200 text-white"
@@ -110,7 +155,10 @@ export default function Footer() {
           </Link>
           <div className="flex items-center justify-center space-x-5 rtl:space-x-reverse">
             {/* Facebook */}
-            <Link href={socialData.facebook} className="text-white hover:text-gray-200 ">
+            <Link
+              href={socialData.facebook}
+              className="text-white hover:text-gray-200 "
+            >
               <span className="[&>svg]:h-4 [&>svg]:w-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +170,10 @@ export default function Footer() {
               </span>
             </Link>
             {/* Instagram */}
-            <Link href={socialData.instagram} className="text-white hover:text-gray-200 ">
+            <Link
+              href={socialData.instagram}
+              className="text-white hover:text-gray-200 "
+            >
               <span className="[&>svg]:h-5 [&>svg]:w-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

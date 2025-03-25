@@ -23,7 +23,7 @@ export default function Header() {
   const rootPath = typeof window !== "undefined" ? window.location.origin : "";
 
   return (
-    <header className="shadow-md fixed top-0 left-0 w-full bg-white z-50 mt-[41px]">
+    <header className="shadow-md fixed top-0 left-0 w-full bg-white z-50 mt-[37px]">
       <nav
         aria-label="Global"
         className="w-full mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"
@@ -31,7 +31,7 @@ export default function Header() {
         <div className="flex items-center lg:flex-1">
           <Link
             href="/"
-            className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#4B5945]"
+            className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#2a5136]"
           >
             <img src="/logo.png" className="w-12 h-auto mr-4" />
             <div className={`${salsa.className}`}>SPA OJAS</div>
@@ -47,25 +47,24 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="mt-[98px] fixed inset-y-0 right-0 z-10 w-1/2 sm:w-1/3 overflow-y-auto bg-white px-6 py-6 ring-1 ring-gray-900/10">
-          <div className="flex items-center justify-between ">
+        <DialogPanel className="text-[#2a5136] bg-white mt-[98px] fixed inset-y-0 right-0 z-10 w-1/2 sm:w-1/3 overflow-y-auto bg-white px-6 py-6 ring-1 ring-gray-900/10">
+          <div className="flex items-center justify-end">
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
             >
-              <span className="sr-only">Close menu</span>
-              <XMarkIcon aria-hidden="true" className="size-6" />
+              <XMarkIcon aria-hidden="true" className="size-6 " />
             </button>
           </div>
-          <div className="mt-6 flow-root text-center">
+          <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
-                <Disclosure as="div" className="-mx-3 bg-white">
-                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]">
-                    Services
+              <div className="space-y-2 py-6 font-salsa  text-md">
+                <Disclosure as="div" className="-mx-3 bg-gray">
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 ">
+                    SERVICES
                     <ChevronDownIcon
                       aria-hidden="true"
                       className="ml-2 size-5 flex-none group-data-[open]:rotate-180"
@@ -81,7 +80,7 @@ export default function Header() {
                             ? `${rootPath}/service/${categoryUrl}`
                             : "#"
                         }
-                        className="block rounded-lg text-gray-500 font-normal py-2 pl-6 pr-3 hover:bg-gray-50"
+                        className="block  text-gray-500 py-2 pl-6 pr-3 "
                       >
                         {
                           serviceData[categoryUrl as keyof typeof serviceData]
@@ -93,32 +92,15 @@ export default function Header() {
                 </Disclosure>
 
                 <Link
-                  href={linkData.booking_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
-                >
-                  Booking Appointment
-                </Link>
-
-                <Link
                   href={"/about-us"}
-                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
+                  className="text-center -mx-3 block rounded-lg px-3 py-4"
                 >
-                  About Us
+                  ABOUT US
                 </Link>
 
-                <Link
-                  href={linkData.gift_card_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
-                >
-                  Purchase Gift Card
-                </Link>
                 <Disclosure as="div" className="-mx-3">
-                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]">
-                    Promotion
+                  <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 ">
+                    PROMOTIONS
                     <ChevronDownIcon
                       aria-hidden="true"
                       className="ml-2 size-5 flex-none group-data-[open]:rotate-180"
@@ -134,7 +116,7 @@ export default function Header() {
                             ? `${rootPath}/promotion/${promotionType}`
                             : "#"
                         }
-                        className="block rounded-lg text-gray-500 font-normal py-2 pl-6 pr-3 hover:bg-gray-50"
+                        className="block  text-gray-500 py-2 pl-6 pr-3 "
                       >
                         {
                           promotionData[
@@ -146,11 +128,30 @@ export default function Header() {
                   </DisclosurePanel>
                 </Disclosure>
 
+
+
+                <Link
+                  href={linkData.gift_card_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center -mx-3 block rounded-lg px-3 py-4 "
+                >
+                  GIFT CARD
+                </Link>
+                <Link
+                  href={linkData.booking_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center -mx-3 block rounded-lg px-3 py-4 "
+                >
+                  BOOKING
+                </Link>
+
                 <Link
                   href={"/"}
-                  className="text-[#66785F] -mx-3 block rounded-lg px-3 py-4 font-semibold text-lg text-[#66785F] hover:bg-[#B2C9AD]"
+                  className="text-center -mx-3 block rounded-lg px-3 py-4 "
                 >
-                  Home
+                  HOME
                 </Link>
               </div>
             </div>

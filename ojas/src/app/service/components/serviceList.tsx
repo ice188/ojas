@@ -25,6 +25,7 @@ export default function ServiceList({
             </p>
           </div>
 
+        
           <h2 className="font-lora text-3xl md:text-4xl font-bold font-manrope leading-normal  text-[#2a5136] text-center pt-3 pb-3 -mb-8">
             {serviceData[categoryUrl].name}
           </h2>

@@ -6,12 +6,28 @@ export default function Service() {
   return (
     <div className="text-[#2a5136] bg-white relative px-0 md:px-16 pt-8">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8 ">
+        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8 relative">
+          <img
+            className="absolute -mt-16 sm:-mt-0 left-[5%] transform w-[66px] h-[66px] md:w-[160px] md:h-[160px] object-contain"
+            src="/home/leaf1.png"
+            alt="Leaf"
+          />
           <h2 className="font-lora text-3xl md:text-4xl font-bold text-center">
             Our Services
           </h2>
-          <p className="text-lg font-light font-noto  mt-2 text-center">
+          <img
+            className="absolute -mt-16 sm:-mt-0 right-[5%] transform w-[66px] h-[66px] md:w-[160px] md:h-[160px] object-contain"
+            src="/home/leaf1.png"
+            alt="Leaf"
+          />
+          <p className="hidden sm:flex text-lg font-light font-noto mt-2 text-center">
             Served by professionals, tailored for your well-being
+          </p>
+          <p className="sm:hidden text-lg font-light font-noto mt-2 text-center">
+            Served by professionals
+          </p>
+          <p className="sm:hidden text-lg font-light font-noto text-center">
+            Tailored for your well-being
           </p>
         </div>
 

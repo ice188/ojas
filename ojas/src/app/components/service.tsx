@@ -6,11 +6,11 @@ export default function Service() {
   return (
     <div className="text-[#2a5136] bg-white relative px-0 md:px-16 pt-8">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8">
-          <h2 className="font-lora text-2xl sm:text-4xl font-bold font-manrope leading-normal ">
+        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8 ">
+          <h2 className="font-lora text-3xl md:text-4xl font-bold text-center">
             Our Services
           </h2>
-          <p className="font-noto text-sm ">
+          <p className="text-lg font-light font-noto  mt-2 text-center">
             Served by professionals, tailored for your well-being
           </p>
         </div>

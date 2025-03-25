@@ -6,10 +6,10 @@ export default function Welcome() {
           <div className="relative w-full h-auto">
             <img
               className="max-h-screen lg:mx-0 mx-auto h-auto object-cover w-full"
-              src="/home/spa.jpeg"
+              src="/home/spa.jpg"
               alt="spa"
             />
-            <div className="text-[#2a5136] absolute inset-0 flex flex-col justify-center items-center">
+            {/* <div className="text-[#2a5136] absolute inset-0 flex flex-col justify-center items-center">
               <div className="bg-white bg-opacity-90 px-12 py-4 shadow-lg max-w-2xl rounded-full">
                 <h1 className="text-2xl sm:text-5xl font-bold drop-shadow-xl text-center">
                   SPA OJAS
@@ -18,7 +18,7 @@ export default function Welcome() {
                Relax | Refresh | Rejuvenate
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="hidden lg:block"></div>
         </div>

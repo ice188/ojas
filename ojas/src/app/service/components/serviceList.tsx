@@ -20,14 +20,12 @@ export default function ServiceList({
               best to arrive on time to your appointment. If you are more than
               10 minutes late, the appointment may need to be rescheduled. This
               is to ensure that the patients who arrive on time do not wait
-              longer than necessary for their scheduled appointment. Thank you for your support!
+              longer than necessary for their scheduled appointment. Thank you
+              for your support!
             </p>
           </div>
 
-          <h2
-            style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
-            className="text-white bg-[#91AC8F] text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8"
-          >
+          <h2 className="font-lora text-3xl md:text-4xl font-bold font-manrope leading-normal  text-[#2a5136] text-center pt-3 pb-3 -mb-8">
             {serviceData[categoryUrl].name}
           </h2>
 
@@ -49,11 +47,9 @@ export default function ServiceList({
                       <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         {/* Service Name */}
                         <div>
-                          <p className="text-lg font-semibold text-[#66785F]">
-                            {service.name}
-                          </p>
+                          <p className="font-lora text-2xl font-bold font-manrope text-[#2a5136]">{service.name}</p>
                           {service.description && (
-                            <p className="mt-1 text-sm text-gray-500 leading-relaxed break-words">
+                            <p className="mt-1 text-gray-500 font-light font-noto  leading-relaxed break-words">
                               {service.description}
                             </p>
                           )}
@@ -62,18 +58,18 @@ export default function ServiceList({
                         {/* Price, Pressure, and Button */}
                         <div className="flex justify-between items-end mt-4">
                           <div>
-                            <p className="text-lg font-semibold text-[#66785F]">
+                            <p className="font-light font-noto  leading-relaxed text-[#66785F]">
                               {service.price_range}
                             </p>
                             {service.pressure && (
-                              <p className="mt-1 text-sm text-gray-500">
+                              <p className="mt-1 text-gray-500">
                                 Pressure: {service.pressure}
                               </p>
                             )}
                           </div>
 
                           <Link href={linkData.booking_link}>
-                            <button className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
+                            <button className="border-0 text-white bg-[#2a5136] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
                               Book Now
                             </button>
                           </Link>

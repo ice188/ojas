@@ -8,7 +8,7 @@ export default function Promotion() {
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">
-              <h2 className="py-4  md:-mt-0  font-lora text-2xl sm:text-4xl font-bold font-manrope leading-normal ">
+              <h2 className="py-4  md:-mt-0  font-salsa text-2xl sm:text-4xl font-bold font-manrope leading-normal ">
                 Promotions
               </h2>
             </div>

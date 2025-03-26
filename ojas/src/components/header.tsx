@@ -34,7 +34,7 @@ export default function Header() {
             className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#2a5136]"
           >
             <img src="/logo.png" className="w-12 h-auto mr-4" />
-            <div className={`${salsa.className}`}>SPA OJAS</div>
+            <div className={`${salsa.className} text-2xl` }>SPA OJAS</div>
           </Link>
         </div>
         <div className="flex">

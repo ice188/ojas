@@ -15,8 +15,8 @@ export default function About() {
           {/* Text on the right */}
           <div className="bg-gray-100 w-full flex flex-col justify-center items-start gap-10 px-8 md:px-16">
             <div className="text-[#2a5136] w-full flex flex-col justify-start items-start gap-4 py-16 ">
-              <h2 className="font-lora text-3xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
-              Meet Olivia and Her Team: The Heart Behind SPA OJAS
+              <h2 className="font-salsa text-3xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
+                Meet Olivia and Her Team: The Heart Behind SPA OJAS
               </h2>
               <p className="font-light font-noto text-[#4B5945] text-base leading-relaxed lg:text-start max-w-7xl mx-auto">
                 Olivia is someone who has always been deeply connected to nature
@@ -64,6 +64,5 @@ export default function About() {
         </div>
       </div>
     </div>
-    
   );
 }

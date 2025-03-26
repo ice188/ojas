@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Service() {
   return (
-    <div className=" text-[#2a5136] relative px-0 md:px-16 pt-8">
+    <div className="bg-white text-[#2a5136] relative px-0 md:px-16 pt-8">
       <div className="w-full max-w-7xl mx-auto">
         <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8 relative">
           {/* <img

@@ -6,7 +6,7 @@ export default function Service() {
   return (
     <div className="bg-white text-[#2a5136] relative px-0 md:px-16 pt-8">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 sm:pt-8 relative">
+        <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 relative">
           {/* <img
             className="absolute -mt-16 sm:-mt-0 left-[5%] transform w-[66px] h-[66px] md:w-[160px] md:h-[160px] object-contain"
             src="/home/leaf1.png"

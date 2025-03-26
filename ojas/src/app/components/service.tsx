@@ -20,15 +20,10 @@ export default function Service() {
             src="/home/leaf1.png"
             alt="Leaf"
           /> */}
-          <p className="hidden sm:flex text-lg font-light font-noto mt-2 text-center">
+          <p className="text-sm sm:text-lg font-light font-noto mt-2 text-center">
             Served by professionals, tailored for your well-being
           </p>
-          <p className="sm:hidden text-lg font-light font-noto mt-2 text-center">
-            Served by professionals
-          </p>
-          <p className="sm:hidden text-lg font-light font-noto text-center">
-            Tailored for your well-being
-          </p>
+
         </div>
 
         {/* Service Cards */}

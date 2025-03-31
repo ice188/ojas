@@ -14,6 +14,7 @@ export default function Promotion() {
             </div>
           </div>
           <div className="flex flex-col items-center bg-white  gap-y-8 text-center text-normal font-semibold">
+            
             <Link
               href={`promotion/promotion`}
               className="font-noto mt-auto text-white bg-[#2a5136] text-sm font-medium px-8 py-4 hover:bg-[#B2C9AD]  w-[300px] mt-4 border px-3 py-2 font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
@@ -32,6 +33,7 @@ export default function Promotion() {
             >
               GIFT CARD
             </Link>
+            <Link href={"/legal/giftcard"}>Giftcard Policy</Link>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function Welcome() {
                 SPA OJAS
               </h1>
               <p className="font-light font-noto text-xs sm:text-2xl mt-2 drop-shadow-md text-center">
-                Relax | Refresh | Rejuvenate
+                Radiance | Balance | Vitality
               </p>
             </div>
           </div>

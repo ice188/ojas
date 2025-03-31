@@ -12,7 +12,7 @@ export default function Service() {
             src="/home/leaf1.png"
             alt="Leaf"
           /> */}
-          <h2 className="font-salsa text-4xl md:text-5xl font-bold text-center">
+          <h2 className="font-salsa text-4xl md:text-5xl font-bold text-center mt-4">
             Our Services
           </h2>
           {/* <img

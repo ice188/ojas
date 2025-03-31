@@ -8,10 +8,10 @@ export default function PromotionList({
   promotionType: keyof typeof promotionData;
 }) {
   return (
-    <div className="bg-white pb-8  relative mt-[98px]">
+    <div className="bg-white pb-8  relative mt-[98px] pt-8">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
-          <h2  style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} className="text-white bg-[#91AC8F] text-3xl font-bold font-manrope leading-normal text-center pt-3 pb-3 -mb-8">
+          <h2  className="w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
             {promotionData[promotionType].name} Deals
           </h2>
 
@@ -26,24 +26,24 @@ export default function PromotionList({
                     <div className="flex flex-col gap-x-9 w-full sm:flex-row">
                       <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         <div>
-                          <p className="text-lg font-semibold text-[#66785F]">
+                          <p className="font-salsa text-2xl font-bold font-manrope text-[#2a5136]">
                             {promotion.name}
                           </p>
 
-                          <p className="mt-1 text-sm text-gray-500 leading-relaxed break-words">
+                          <p className="font-light font-noto text-gray-500 text-md leading-relaxed">
                             You will save ${promotion.saving} with this deal!
                           </p>
                         </div>
 
                         <div className="flex justify-between items-end mt-4">
                           <div>
-                            <p className="text-lg font-semibold text-[#66785F]">
+                            <p className="font-normal font-noto text-lg leading-relaxed text-[#2a5136]">
                               ${promotion.price}
                             </p>
                           </div>
 
                           <Link href={contactData.phone_link}>
-                            <button className="shadow-md border-0 text-white bg-[#66785F] text-xs sm:text-sm font-normal rounded-md w-[100px] mt-4 border px-3 py-2 text-sm font-semibol hover:bg-[#B2C9AD] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500">
+                            <button className="font-noto shadow-md text-white bg-[#2a5136] text-sm font-medium px-8 py-4 hover:bg-[#B2C9AD]">
                               Call Now
                             </button>
                           </Link>

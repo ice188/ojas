@@ -1,14 +1,18 @@
+import Image from 'next/image';
+
 export default function Welcome() {
   return (
     <div className="font-salsa relative mt-[98px]">
       <div className="w-full max-w-7xl mx-auto">
         <div className="w-full justify-start items-center gap-10 grid grid-cols-1">
-          <div className="relative w-full h-auto">
+          <div className="relative w-full ">
             {/* Image */}
-            <img
-              className="max-h-screen lg:mx-0 mx-auto h-auto object-cover w-full"
+            <Image
+              className="max-h-screen lg:mx-0 mx-auto object-cover w-full"
               src="/home/spa3.jpg"
               alt="spa"
+              width={4500}
+              height={3000}
             />
 
             {/* Text directly on the image */}

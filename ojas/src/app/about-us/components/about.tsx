@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <div className="relative px-0 md:px-16 mt-[98px] sm:pb-16">
@@ -5,10 +7,12 @@ export default function About() {
         <div className="w-full grid grid-cols-1">
           {/* Image on the left, fully covering the left half */}
           <div className="w-full h-full">
-            <img
+            <Image
               className="w-full h-full object-cover"
               src="/home/team.jpeg"
               alt="spa"
+              width={4032}
+              height={3024}
             />
           </div>
 

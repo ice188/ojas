@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <div className="font-salsa fixed top-0 left-0 w-full z-10 bg-[#2a5136]">
+    <div className="font-noto fixed top-0 left-0 w-full z-10 bg-[#2a5136]">
       <div className="relative flex items-center px-6 py-2.5 border-b border-gray-200">
         <div className="flex text-sm sm:gap-x-8 justify-evenly sm:justify-end md:text-sm text-white w-full">
           <Link

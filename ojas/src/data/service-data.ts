@@ -12,6 +12,8 @@ interface Category {
   description?: string;
   services: Service[];
   img_url: string;
+  img_width: number;
+  img_height: number;
 }
 
 export interface ServiceData {
@@ -32,6 +34,8 @@ export const serviceData: ServiceData = {
     description:
       "Feel deeply relaxed and rejuvenated as stress and tension melt from the body. Your mind will be calmer and sense awakened, restoring feelings of wellbeing.",
     img_url: "/service/massage/category.jpeg",
+    img_width: 626,
+    img_height: 351,
     services: [
       {
         name: "Deep Tissue Massage",
@@ -136,6 +140,8 @@ export const serviceData: ServiceData = {
     description:
       "We only use top brands for our clients. All of our Facials are customized and suited to your skin’s needs at each appointment.",
     img_url: "/service/facial/category.jpeg",
+    img_width: 626,
+    img_height: 417,
     services: [
       {
         name: "Hydrating Facial",
@@ -242,8 +248,10 @@ export const serviceData: ServiceData = {
     ],
   },
   laser: {
-    name: "Laser Treatment",
+    name: "Laser",
     img_url: "/service/laser/category.jpeg",
+    img_width: 626,
+    img_height: 417,
     description: "Laser services offer a range of treatments including skin revitalization, acne and scar reduction, pore minimization, hair removal, and freckle fading using advanced laser technologies for smoother, clearer, and youthful skin.",
     services: [
       {
@@ -296,12 +304,13 @@ export const serviceData: ServiceData = {
       },
     ],
   },
-
   nail: {
     name: "Nails",
     description:
       "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
     img_url: "/service/nails/category.jpeg",
+    img_width: 750,
+    img_height: 500,
     services: [
       {
         name: "Manicure",
@@ -329,6 +338,8 @@ export const serviceData: ServiceData = {
   brow: {
     name: "Brows",
     img_url: "/service/brow/category.jpeg",
+    img_width: 626,
+    img_height: 417,
     description: "Brow services include treatments for shaping, tinting, and laminating brows to achieve a fuller, defined, and perfectly styled look.",
     services: [
       {
@@ -368,10 +379,11 @@ export const serviceData: ServiceData = {
       },
     ],
   },
-
   lashes: {
     name: "Lashes",
     img_url: "/service/lash/category.jpeg",
+    img_width: 626,
+    img_height: 417,
     description: "Lash services offer a variety of treatments to enhance the length, volume, and curl of your lashes for a more dramatic and eye-catching look.",
     services: [
       {
@@ -400,6 +412,8 @@ export const serviceData: ServiceData = {
   waxing: {
     name: "Waxing",
     img_url: "/service/waxing/category.jpeg",
+    img_width: 626,
+    img_height: 417,
     description: "Waxing services provide effective hair removal for smooth, hair-free skin, targeting areas such as eyebrows, legs, arms, and more, with long-lasting results.",
     services: [
       {
@@ -439,10 +453,11 @@ export const serviceData: ServiceData = {
       },
     ],
   },
-
   acunpuncture: {
     name: "Acupuncture",
     img_url: "/service/acupuncture/category.jpeg",
+    img_width: 626,
+    img_height: 417,
     description: "Embark on a journey to wellness and balance with our acupuncture treatment, a time-honored practice rooted in ancient Chinese medicine. Acupuncture is based on the concept of energy flow, or Qi, within the body. ",
     services: [
       {
@@ -457,6 +472,8 @@ export const serviceData: ServiceData = {
   others: {
     name: "Others",
     img_url: "/home/yoga.jpg",
+    img_width: 1019,
+    img_height: 765,
     description:
       "Discover our exclusive range of transformative services that offer unique solutions for body contouring, rejuvenation, and wellness. ",
     services: [

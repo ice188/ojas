@@ -13,6 +13,7 @@ export default function About() {
               alt="spa"
               width={4032}
               height={3024}
+              sizes="100vw"    
             />
           </div>
 

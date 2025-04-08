@@ -13,6 +13,7 @@ export default function Welcome() {
               alt="spa"
               width={4500}
               height={3000}
+              sizes="100vw"    
             />
 
             {/* Text directly on the image */}

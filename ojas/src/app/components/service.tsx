@@ -34,6 +34,7 @@ export default function Service() {
                   <Image
                     className="w-full h-full object-cover aspect-[16/9] xl:aspect-auto"
                     src={service.img_url}
+                    sizes="100vw"    
                     alt={service.name}
                     width={service.img_width}
                     height={service.img_height}

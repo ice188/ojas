@@ -308,7 +308,7 @@ export const serviceData: ServiceData = {
     name: "Nails",
     description:
       "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
-    img_url: "/service/nails/category.jpg",
+    img_url: "/service/nails/manicure.jpg",
     img_width: 750,
     img_height: 500,
     services: [

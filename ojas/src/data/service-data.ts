@@ -33,7 +33,7 @@ export const serviceData: ServiceData = {
     name: "Massage Therapy",
     description:
       "Feel deeply relaxed and rejuvenated as stress and tension melt from the body. Your mind will be calmer and sense awakened, restoring feelings of wellbeing.",
-    img_url: "/service/massage/category.jpeg",
+    img_url: "/service/massage/massage-place.jpg",
     img_width: 626,
     img_height: 351,
     services: [
@@ -308,7 +308,7 @@ export const serviceData: ServiceData = {
     name: "Nails",
     description:
       "The highest quality, the latest colors, the most beautiful styles, for the most beautiful you.",
-    img_url: "/service/nails/category.jpeg",
+    img_url: "/service/nails/category.jpg",
     img_width: 750,
     img_height: 500,
     services: [
@@ -316,7 +316,7 @@ export const serviceData: ServiceData = {
         name: "Manicure",
         description:
           "Treat your hands to a relaxing manicure for neat, beautiful nails.",
-        img_url: "/service/nails/manicure.png",
+        img_url: "/service/nails/manicure.jpg",
         price_range: "$25 - $70",
       },
       {
@@ -330,7 +330,7 @@ export const serviceData: ServiceData = {
         name: "Add-ons (Nail Art, Polish etc.)",
         description:
           "Enhance your nail service with extra touches like nail polish, art, or upgrades for a personalized look.",
-        img_url: "/service/nails/add-ons.jpeg",
+        img_url: "/service/nails/add-ons.jpg",
         price_range: "$5 - $25",
       },
     ],

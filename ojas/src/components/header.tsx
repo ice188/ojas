@@ -23,7 +23,7 @@ export default function Header() {
   const rootPath = typeof window !== "undefined" ? window.location.origin : "";
 
   return (
-    <header className="shadow-md fixed top-0 left-0 w-full bg-white z-50 mt-[37px]">
+    <header className="shadow-md fixed top-0 left-0 w-full bg-white z-50 mt-[37px]  ">
       <nav
         aria-label="Global"
         className="w-full mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between p-2 px-8"
@@ -49,7 +49,7 @@ export default function Header() {
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="text-[#2a5136] bg-white mt-[98px] fixed inset-y-0 right-0 z-10 w-1/2 sm:w-1/3 overflow-y-auto bg-white px-6 py-6 ring-1 ring-gray-900/10">
+        <DialogPanel className="text-[#2a5136] bg-white mt-[98px] fixed inset-y-0 right-0 z-10 w-1/2 sm:w-1/3 overflow-y-auto px-6 py-6 ring-1 ring-gray-900/10">
           <div className="flex items-center justify-end">
             <button
               type="button"

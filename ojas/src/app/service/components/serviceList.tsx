@@ -8,10 +8,10 @@ export default function ServiceList({
   categoryUrl: keyof typeof serviceData;
 }) {
   return (
-    <div className="bg-white pb-8 relative mt-[98px] pt-8">
+    <div className="bg-[white] pb-8 relative mt-[98px] pt-8">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
-          <h2 className="w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
+          <h2 className="py-4 w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
             {serviceData[categoryUrl].name}
           </h2>
 

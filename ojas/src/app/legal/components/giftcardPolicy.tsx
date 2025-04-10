@@ -5,9 +5,9 @@ export default function GiftCardPolicy() {
           <div className="w-full justify-start items-center gap-10 grid grid-cols-1">
             <div className="w-full flex-col justify-start items-center gap-10 inline-flex">
               <div className="w-full flex-col justify-start lg:items-start gap-4 flex">
-                <h2 className="font-salsa text-[#2a5136] text-4xl font-bold font-manrope leading-normal text-start mb-4">
+                <h1 className="font-salsa text-[#2a5136] text-4xl font-bold font-manrope leading-normal text-start mb-4">
                   Gift Card Policy
-                </h2>
+                </h1>
                 <div className="text-gray-700 font-noto">
                   At SPA OJAS, we want to ensure that our gift cards are easy to
                   use, flexible, and fully compliant with Manitoba’s Consumer

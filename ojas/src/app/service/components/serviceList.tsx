@@ -11,9 +11,9 @@ export default function ServiceList({
     <div className="bg-[white] pb-8 relative mt-[98px] pt-8">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
-          <h2 className="py-4 w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
+          <h1 className="py-4 w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
             {serviceData[categoryUrl].name}
-          </h2>
+          </h1>
 
           <div className="w-full flex-col justify-center items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-center items-center gap-4 flex">

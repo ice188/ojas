@@ -5,7 +5,7 @@ import type { MetadataRoute } from "next";
 const BASE_URL = "https://www.spaojas.ca";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ["", "legal/privacy"];
+  const staticPages = ["", "legal/privacy", "legal/giftcard"];
 
   const servicePages = Object.keys(serviceData).map(
     (categoryUrl) => `service/${categoryUrl}`

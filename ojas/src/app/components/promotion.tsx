@@ -33,7 +33,7 @@ export default function Promotion() {
             >
               GIFT CARD
             </Link>
-            <Link href={"/legal/giftcard"}>Giftcard Policy</Link>
+            <Link href={"/legal/giftcard"} className="text-[#2a5136]">Gift Card Policy</Link>
           </div>
         </div>
       </div>

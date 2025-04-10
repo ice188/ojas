@@ -5,15 +5,15 @@ export default function GiftCardPolicy() {
           <div className="w-full justify-start items-center gap-10 grid grid-cols-1">
             <div className="w-full flex-col justify-start items-center gap-10 inline-flex">
               <div className="w-full flex-col justify-start lg:items-start gap-4 flex">
-                <h2 className="font-salsa text-[#4B5945] text-4xl font-bold font-manrope leading-normal text-start ">
+                <h2 className="font-salsa text-[#2a5136] text-4xl font-bold font-manrope leading-normal text-start mb-4">
                   Gift Card Policy
                 </h2>
-                <div className="text-gray-700">
+                <div className="text-gray-700 font-noto">
                   At SPA OJAS, we want to ensure that our gift cards are easy to
                   use, flexible, and fully compliant with Manitoba’s Consumer
                   Protection Act. Please review the following terms and conditions
                   regarding usage for our physical and digital gift cards:
-                  <ul className="list-disc pl-6 my-4 ">
+                  <ul className="list-disc pl-6 my-4 mt-8">
                     <li className="mb-4">
                       <strong>No Expiry on Dollar-Value Gift Cards:</strong>
                       <ul className="list-inside">

@@ -9,10 +9,10 @@ export default function Welcome() {
             {/* Image */}
             <Image
               className="max-h-screen lg:mx-0 mx-auto object-cover w-full"
-              src="/home/spa3.jpg"
+              src="/home/spa4.jpg"
               alt="spa"
-              width={4500}
-              height={3000}
+              width={1920}
+              height={1280}
               sizes="100vw"    
             />
 

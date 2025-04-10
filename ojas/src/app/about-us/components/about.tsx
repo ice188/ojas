@@ -9,10 +9,10 @@ export default function About() {
           <div className="w-full h-full">
             <Image
               className="w-full h-full object-cover"
-              src="/home/team.jpeg"
+              src="/home/team.jpg"
               alt="spa"
-              width={4032}
-              height={3024}
+              width={1920}
+              height={1440}
               sizes="100vw"    
             />
           </div>

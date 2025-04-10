@@ -41,7 +41,7 @@ export const serviceData: ServiceData = {
         name: "Deep Tissue Massage",
         description:
           "Experience ultimate relaxation with our deep tissue massage. Our skilled therapists use firm pressure and slow strokes to target deeper muscle layers, relieving tension, knots, and chronic aches. Whether you're dealing with muscle pain or just need to unwind, our massage will leave you feeling refreshed. Book now and feel the difference.",
-        img_url: "/service/massage/deep-tissue.jpeg",
+        img_url: "/service/massage/deep-tissue.jpg",
         pressure: "Firm",
         price_range: "$60 - $190",
       },
@@ -57,7 +57,7 @@ export const serviceData: ServiceData = {
         name: "Acupressure Massage (RMT)",
         description:
           "Experience the healing power of acupressure massage. Our skilled therapists target specific points to stimulate energy flow, relieve tension, and restore balance. Feel revitalized and ready to take on the world.",
-        img_url: "/service/massage/accupressure.jpeg",
+        img_url: "/service/massage/accupressure.jpg",
         pressure: "Medium - Firm",
         price_range: "$95 - $190",
       },
@@ -73,7 +73,7 @@ export const serviceData: ServiceData = {
         name: "Cupping Massage (RMT)",
         description:
           "Experience the rejuvenating benefits of cupping massage. This ancient therapy, combined with massage techniques, increases blood flow, relieves muscle tension, and promotes lymphatic drainage. Whether you want to ease pain, improve circulation, or simply relax, our skilled therapists will tailor the treatment to your needs. Discover the healing power of cupping and restore balance to your body and mind.",
-        img_url: "/service/massage/cupping.jpeg",
+        img_url: "/service/massage/cupping.jpg",
         pressure: "Medium - Firm",
         price_range: "$115 | $210",
       },
@@ -154,7 +154,7 @@ export const serviceData: ServiceData = {
         name: "Anti Aging",
         description:
           "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
-        img_url: "/service/facial/anti-aging.jpeg",
+        img_url: "/service/facial/anti-aging.jpg",
         price_range: "$130 | 75 min",
       },
       {
@@ -323,7 +323,7 @@ export const serviceData: ServiceData = {
         name: "Pedicure",
         description:
           "Pamper your feet with a soothing pedicure for soft skin and polished nails.",
-        img_url: "/service/nails/pedicure.png",
+        img_url: "/service/nails/pedicure.jpg",
         price_range: "$15 - $90",
       },
       {

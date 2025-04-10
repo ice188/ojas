@@ -154,7 +154,7 @@ export const serviceData: ServiceData = {
         name: "Anti Aging",
         description:
           "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
-        img_url: "/service/facial/anti-aging.jpg",
+        img_url: "/service/facial/anti-aging.jpeg",
         price_range: "$130 | 75 min",
       },
       {
@@ -221,7 +221,7 @@ export const serviceData: ServiceData = {
         name: "Anti Aging Peel",
         description:
           "Reveal youthful, radiant skin with our Signature Anti-Aging Peel. This transformative treatment stimulates collagen, smooths fine lines, and improves texture and tone. Our skilled estheticians customize the peel to target dullness, uneven tone, and loss of elasticity, followed by a hydrating mask and nourishing serums to rejuvenate your skin. Achieve a glowing, refreshed complexion with minimal downtime.",
-        img_url: "/service/facial/anti-aging-peel.jpeg",
+        img_url: "/service/facial/anti-aging-peel.jpg",
         price_range: "$160 | 75 min",
       },
       {

@@ -10,7 +10,7 @@ export default function About() {
             <Image
               className="w-full h-full object-cover"
               src="/home/team.jpg"
-              alt="spa"
+              alt="The owner of SPA OJAS, Olivia and her team with a warm smile"
               width={1920}
               height={1440}
               sizes="100vw"    

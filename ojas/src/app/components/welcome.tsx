@@ -10,7 +10,7 @@ export default function Welcome() {
             <Image
               className="max-h-screen lg:mx-0 mx-auto object-cover w-full"
               src="/home/spa4.jpg"
-              alt="spa"
+              alt="A display image in the spa home page with green leaf, essential oil and linen towel"
               width={1920}
               height={1280}
               sizes="100vw"    

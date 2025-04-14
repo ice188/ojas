@@ -405,7 +405,7 @@ export const serviceData: ServiceData = {
         description:
           "Lift and tint your lashes for a stunning, effortless look that lasts.",
         img_url: "/service/lash/lash-lift-tint.jpeg",
-        price_range: "$75 | 1h",
+        price_range: "$80 | 1h",
       },
     ],
   },

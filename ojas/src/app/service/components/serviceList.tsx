@@ -50,7 +50,7 @@ export default function ServiceList({
                             {service.price_range}
                           </p>
                           {service.pressure && (
-                            <p className="text-sm font-light mt-1 text-gray-500">
+                            <p className="text-[10px] sm:text-sm font-light mt-1 text-gray-500">
                               Pressure: {service.pressure}
                             </p>
                           )}

@@ -35,7 +35,7 @@ export default function Service() {
                     className="w-full h-full object-cover aspect-[16/9] xl:aspect-auto"
                     src={service.img_url}
                     sizes="100vw"    
-                    alt={service.name}
+                    alt={`Picture of SPA OJAS service: {service.name}`}
                     width={service.img_width}
                     height={service.img_height}
                   />

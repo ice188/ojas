@@ -15,6 +15,7 @@ import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
 import Link from "next/link";
 import { Salsa } from "next/font/google";
+import Image from "next/image";
 
 const salsa = Salsa({ subsets: ["latin"], weight: "400" });
 
@@ -33,8 +34,15 @@ export default function Header() {
             href="/"
             className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#2a5136]"
           >
-            <img src="/logo.png" className="w-12 h-auto mr-4" />
-            <div className={`${salsa.className} text-2xl` }>SPA OJAS</div>
+            <Image
+              src="/logo.png"
+              alt="SPA OJAS logo"
+              className="w-12 h-auto mr-4"
+              width={636}
+              height={636}
+              sizes="100vw"
+            />
+            <div className={`${salsa.className} text-2xl`}>SPA OJAS</div>
           </Link>
         </div>
         <div className="flex">
@@ -47,7 +55,7 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} >
+      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="text-[#2a5136] bg-white mt-[98px] fixed inset-y-0 right-0 z-10 w-1/2 sm:w-1/3 overflow-y-auto px-6 py-6 ring-1 ring-gray-900/10">
           <div className="flex items-center justify-end">
@@ -127,8 +135,6 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure>
-
-
 
                 <Link
                   href={linkData.gift_card_link}

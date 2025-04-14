@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Story() {
   return (
     <div className="relative px-0 md:px-16 ">
@@ -5,10 +7,13 @@ export default function Story() {
         <div className="w-full grid lg:grid-cols-2 grid-cols-1">
           {/* Image on the left, fully covering the left half */}
           <div className="w-full h-full">
-            <img
+            <Image
               className="w-full h-full object-cover"
               src="/home/plant.jpg"
-              alt="spa"
+              alt="A vibrant plant under sunshine taken in SPA OJAS"
+              width={1274}
+              height={1383}
+              sizes="100vw"    
             />
           </div>
 

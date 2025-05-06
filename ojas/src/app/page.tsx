@@ -75,6 +75,10 @@ export const metadata: Metadata = {
     "affordable massage near me",
     "luxury beauty treatments near me",
     "detox spa near me",
+    "St. Vital",
+    "st vital",
+    "Old st vital",
+    "Old st. vital",
 
     // Service keywords
     "spa",

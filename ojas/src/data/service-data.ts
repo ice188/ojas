@@ -38,7 +38,7 @@ export const serviceData: ServiceData = {
     img_height: 351,
     services: [
       {
-        name: "Deep Tissue Massage",
+        name: "Deep Tissue Massage (RMT)",
         description:
           "Experience ultimate relaxation with our deep tissue massage. Our skilled therapists use firm pressure and slow strokes to target deeper muscle layers, relieving tension, knots, and chronic aches. Whether you're dealing with muscle pain or just need to unwind, our massage will leave you feeling refreshed. Book now and feel the difference.",
         img_url: "/service/massage/deep-tissue.jpg",
@@ -46,7 +46,7 @@ export const serviceData: ServiceData = {
         price_range: "$60 - $190",
       },
       {
-        name: "Relaxation Massage",
+        name: "Relaxation Massage (RMT)",
         description:
           "Escape stress with our relaxation massage. Our skilled therapists use soothing strokes to ease tension and promote deep relaxation, restoring balance to your body and mind.",
         img_url: "/service/massage/relaxation.jpeg",
@@ -86,7 +86,7 @@ export const serviceData: ServiceData = {
         price_range: "$155 | 90 min",
       },
       {
-        name: "Face Rejuvenation Massage",
+        name: "Face Rejuvenation Massage (RMT)",
         description:
           "Our face rejuvenation massage begins with a cleansing to remove impurities, followed by nourishing oils and serums. Gentle strokes, kneading, and acupressure boost circulation, ease tension, and promote lymphatic drainage. Unwind as stress melts away, leaving your skin radiant and refreshed—perfect for combating aging or enjoying self-care.",
         img_url: "/service/massage/face-massage.jpeg",
@@ -127,7 +127,7 @@ export const serviceData: ServiceData = {
         price_range: "$115 | 1h",
       },
       {
-        name: "Couples Massage - each",
+        name: "Couples Massage - each (RMT)",
         description:
           "Share the ultimate relaxation with our Couples Massage. Enjoy a synchronized session with two skilled therapists providing tailored treatments for both individuals. Perfect for special occasions or quality time together, this experience ensures harmony and rejuvenation.",
         img_url: "/service/massage/couples.jpeg",

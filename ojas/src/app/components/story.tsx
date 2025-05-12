@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Story() {
   return (
@@ -13,14 +13,14 @@ export default function Story() {
               alt="A vibrant plant under sunshine taken in SPA OJAS"
               width={1274}
               height={1383}
-              sizes="100vw"    
+              sizes="100vw"
             />
           </div>
 
           {/* Text on the right */}
           <div className="bg-gray-100 w-full flex flex-col justify-center items-start gap-10 px-8 md:px-16">
             <div className="text-[#2a5136] w-full flex flex-col justify-start items-start gap-4 py-16 ">
-              <h2 className="font-salsa text-3xl md:text-4xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
+              <h2 className="font-averia text-3xl md:text-4xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
                 Why Ojas?
               </h2>
               <p className="font-light font-noto  leading-relaxed text-start text-center max-w-7xl mx-auto mt-4">
@@ -42,7 +42,7 @@ export default function Story() {
                 and mind.
                 <br />
                 <br />
-                <span className="font-salsa font-bold">
+                <span className="font-averia font-bold">
                   SPA OJAS is more than a place — it’s a sanctuary where your
                   journey to inner harmony begins.
                 </span>

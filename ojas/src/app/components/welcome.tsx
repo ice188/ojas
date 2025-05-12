@@ -2,26 +2,26 @@ import Image from 'next/image';
 
 export default function Welcome() {
   return (
-    <div className="font-salsa relative mt-[98px]">
+    <div className="font-averia relative min-h-screen px-4 sm:px-0">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="w-full justify-start items-center gap-10 grid grid-cols-1">
-          <div className="relative w-full ">
+        <div className="grid grid-cols-1 gap-10 items-center justify-start">
+          <div className="relative w-full min-h-screen">
             {/* Image */}
             <Image
-              className="max-h-screen lg:mx-0 mx-auto object-cover w-full"
               src="/home/spa4.jpg"
               alt="A display image in the spa home page with green leaf, essential oil and linen towel"
-              width={1920}
-              height={1280}
-              sizes="100vw"    
+              fill
+              className="object-cover"
+              priority
+              sizes="100vw"
             />
 
             {/* Text directly on the image */}
-            <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
-              <h1 className="font-salsa text-2xl sm:text-7xl font-bold drop-shadow-xl text-center">
+            <div className="mt-20  absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
+              <h1 className="font-averia text-5xl sm:text-7xl font-bold drop-shadow-xl">
                 SPA OJAS
               </h1>
-              <p className="font-light font-noto text-xs sm:text-2xl mt-2 drop-shadow-md text-center">
+              <p className="font-light font-noto text-md sm:text-2xl mt-2 drop-shadow-md">
                 Radiance | Balance | Vitality
               </p>
             </div>

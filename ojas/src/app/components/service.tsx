@@ -8,7 +8,7 @@ export default function Service() {
       <div className="w-full max-w-7xl mx-auto">
         <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 relative">
 
-          <h2 className="font-salsa text-4xl md:text-5xl font-bold text-center mt-4">
+          <h2 className="font-salsa text-4xl md:text-5xl font-bold text-center mt-0 sm:mt-4">
             Our Services
           </h2>
           <p className="text-sm sm:text-lg font-light font-noto mt-2 text-center">

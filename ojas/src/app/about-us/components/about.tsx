@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -13,14 +13,14 @@ export default function About() {
               alt="The owner of SPA OJAS, Olivia and her team with a warm smile"
               width={1920}
               height={1440}
-              sizes="100vw"    
+              sizes="100vw"
             />
           </div>
 
           {/* Text on the right */}
           <div className="bg-gray-100 w-full flex flex-col justify-center items-start gap-10 px-8 md:px-16">
             <div className="text-[#2a5136] w-full flex flex-col justify-start items-start gap-4 py-16 ">
-              <h1 className="font-salsa text-3xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
+              <h1 className="font-averia text-3xl font-bold font-manrope leading-normal lg:text-start text-center -mt-4 sm:-mt-0">
                 Meet Olivia and Her Team: The Heart Behind SPA OJAS
               </h1>
               <p className="font-light font-noto text-[#4B5945] text-base leading-relaxed lg:text-start max-w-7xl mx-auto">
@@ -58,7 +58,7 @@ export default function About() {
                 and inner peace.
                 <br />
                 <br />
-                <span className="font-salsa">
+                <span className="font-averia">
                   “Wellness is not just a luxury—it is the foundation of a
                   fulfilling life. I created SPA OJAS to share this belief with
                   everyone who walks through our doors.” – Olivia

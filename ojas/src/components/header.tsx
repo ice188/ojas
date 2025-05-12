@@ -14,10 +14,7 @@ import { linkData } from "@/data/link-data";
 import { serviceData } from "@/data/service-data";
 import { promotionData } from "@/data/promotion-data";
 import Link from "next/link";
-import { Salsa } from "next/font/google";
 import Image from "next/image";
-
-const salsa = Salsa({ subsets: ["latin"], weight: "400" });
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -42,7 +39,7 @@ export default function Header() {
               height={636}
               sizes="100vw"
             />
-            <div className={`${salsa.className} text-2xl`}>SPA OJAS</div>
+            <div className={`font-averia text-2xl`}>SPA OJAS</div>
           </Link>
         </div>
         <div className="flex">
@@ -69,7 +66,7 @@ export default function Header() {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6 font-salsa  text-md">
+              <div className="space-y-2 py-6 font-averia  text-md">
                 <Disclosure as="div" className="-mx-3 bg-gray">
                   <DisclosureButton className="pl-4 group flex w-full items-center justify-center rounded-lg p-3 ">
                     SERVICES

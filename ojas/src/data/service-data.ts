@@ -43,7 +43,7 @@ export const serviceData: ServiceData = {
           "Experience ultimate relaxation with our deep tissue massage. Our skilled therapists use firm pressure and slow strokes to target deeper muscle layers, relieving tension, knots, and chronic aches. Whether you're dealing with muscle pain or just need to unwind, our massage will leave you feeling refreshed. Book now and feel the difference.",
         img_url: "/service/massage/deep-tissue.jpg",
         pressure: "Firm",
-        price_range: "$60 - $190",
+        price_range: "$60 - $196",
       },
       {
         name: "Relaxation Massage (RMT)",
@@ -51,7 +51,7 @@ export const serviceData: ServiceData = {
           "Escape stress with our relaxation massage. Our skilled therapists use soothing strokes to ease tension and promote deep relaxation, restoring balance to your body and mind.",
         img_url: "/service/massage/relaxation.jpeg",
         pressure: "Light - Medium",
-        price_range: "$60 - $190",
+        price_range: "$60 - $123",
       },
       {
         name: "Acupressure Massage (RMT)",
@@ -59,7 +59,7 @@ export const serviceData: ServiceData = {
           "Experience the healing power of acupressure massage. Our skilled therapists target specific points to stimulate energy flow, relieve tension, and restore balance. Feel revitalized and ready to take on the world.",
         img_url: "/service/massage/accupressure.jpg",
         pressure: "Medium - Firm",
-        price_range: "$95 - $190",
+        price_range: "$98 - $196",
       },
       {
         name: "Deep Detox Massage (RMT)",
@@ -67,7 +67,7 @@ export const serviceData: ServiceData = {
           "Rebalance and rejuvenate with our deep detox massage. Our therapists combine therapeutic massage, cupping, Gua Sha, and infrared heat to cleanse your body, boost circulation, and reduce inflammation. This 90-minute treatment helps relieve stress, muscle pain, sleep disorders, and chronic tension. Experience the benefits of detoxification and relaxation today.",
         img_url: "/service/massage/deep-detox.jpeg",
         pressure: "Light - Firm",
-        price_range: "$165 | 90 min",
+        price_range: "$169 | 90 min",
       },
       {
         name: "Cupping Massage (RMT)",
@@ -75,7 +75,7 @@ export const serviceData: ServiceData = {
           "Experience the rejuvenating benefits of cupping massage. This ancient therapy, combined with massage techniques, increases blood flow, relieves muscle tension, and promotes lymphatic drainage. Whether you want to ease pain, improve circulation, or simply relax, our skilled therapists will tailor the treatment to your needs. Discover the healing power of cupping and restore balance to your body and mind.",
         img_url: "/service/massage/cupping.jpg",
         pressure: "Medium - Firm",
-        price_range: "$115 | $210",
+        price_range: "$118 - 216",
       },
       {
         name: "Face and Body Rejuvenation Massage (RMT)",
@@ -91,7 +91,7 @@ export const serviceData: ServiceData = {
           "Our face rejuvenation massage begins with a cleansing to remove impurities, followed by nourishing oils and serums. Gentle strokes, kneading, and acupressure boost circulation, ease tension, and promote lymphatic drainage. Unwind as stress melts away, leaving your skin radiant and refreshed—perfect for combating aging or enjoying self-care.",
         img_url: "/service/massage/face-massage.jpeg",
         pressure: "Light - Medium",
-        price_range: "$80 | 45 min",
+        price_range: "$85 | 45 min",
         benefits: [
           "Brighten skin",
           "Minimize the appearance of scars",
@@ -111,27 +111,19 @@ export const serviceData: ServiceData = {
         price_range: "$100 | 1h",
       },
       {
-        name: "Infrared Light Massage (RMT)",
-        description:
-          "Relax and rejuvenate with our infrared light massage therapy. Combining gentle infrared warmth with targeted massage, this treatment eases muscle aches, reduces inflammation, improves circulation, and relieves stress. Experience the perfect blend of comfort and healing.",
-        img_url: "/service/massage/infrared.jpeg",
-        pressure: "Medium - Firm",
-        price_range: "$115 | 1h",
-      },
-      {
         name: "GuaSha Massage (RMT)",
         description:
           "Experience the ancient art of Gua Sha massage, a therapeutic practice that enhances circulation, promotes lymphatic drainage, and reduces tension. Using smooth tools, our skilled therapists help detoxify, reduce inflammation, and restore balance. Rejuvenate your body and mind with this traditional healing therapy.",
         img_url: "/service/massage/guasha.jpeg",
         pressure: "Medium - Firm",
-        price_range: "$115 | 1h",
+        price_range: "$118 | 1h",
       },
       {
         name: "Couples Massage - each (RMT)",
         description:
           "Share the ultimate relaxation with our Couples Massage. Enjoy a synchronized session with two skilled therapists providing tailored treatments for both individuals. Perfect for special occasions or quality time together, this experience ensures harmony and rejuvenation.",
         img_url: "/service/massage/couples.jpeg",
-        price_range: "$95 - $143",
+        price_range: "$98 - $147",
       },
     ],
   },
@@ -148,28 +140,28 @@ export const serviceData: ServiceData = {
         description:
           "Pamper your skin with our Hydrating Signature Facial, designed to restore moisture and revitalize your complexion. After a gentle cleanse, enjoy a customized hydrating mask and nourishing serums, leaving your skin radiant and deeply hydrated. Perfect for all skin types, this treatment leaves you feeling refreshed and glowing.",
         img_url: "/service/facial/hydrate.jpeg",
-        price_range: "$120 | 75 min",
+        price_range: "$138 | 75 min",
       },
       {
         name: "Anti Aging",
         description:
           "Rejuvenate your skin with our Anti-Aging Signature Facial, designed to combat signs of aging and restore youthful vitality. After cleansing and exfoliating, our estheticians apply potent serums and moisturizers for hydration and firming. A customized anti-aging mask targets fine lines, wrinkles, and uneven texture, leaving your skin smoother, firmer, and more radiant.",
         img_url: "/service/facial/anti-aging.jpeg",
-        price_range: "$130 | 75 min",
+        price_range: "$145 | 75 min",
       },
       {
         name: "Acne treatment",
         description:
           "Our Acne Treatment Signature Facial is a targeted solution to combat breakouts and promote clear, healthy skin. The treatment begins with a thorough cleanse to remove impurities and unclog pores, preparing your skin for the innovative Bubble Masque. This masque utilizes gentle bubbling action to penetrate deep into pores, effectively dissolving impurities and unclogging congested skin. Extractions are performed to remove impurities and prevent future breakouts. The session concludes with soothing serums and moisturizers to hydrate and calm your skin, leaving you with a renewed sense of confidence. This comprehensive approach addresses the root causes of acne, promoting clearer and healthier skin.",
         img_url: "/service/facial/acne.jpeg",
-        price_range: "$130 | 75 min",
+        price_range: "$138 | 75 min",
       },
       {
         name: "Glow Facial",
         description:
           "Illuminate your complexion with our Glow Signature Facial, designed to enhance your skin's natural radiance. The treatment begins with a thorough cleanse to remove impurities and prepare your skin for rejuvenation. Next, indulge in a gentle exfoliation to reveal a brighter, smoother texture. Our skilled estheticians will massage in hydrating serums and moisturizers, leaving your skin with a luminous, dewy finish. Finally, enjoy our signature mask, infused with potent ingredients to nourish and revitalize your skin from within. Treat yourself to this rejuvenating facial and unveil a radiant glow that lasts.",
         img_url: "/service/facial/glow-facial.jpeg",
-        price_range: "$130 | 75 min",
+        price_range: "$138 | 75 min",
       },
       {
         name: "Total Care Facial",
@@ -190,7 +182,7 @@ export const serviceData: ServiceData = {
         description:
           "Discover microneedling, a cutting-edge treatment that rejuvenates your skin by stimulating collagen and elastin production. Using fine needles, this procedure smooths wrinkles, reduces acne scars, and evens skin tone, leaving you with firmer, radiant skin. Tailored to your unique needs, it’s the ultimate skincare solution.",
         img_url: "/service/facial/rf.jpeg",
-        price_range: "$380 - $480",
+        price_range: "$480",
         benefits: [
           "fine lines and wrinkles",
           "reduced skin elasticity",

@@ -11,7 +11,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-       lato: ["Lato", "sans-serif"],
        noto: ["Noto Sans", "sans-serif"],
        playfair: ["Playfair Display", "serif"],
        salsa: ["Salsa", "serif"],
@@ -19,7 +18,7 @@ module.exports = {
        lora: ["Lora", "serif"],
        charm: ["Charm", "sans-serif"],
        viaoda: ["Viaoda Libre", "serif"],
-       
+       averia: ['var(--font-averia)'],
       },
     },
   },

@@ -11,7 +11,7 @@ export default function ServiceList({
     <div className="bg-[white] pb-8 relative mt-[98px] pt-8">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
-          <h1 className="py-4 w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
+          <h1 className="py-4 w-full font-averia text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
             {serviceData[categoryUrl].name}
           </h1>
 
@@ -35,7 +35,7 @@ export default function ServiceList({
                     {/* Content Section */}
                     <div className="w-full h-full lg:w-2/3 flex flex-col justify-between relative">
                       <div className="flex flex-col gap-4 p-6">
-                        <h3 className="font-salsa text-2xl font-bold font-manrope text-[#2a5136]">
+                        <h3 className="font-averia text-2xl font-bold font-manrope text-[#2a5136]">
                           {service.name}
                         </h3>
                         <p className="font-light font-noto text-gray-500 text-md leading-relaxed">
@@ -79,7 +79,7 @@ export default function ServiceList({
                   //     <div className="w-full h-full xl:w-2/3 h-full flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                   //       {/* Service Name */}
                   //       <div className="pl-4 sm:pl-0 pr-4 ">
-                  //         <p className="font-salsa text-2xl font-bold font-manrope text-[#2a5136]">
+                  //         <p className="font-averia text-2xl font-bold font-manrope text-[#2a5136]">
                   //           {service.name}
                   //         </p>
                   //         {service.description && (

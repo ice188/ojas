@@ -11,7 +11,7 @@ export default function PromotionList({
     <div className="bg-white pb-8  relative mt-[98px] pt-8">
       <div className="w-full max-w-7xl px-8 sm:px-16 mx-auto">
         <div className="w-full justify-center items-center gap-8 grid grid-cols-1">
-          <h1  className="w-full font-salsa text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
+          <h1 className="w-full font-averia text-4xl font-bold font-manrope leading-normal text-[#2a5136] text-center">
             {promotionData[promotionType].name} Deals
           </h1>
 
@@ -26,7 +26,7 @@ export default function PromotionList({
                     <div className="flex flex-col gap-x-9 w-full sm:flex-row">
                       <div className="flex flex-col justify-between flex-auto mt-6 sm:mt-0">
                         <div>
-                          <p className="font-salsa text-2xl font-bold font-manrope text-[#2a5136]">
+                          <p className="font-averia text-2xl font-bold font-manrope text-[#2a5136]">
                             {promotion.name}
                           </p>
 

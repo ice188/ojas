@@ -10,7 +10,7 @@ export default function Footer() {
         <div className=" max-w-7xl grid grid-cols-2 gap-y-8 md:gap-y-16 gap-16 px-8 md:px-16 py-8 ">
           {/* Hours of Service */}
           <div>
-            <p className="whitespace-nowrap flex items-center font-salsa mb-8 font-bold md:text-2xl">
+            <p className="whitespace-nowrap flex items-center font-averia mb-8 font-bold md:text-2xl">
               Opening Hours
             </p>
             <ul className="font-light font-noto grid w-[140px] md:w-[180px]">
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
 
           <div className="justify-center items-center">
-            <p className="mb-8 font-bold md:text-2xl font-salsa">Contact Us</p>
+            <p className="mb-8 font-bold md:text-2xl font-averia">Contact Us</p>
             <ul className="font-medium">
               <li className="font-light font-noto mb-4 flex justify-between items-center text-xs md:text-sm">
                 <Link
@@ -125,7 +125,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="font-salsa border-0 bg-[#2a5136] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
+        <div className="font-averia border-0 bg-[#2a5136] px-4 py-2.5 -mt-6 sm:-mt-4 flex items-center justify-between">
           <span className="text-sm text-gray-500 font-normal text-center text-white">
             © 2025 by SPA OJAS
           </span>

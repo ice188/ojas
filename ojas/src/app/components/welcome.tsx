@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Welcome() {
   return (
-    <div className="font-averia relative min-h-screen px-4 sm:px-0">
+    <div className="bg-white font-averia relative min-h-screen">
       <div className="w-full max-w-7xl mx-auto">
         <div className="grid grid-cols-1 gap-10 items-center justify-start">
           <div className="relative w-full min-h-screen">

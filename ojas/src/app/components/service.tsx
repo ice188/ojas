@@ -1,20 +1,18 @@
 import { serviceData } from "@/data/service-data";
 import Link from "next/link";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Service() {
   return (
     <div className="bg-white text-[#2a5136] relative px-0 md:px-16 pt-8 lg:pt-0">
       <div className="w-full max-w-7xl mx-auto">
         <div className="w-full flex flex-col justify-center items-center gap-2 pb-8 sm:pb-16 relative">
-
-          <h2 className="font-salsa text-4xl md:text-5xl font-bold text-center mt-0 sm:mt-4">
+          <h2 className="font-averia text-4xl md:text-5xl font-bold text-center mt-0 sm:mt-4">
             Our Services
           </h2>
           <p className="text-sm sm:text-lg font-light font-noto mt-2 text-center">
             Served by professionals, tailored for your well-being
           </p>
-
         </div>
 
         {/* Service Cards */}
@@ -34,7 +32,7 @@ export default function Service() {
                   <Image
                     className="w-full h-full object-cover aspect-[16/9] xl:aspect-auto"
                     src={service.img_url}
-                    sizes="100vw"    
+                    sizes="100vw"
                     alt={`Picture of SPA OJAS service: {service.name}`}
                     width={service.img_width}
                     height={service.img_height}
@@ -44,7 +42,7 @@ export default function Service() {
                 {/* Content Section */}
                 <div className="w-full h-full xl:w-2/3 flex flex-col justify-between relative">
                   <div className="flex flex-col gap-4 p-6">
-                    <h3 className="font-salsa text-2xl font-bold font-manrope">
+                    <h3 className="font-averia text-2xl font-bold font-manrope">
                       {service.name}
                     </h3>
                     <p className="font-light font-noto text-gray-500 text-md leading-relaxed">
@@ -53,9 +51,7 @@ export default function Service() {
                   </div>
 
                   {/* Button Section - Aligned Bottom Right */}
-                  <div
-                    className="font-noto mt-auto self-end shadow-md text-white bg-[#2a5136] text-sm font-medium px-8 py-4 hover:bg-[#B2C9AD] "
-                  >
+                  <div className="font-noto mt-auto self-end shadow-md text-white bg-[#2a5136] text-sm font-medium px-8 py-4 hover:bg-[#B2C9AD] ">
                     See Details
                   </div>
                 </div>

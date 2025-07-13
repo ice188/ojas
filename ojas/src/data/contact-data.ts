@@ -6,3 +6,4 @@ export const contactData = {
   email_link: "mailto:info@spaojas.ca",
   map_link: "https://maps.app.goo.gl/9Q4tk7rXFTJTyfh59"
 };
+

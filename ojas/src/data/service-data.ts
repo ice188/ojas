@@ -43,7 +43,7 @@ export const serviceData: ServiceData = {
           "Experience ultimate relaxation with our deep tissue massage. Our skilled therapists use firm pressure and slow strokes to target deeper muscle layers, relieving tension, knots, and chronic aches. Whether you're dealing with muscle pain or just need to unwind, our massage will leave you feeling refreshed. Book now and feel the difference.",
         img_url: "/service/massage/deep-tissue.jpg",
         pressure: "Firm",
-        price_range: "$60 - $196",
+        price_range: "$68 - $196",
       },
       {
         name: "Relaxation Massage (RMT)",
@@ -51,7 +51,7 @@ export const serviceData: ServiceData = {
           "Escape stress with our relaxation massage. Our skilled therapists use soothing strokes to ease tension and promote deep relaxation, restoring balance to your body and mind.",
         img_url: "/service/massage/relaxation.jpeg",
         pressure: "Light - Medium",
-        price_range: "$60 - $123",
+        price_range: "$68 - $196",
       },
       {
         name: "Acupressure Massage (RMT)",
@@ -67,7 +67,7 @@ export const serviceData: ServiceData = {
           "Rebalance and rejuvenate with our deep detox massage. Our therapists combine therapeutic massage, cupping, Gua Sha, and infrared heat to cleanse your body, boost circulation, and reduce inflammation. This 90-minute treatment helps relieve stress, muscle pain, sleep disorders, and chronic tension. Experience the benefits of detoxification and relaxation today.",
         img_url: "/service/massage/deep-detox.jpeg",
         pressure: "Light - Firm",
-        price_range: "$169 | 90 min",
+        price_range: "$175 | 90 min",
       },
       {
         name: "Cupping Massage (RMT)",
@@ -91,7 +91,7 @@ export const serviceData: ServiceData = {
           "Our face rejuvenation massage begins with a cleansing to remove impurities, followed by nourishing oils and serums. Gentle strokes, kneading, and acupressure boost circulation, ease tension, and promote lymphatic drainage. Unwind as stress melts away, leaving your skin radiant and refreshed—perfect for combating aging or enjoying self-care.",
         img_url: "/service/massage/face-massage.jpeg",
         pressure: "Light - Medium",
-        price_range: "$85 | 45 min",
+        price_range: "$90 | 45 min",
         benefits: [
           "Brighten skin",
           "Minimize the appearance of scars",

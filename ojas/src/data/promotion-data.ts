@@ -19,28 +19,23 @@ export const promotionData: PromotionData = {
     promotions: [
       {
         name: "1 Hour massage + Regular Manicure + Regular Pedicure",
-        price: "167",
-        saving: "15",
+        price: "188",
+        saving: "10",
       },
       {
-        name: "1 Hour massage + Shellac Manicure + Shellac Pedicure",
-        price: "210",
-        saving: "15",
+        name: "1 Hour Massage + Signature Facial",
+        price: "220",
+        saving: "16",
       },
       {
-        name: "Signature Facial + 1h Massage (RMT)",
-        price: "205",
+        name: "1 Hour Massage + Signature Facial + Shellac Manicure + Shellac Pedicure",
+        price: "346",
         saving: "20",
       },
       {
-        name: "Signature Facial + Shellac Manicure + Shellac Pedicure",
-        price: "235",
-        saving: "25",
-      },
-      {
         name: "Signature Facial + Regular Manicure + Regular Pedicure",
-        price: "200",
-        saving: "17",
+        price: "223",
+        saving: "15",
       },
     ],
   },

@@ -38,7 +38,7 @@ export const serviceData: ServiceData = {
     img_height: 351,
     services: [
       {
-        name: "Deep Tissue Massage (RMT)",
+        name: "Deep Tissue Massage",
         description:
           "Experience ultimate relaxation with our deep tissue massage. Our skilled therapists use firm pressure and slow strokes to target deeper muscle layers, relieving tension, knots, and chronic aches. Whether you're dealing with muscle pain or just need to unwind, our massage will leave you feeling refreshed. Book now and feel the difference.",
         img_url: "/service/massage/deep-tissue.jpg",
@@ -46,7 +46,7 @@ export const serviceData: ServiceData = {
         price_range: "$68 - $196",
       },
       {
-        name: "Relaxation Massage (RMT)",
+        name: "Relaxation Massage",
         description:
           "Escape stress with our relaxation massage. Our skilled therapists use soothing strokes to ease tension and promote deep relaxation, restoring balance to your body and mind.",
         img_url: "/service/massage/relaxation.jpeg",
@@ -54,7 +54,7 @@ export const serviceData: ServiceData = {
         price_range: "$68 - $196",
       },
       {
-        name: "Acupressure Massage (RMT)",
+        name: "Acupressure Massage",
         description:
           "Experience the healing power of acupressure massage. Our skilled therapists target specific points to stimulate energy flow, relieve tension, and restore balance. Feel revitalized and ready to take on the world.",
         img_url: "/service/massage/accupressure.jpg",
@@ -62,7 +62,7 @@ export const serviceData: ServiceData = {
         price_range: "$98 - $196",
       },
       {
-        name: "Deep Detox Massage (RMT)",
+        name: "Deep Detox Massage",
         description:
           "Rebalance and rejuvenate with our deep detox massage. Our therapists combine therapeutic massage, cupping, Gua Sha, and infrared heat to cleanse your body, boost circulation, and reduce inflammation. This 90-minute treatment helps relieve stress, muscle pain, sleep disorders, and chronic tension. Experience the benefits of detoxification and relaxation today.",
         img_url: "/service/massage/deep-detox.jpeg",
@@ -70,7 +70,7 @@ export const serviceData: ServiceData = {
         price_range: "$175 | 90 min",
       },
       {
-        name: "Cupping Massage (RMT)",
+        name: "Cupping Massage",
         description:
           "Experience the rejuvenating benefits of cupping massage. This ancient therapy, combined with massage techniques, increases blood flow, relieves muscle tension, and promotes lymphatic drainage. Whether you want to ease pain, improve circulation, or simply relax, our skilled therapists will tailor the treatment to your needs. Discover the healing power of cupping and restore balance to your body and mind.",
         img_url: "/service/massage/cupping.jpg",
@@ -78,7 +78,7 @@ export const serviceData: ServiceData = {
         price_range: "$118 - 216",
       },
       {
-        name: "Face and Body Rejuvenation Massage (RMT)",
+        name: "Face and Body Rejuvenation Massage",
         description:
           "Indulge in ultimate relaxation with our full body and face massage. Our skilled therapists will melt away tension and refresh your skin, combining soothing massage with MyoGlow for a rejuvenating experience. Elevate your self-care routine today.",
         img_url: "/service/massage/face-body-re.jpeg",
@@ -86,7 +86,7 @@ export const serviceData: ServiceData = {
         price_range: "$155 | 90 min",
       },
       {
-        name: "Face Rejuvenation Massage (RMT)",
+        name: "Face Rejuvenation Massage",
         description:
           "Our face rejuvenation massage begins with a cleansing to remove impurities, followed by nourishing oils and serums. Gentle strokes, kneading, and acupressure boost circulation, ease tension, and promote lymphatic drainage. Unwind as stress melts away, leaving your skin radiant and refreshed—perfect for combating aging or enjoying self-care.",
         img_url: "/service/massage/face-massage.jpeg",
@@ -104,14 +104,14 @@ export const serviceData: ServiceData = {
         ],
       },
       {
-        name: "Prenatal Massage (RMT)",
+        name: "Prenatal Massage",
         description:
           "Experience the care you deserve with our prenatal massage, designed for expecting mothers. Our certified therapists use gentle techniques to relieve tension in the lower back, hips, and legs, promoting relaxation and comfort through every trimester. Enjoy a soothing, safe treatment tailored to your needs in a serene environment.",
         img_url: "/service/massage/prenatal.jpeg",
         price_range: "$100 | 1h",
       },
       {
-        name: "GuaSha Massage (RMT)",
+        name: "GuaSha Massage",
         description:
           "Experience the ancient art of Gua Sha massage, a therapeutic practice that enhances circulation, promotes lymphatic drainage, and reduces tension. Using smooth tools, our skilled therapists help detoxify, reduce inflammation, and restore balance. Rejuvenate your body and mind with this traditional healing therapy.",
         img_url: "/service/massage/guasha.jpeg",
@@ -119,7 +119,7 @@ export const serviceData: ServiceData = {
         price_range: "$118 | 1h",
       },
       {
-        name: "Couples Massage - each (RMT)",
+        name: "Couples Massage - each",
         description:
           "Share the ultimate relaxation with our Couples Massage. Enjoy a synchronized session with two skilled therapists providing tailored treatments for both individuals. Perfect for special occasions or quality time together, this experience ensures harmony and rejuvenation.",
         img_url: "/service/massage/couples.jpeg",

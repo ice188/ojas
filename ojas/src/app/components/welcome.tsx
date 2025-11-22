@@ -19,7 +19,7 @@ export default function Welcome() {
             {/* Text directly on the image */}
             <div className="mt-20  absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
               <Link href="/" className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#2a5136]">
-              <div className={`font-averia text-2xl`}>JOIN OUR TEAM</div>
+              <div className={`font-averia text-2xl`}>JOIN OUR TEAM!</div>
               </Link>
             </div>
             <div className="mt-20  absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">

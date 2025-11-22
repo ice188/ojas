@@ -18,6 +18,9 @@ export default function Welcome() {
 
             {/* Text directly on the image */}
             <div className="mt-20  absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
+               <h1 className="font-averia text-5xl sm:text-7xl font-bold drop-shadow-xl">
+                JOIN OUR TEAM
+              </h1>
               <h1 className="font-averia text-5xl sm:text-7xl font-bold drop-shadow-xl">
                 SPA OJAS
               </h1>

@@ -47,7 +47,7 @@ export default function Header() {
             href="/"
             className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#2a5136]"
           >
-            <div className={`font-averia text-2xl`}>Massage</div>
+            <div className={`font-averia text-2xl`}>JOIN OUR TEAM</div>
           </Link>
         </div>
         <div className="flex">

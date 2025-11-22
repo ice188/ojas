@@ -41,12 +41,6 @@ export default function Header() {
             />
             <div className={`font-averia text-2xl`}>SPA OJAS</div>
           </Link>
-          <Link
-            href="/"
-            className="flex items-center font-bold text-xl -m-1.5 p-1 text-[#2a5136]"
-          >
-             <div className={`font-averia text-2xl`}>JOIN OUR TEAM</div>
-          </Link>
         </div>
         <div className="flex">
           <button

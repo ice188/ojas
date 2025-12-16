@@ -1,0 +1,110 @@
+acupuncture.html
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Title -->
+  <title>Acupuncture Winnipeg | Insurable Acupuncture | SPA OJAS</title>
+
+  <!-- SEO Description -->
+  <meta name="description" content="SPA OJAS offers professional and insurable acupuncture in Winnipeg. Trusted by clients for pain relief, posture alignment, stress reduction and holistic wellness. Located in Old St. Vital.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://spaojas.ca/acupuncture.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Acupuncture Winnipeg | SPA OJAS">
+  <meta property="og:description" content="Professional insurable acupuncture for pain relief and wellness in Winnipeg. Open 7 days a week.">
+  <meta property="og:url" content="https://spaojas.ca/acupuncture.html">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalProcedure",
+    "name": "Acupuncture Treatment",
+    "provider": {
+      "@type": "MedicalBusiness",
+      "name": "SPA OJAS",
+      "url": "https://spaojas.ca"
+    },
+    "areaServed": "Winnipeg",
+    "availableService": "Insurable Acupuncture"
+  }
+  </script>
+</head>
+
+<body>
+
+<header>
+  <h1>Professional Acupuncture in Winnipeg</h1>
+  <p><strong>Insurable · Safe · Holistic Care</strong></p>
+</header>
+
+<main>
+
+<section>
+  <h2>Trusted Acupuncture at SPA OJAS</h2>
+  <p>
+    SPA OJAS is a professional wellness spa offering acupuncture in Winnipeg,
+    operated by trained and experienced practitioners.
+    Our acupuncture treatments are designed to support pain relief,
+    posture alignment, stress reduction, and overall wellness.
+  </p>
+</section>
+
+<section>
+  <h2>Insurable Acupuncture Treatments</h2>
+  <p>
+    We provide insurable acupuncture services accepted by many extended
+    health benefit plans. Our team focuses on safe, evidence-based
+    acupuncture techniques tailored to each client’s needs.
+  </p>
+</section>
+
+<section>
+  <h2>Why Choose SPA OJAS for Acupuncture</h2>
+  <ul>
+    <li>One of the best places for acupuncture in Winnipeg</li>
+    <li>Experienced and professionally trained acupuncturists</li>
+    <li>Focus on pain relief, stress reduction and body balance</li>
+    <li>Convenient Old St. Vital location</li>
+    <li>Open 7 days a week</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Conditions Commonly Treated with Acupuncture</h2>
+  <ul>
+    <li>Chronic and acute pain</li>
+    <li>Neck, shoulder and back tension</li>
+    <li>Stress, anxiety and fatigue</li>
+    <li>Postural imbalance</li>
+    <li>Digestive and sleep concerns</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Book Acupuncture in Winnipeg</h2>
+  <p>
+    Whether you are new to acupuncture or looking for a trusted clinic,
+    SPA OJAS offers professional care in a calm spa environment.
+    Visit us in Old St. Vital, Winnipeg, and experience high-quality,
+    client-centered acupuncture treatments.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 SPA OJAS · Acupuncture Winnipeg · All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

@@ -20,12 +20,16 @@ Near Old St. Vital
 - Therapeutic Massage
 - Deep Tissue Massage
 - Acupuncture
-- Acupressure
+- led pod
 - Cupping Therapy
 - Medical & Anti-Aging Facials
 - Laser Therapy
+- facial peel
 - Couples Massage
 - Children’s Massage
+- nails
+- pedicure
+- manicure
 - Nails, Eyebrows & Lashes
 
 ---

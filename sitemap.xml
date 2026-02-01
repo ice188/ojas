@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
+  <!-- Home -->
   <url>
-    <loc>https:/spaojas.ca/</loc>
-    <lastmod>2025-01-01</lastmod>
+    <loc>https://spaojas.ca/</loc>
+    <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +12,7 @@
   <!-- Acupuncture -->
   <url>
     <loc>https://spaojas.ca/acupuncture.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -20,7 +20,7 @@
   <!-- Massage -->
   <url>
     <loc>https://spaojas.ca/massage.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -28,41 +28,17 @@
   <!-- Facial -->
   <url>
     <loc>https://spaojas.ca/facial.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
-  <!-- Waxing -->
+  <!-- Beauty -->
   <url>
-    <loc>https://spaojas.ca/waxing.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Nails -->
-  <url>
-    <loc>https://spaojas.ca/nails.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Eyelash -->
-  <url>
-    <loc>https://spaojas.ca/eyelash.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Brow -->
-  <url>
-    <loc>https://spaojas.ca/brow.html</loc>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://spaojas.ca/beauty.html</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
 </urlset>

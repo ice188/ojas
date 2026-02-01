@@ -3,7 +3,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://summer-369.github.io/</loc>
+    <loc>https:/spaojas.ca/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Acupuncture -->
   <url>
-    <loc>https://summer-369.github.io/acupuncture.html</loc>
+    <loc>https://spaojas.ca/acupuncture.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -19,7 +19,7 @@
 
   <!-- Massage -->
   <url>
-    <loc>https://summer-369.github.io/massage.html</loc>
+    <loc>https://spaojas.ca/massage.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -27,7 +27,7 @@
 
   <!-- Facial -->
   <url>
-    <loc>https://summer-369.github.io/facial.html</loc>
+    <loc>https://spaojas.ca/facial.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -35,7 +35,7 @@
 
   <!-- Waxing -->
   <url>
-    <loc>https://summer-369.github.io/waxing.html</loc>
+    <loc>https://spaojas.ca/waxing.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -43,7 +43,7 @@
 
   <!-- Nails -->
   <url>
-    <loc>https://summer-369.github.io/nails.html</loc>
+    <loc>https://spaojas.ca/nails.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -51,7 +51,7 @@
 
   <!-- Eyelash -->
   <url>
-    <loc>https://summer-369.github.io/eyelash.html</loc>
+    <loc>https://spaojas.ca/eyelash.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -59,11 +59,10 @@
 
   <!-- Brow -->
   <url>
-    <loc>https://summer-369.github.io/brow.html</loc>
+    <loc>https://spaojas.ca/brow.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-</urlset>
 </urlset>

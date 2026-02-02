@@ -20,17 +20,22 @@ Near Old St. Vital
 - Therapeutic Massage
 - Deep Tissue Massage
 - Acupuncture
-- led pod
+- LED pod
 - Cupping Therapy
 - Medical & Anti-Aging Facials
+- Hydro Facial
+- Anti-Ageing Facial
+- Acne Treatment
 - Laser Therapy
 - facial peel
 - Couples Massage
 - Children’s Massage
-- nails
-- pedicure
-- manicure
-- Nails, Eyebrows & Lashes
+- Cupping
+- Nails
+- Pedicure
+- Manicure
+- Eyebrows & Lashes
+- Waxing
 
 ---
 
@@ -71,20 +76,30 @@ This GitHub repository hosts the **static website files** for SPA OJAS and suppo
 SPA OJAS Winnipeg  
 Winnipeg spa 
 spa near me
+massage
 massage near me
 Massage in Winnipeg
 couples massage
-Acupuncture Winnipeg 
+acupincture
+acupuncture Winnipeg 
 acupuncture near me
 Deep tissue massage Winnipeg  
 Holistic wellness Winnipeg
-dpl 
+dpl
+facial
 facial winnipeg
+anti ageing facial
+back facial
+acne treatment
 Medical facial Winnipeg  
 nails
 shellac
 pedicure
 manicure
+waxing
+waxing near me
+brow tint
+lash lift
 
 ---
 

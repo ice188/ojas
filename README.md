@@ -23,7 +23,7 @@ Near Old St. Vital
 - LED pod
 - Cupping Therapy
 - Medical & Anti-Aging Facials
-- Hydro Facial
+- Hydrating Facial
 - Anti-Ageing Facial
 - Acne Treatment
 - Laser Therapy
